@@ -1,0 +1,2056 @@
+{
+  "viewModelSize": 2,
+  "viewModel": [
+    {
+      "parentMessageId": "1",
+      "length": 1,
+      "loadedIndex": 1,
+      "key": "undefined1",
+      "renderingKind": 13,
+      "isFullyLoaded": true,
+      "lastMessageTimeUtc": 0,
+      "lastMessageTime": "0",
+      "messages": [
+        {
+          "id": "1",
+          "messageStorageState": 0,
+          "messagetype": "Custom",
+          "originalarrivaltime": "1970-01-01T00:00:00.000Z",
+          "parentMessageId": "1"
+        }
+      ]
+    },
+    {
+      "parentMessageId": "1617878020050",
+      "length": 1,
+      "loadedIndex": 1,
+      "key": "8:orgid:4654a0b8-9d92-4eba-9c36-98630eaf6aec5242656441949416000",
+      "renderingKind": 2,
+      "isFullyLoaded": true,
+      "lastMessageTimeUtc": 1617878020050,
+      "lastMessageTime": "2021-04-08T10:33:40.050Z",
+      "messages": [
+        {
+          "clientArrivalTime": "2021-04-08T10:33:41.116Z",
+          "clientmessageid": "5242656441949416000",
+          "creator": "8:orgid:4654a0b8-9d92-4eba-9c36-98630eaf6aec",
+          "id": "1617878020050",
+          "messageStorageState": 2,
+          "messagetype": "RichText/Html",
+          "originalarrivaltime": "2021-04-08T10:33:40.05Z",
+          "parentMessageId": "1617878020050",
+          "source": 2,
+          "version": "1617878020050"
+        }
+      ]
+    }
+  ],
+  "streamItemsCacheSize": 0,
+  "streamItemsCache": [],
+  "replyChainStoreCacheSize": 1,
+  "replyChainStoreCache": [
+    {
+      "parentMessageId": "1617878020050",
+      "length": 1,
+      "key": "8:orgid:4654a0b8-9d92-4eba-9c36-98630eaf6aec5242656441949416000",
+      "isReadFromDB": true,
+      "source": 7,
+      "renderingKind": 2,
+      "lastMessageTimeUtc": 1617878020050,
+      "lastMessageTime": "2021-04-08T10:33:40.050Z",
+      "messages": [
+        {
+          "clientArrivalTime": "2021-04-08T10:33:41.116Z",
+          "clientmessageid": "5242656441949416000",
+          "creator": "8:orgid:4654a0b8-9d92-4eba-9c36-98630eaf6aec",
+          "id": "1617878020050",
+          "messageStorageState": 2,
+          "messagetype": "RichText/Html",
+          "originalarrivaltime": "2021-04-08T10:33:40.05Z",
+          "parentMessageId": "1617878020050",
+          "source": 2,
+          "version": "1617878020050"
+        }
+      ]
+    }
+  ],
+  "databaseSize": 1,
+  "database": [
+    {
+      "parentMessageId": "1617878020050",
+      "length": 1,
+      "key": "8:orgid:4654a0b8-9d92-4eba-9c36-98630eaf6aec5242656441949416000",
+      "renderingKind": 2,
+      "lastMessageTimeUtc": 1617878020050,
+      "lastMessageTime": "2021-04-08T10:33:40.050Z",
+      "messages": [
+        {
+          "clientArrivalTime": "2021-04-08T10:33:41.116Z",
+          "clientmessageid": "5242656441949416000",
+          "creator": "8:orgid:4654a0b8-9d92-4eba-9c36-98630eaf6aec",
+          "id": "1617878020050",
+          "messageStorageState": 2,
+          "messagetype": "RichText/Html",
+          "originalarrivaltime": "2021-04-08T10:33:40.05Z",
+          "parentMessageId": "1617878020050",
+          "source": 2,
+          "version": "1617878020050"
+        }
+      ]
+    }
+  ],
+  "conversationMapSize": 84,
+  "conversationsFromConversationMap": [
+    {
+      "id": "19:056e1e2816b248d98304da63ebafe5ad@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.709Z",
+      "detailsVersion": 1615576068661,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615576068661,
+      "type": "Topic",
+      "version": 1617775623714,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615576068731",
+      "lastleaveat": "1616785668000",
+      "isdeleted": false
+    },
+    {
+      "id": "19:067e9b3576a547bda8060556617938de@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.716Z",
+      "continuationToken": "[{\"token\":\"+RID:~vpsQAJ9uAC2LcZ4BAABkBg==#RT:1#TRC:5#RTD:AyAER1ygxSHVHGAn2S99BTI6OzE3OGY6YzQ2ODdiNjU4Y2ViOTE3MTY2NzcyODo0OWVmQXVpc2ZiZS91YmR3MzwyNzI2NjYzOTI4ODc1AA==#ISV:2#IEO:65551#QCF:3#FPC:Agh4BgAAkBkAAHkGAACQGQAAeAYAAJAZAAAGANCbGIdHgHkGAACQGQAADgAMsRyAFIA7gBuACIBPgA==\",\"range\":{\"min\":\"05C1DDB9297B1C\",\"max\":\"05C1DDC35F49FC\"}}]",
+      "detailsVersion": 1615552968240,
+      "isSyncedToStartOfTime": false,
+      "lastSyncTime": 1617867618647,
+      "maxMessageVersion": 1615552964481,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1615552964481,
+      "replyChainSyncMap": {
+        "19:067e9b3576a547bda8060556617938de@thread.tacv2;messageid=1615535631393": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:067e9b3576a547bda8060556617938de@thread.tacv2;messageid=1615535631393"
+        },
+        "19:067e9b3576a547bda8060556617938de@thread.tacv2;messageid=1615552811226": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:067e9b3576a547bda8060556617938de@thread.tacv2;messageid=1615552811226"
+        },
+        "19:067e9b3576a547bda8060556617938de@thread.tacv2;messageid=1615552841144": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:067e9b3576a547bda8060556617938de@thread.tacv2;messageid=1615552841144"
+        },
+        "19:067e9b3576a547bda8060556617938de@thread.tacv2;messageid=1615552851228": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:067e9b3576a547bda8060556617938de@thread.tacv2;messageid=1615552851228"
+        },
+        "19:067e9b3576a547bda8060556617938de@thread.tacv2;messageid=1615552920772": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:067e9b3576a547bda8060556617938de@thread.tacv2;messageid=1615552920772"
+        }
+      },
+      "syncState": null,
+      "threadVersion": 1615552968240,
+      "type": "Topic",
+      "version": 1615552968374,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615533954730",
+      "isdeleted": false
+    },
+    {
+      "id": "19:0b9cf44aff684f429806062c4dcddd43@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.707Z",
+      "detailsVersion": 1615530268433,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615530268433,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:0c264d17fdfc4bb0b90d0dbe714193b8@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.715Z",
+      "continuationToken": "[{\"token\":\"+RID:~vpsQAJ9uAC172BsBAAAsCw==#RT:1#TRC:5#RTD:AyAER1ygxSHVHGAn2S99BTI6OzFkMzc1ZTI4Z2VnZDVjYzFjOjFlMWVjZjgyNTI6NGM5QXVpc2ZiZS91YmR3MzwyNzI2NjY4MTY3Ojc3AA==#ISV:2#IEO:65551#QCF:3#FPC:AghtBAAAsCwAAG8EAACwLAAAbQQAALAsAAAKAAW6M4ACwAYACABvBAAAsCwAAA4A3JaxgNuAz4OugAGAKYA=\",\"range\":{\"min\":\"05C1A5B70B1D40\",\"max\":\"05C1A7394B5D20\"}}]",
+      "detailsVersion": 1615557796690,
+      "isSyncedToStartOfTime": false,
+      "lastSyncTime": 1617867615350,
+      "maxMessageVersion": 1616162836411,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1616162836411,
+      "replyChainSyncMap": {
+        "19:0c264d17fdfc4bb0b90d0dbe714193b8@thread.tacv2;messageid=1615557056449": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:0c264d17fdfc4bb0b90d0dbe714193b8@thread.tacv2;messageid=1615557056449"
+        },
+        "19:0c264d17fdfc4bb0b90d0dbe714193b8@thread.tacv2;messageid=1615557892827": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:0c264d17fdfc4bb0b90d0dbe714193b8@thread.tacv2;messageid=1615557892827"
+        },
+        "19:0c264d17fdfc4bb0b90d0dbe714193b8@thread.tacv2;messageid=1615558033982": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:0c264d17fdfc4bb0b90d0dbe714193b8@thread.tacv2;messageid=1615558033982"
+        },
+        "19:0c264d17fdfc4bb0b90d0dbe714193b8@thread.tacv2;messageid=1615558036940": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:0c264d17fdfc4bb0b90d0dbe714193b8@thread.tacv2;messageid=1615558036940"
+        },
+        "19:0c264d17fdfc4bb0b90d0dbe714193b8@thread.tacv2;messageid=1615558093904": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:0c264d17fdfc4bb0b90d0dbe714193b8@thread.tacv2;messageid=1615558093904"
+        }
+      },
+      "syncState": null,
+      "threadVersion": 1615557796690,
+      "type": "Topic",
+      "version": 1617375989696,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615532705659",
+      "isdeleted": false
+    },
+    {
+      "id": "19:0e512db991f04ff18b091dc06dcb3338@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.712Z",
+      "detailsVersion": 1615558491948,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615558491948,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:1805539112104806a7aee849cf30e4ec@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.711Z",
+      "detailsVersion": 1615556350280,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615556350280,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:1edd4d3d71404ad38c3a48172cefb95d@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.707Z",
+      "continuationToken": "[{\"token\":\"+RID:~vpsQAJ9uAC36T40BAAD4BQ==#RT:1#TRC:5#RTD:AyAER1ygxSHVHGAn2S99BTI6OzJmZWU1ZTRlODI1MTViZTQ5ZDRiNTkyODNkZmdjOjZlQXVpc2ZiZS91YmR3MzwyNzI4ODkzNDo4Nzc5AA==#ISV:2#IEO:65551#QCF:3#FPC:AgjBBQAA4BcAADgGAADgFwAAwQUAAOAXAAAYAMGwb4AAgFEADAAhgGEAYAAZgM+AIQEABcMFAADgFwAAAgANs8YFAADgFwAAAgDRocgFAADgFwAAAgD3pcoFAADgFwAAAgAGpNQFAADgFwAAAgBPntkFAADgFwAAAgDBtN8FAADgFwAAAgC/h+MFAADgFwAAAgDnteYFAADgFwAAAgDpjOgFAADgFwAAAgAxpO0FAADgFwAAAgAVtfMFAADgFwAAAgAglfgFAADgFwAAAgABtf4FAADgFwAAAgDRkgMGAADgFwAAAgBtggUGAADgFwAAAgCGkwcGAADgFwAAAgDlrQwGAADgFwAAAgD8txIGAADgFwAAAgCqpBcGAADgFwAAAgCNvCAGAADgFwAAAgADsyMGAADgFwAAAgCbnCYGAADgFwAAAgDflSoGAADgFwAAAgAEtzMGAADgFwAAAgBvhDUGAADgFwAAFAACDwCEAgAugE+AAoBKgHiAPYEAgDgGAADgFwAAAgDhqg==\",\"range\":{\"min\":\"05C1CDB9297B18\",\"max\":\"05C1CDDFAD4B18\"}}]",
+      "detailsVersion": 1617782398303,
+      "isSyncedToStartOfTime": false,
+      "lastSyncTime": 1617867607863,
+      "maxMessageVersion": 1617834328034,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1617834328034,
+      "replyChainSyncMap": {
+        "19:1edd4d3d71404ad38c3a48172cefb95d@thread.tacv2;messageid=1617782397668": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:1edd4d3d71404ad38c3a48172cefb95d@thread.tacv2;messageid=1617782397668"
+        },
+        "19:1edd4d3d71404ad38c3a48172cefb95d@thread.tacv2;messageid=1617782451024": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:1edd4d3d71404ad38c3a48172cefb95d@thread.tacv2;messageid=1617782451024"
+        },
+        "19:1edd4d3d71404ad38c3a48172cefb95d@thread.tacv2;messageid=1617782664050": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:1edd4d3d71404ad38c3a48172cefb95d@thread.tacv2;messageid=1617782664050"
+        },
+        "19:1edd4d3d71404ad38c3a48172cefb95d@thread.tacv2;messageid=1617782664440": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:1edd4d3d71404ad38c3a48172cefb95d@thread.tacv2;messageid=1617782664440"
+        },
+        "19:1edd4d3d71404ad38c3a48172cefb95d@thread.tacv2;messageid=1617834328034": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:1edd4d3d71404ad38c3a48172cefb95d@thread.tacv2;messageid=1617834328034"
+        }
+      },
+      "syncState": null,
+      "threadVersion": 1617782398303,
+      "type": "Topic",
+      "version": 1617834328406,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615492935444",
+      "isdeleted": false
+    },
+    {
+      "id": "19:21b2af43754d40f99f3387382e4e1be1@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.706Z",
+      "detailsVersion": 1617795842719,
+      "isSyncedToStartOfTime": true,
+      "lastSyncTime": 1617867614021,
+      "maxMessageVersion": 1617795947826,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1617795947826,
+      "replyChainSyncMap": {
+        "19:21b2af43754d40f99f3387382e4e1be1@thread.tacv2;messageid=1617795862481": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:21b2af43754d40f99f3387382e4e1be1@thread.tacv2;messageid=1617795862481"
+        },
+        "19:21b2af43754d40f99f3387382e4e1be1@thread.tacv2;messageid=1617795947826": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:21b2af43754d40f99f3387382e4e1be1@thread.tacv2;messageid=1617795947826"
+        }
+      },
+      "syncState": null,
+      "threadVersion": 1617795842719,
+      "type": "Topic",
+      "version": 1617795948608,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617795841374",
+      "isdeleted": false
+    },
+    {
+      "id": "19:2d3d548fd0414328bfa75819cd11149e@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.711Z",
+      "detailsVersion": 1615542061428,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615542061428,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:3e60e4f9dad840c8812874b951ec62ca@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.709Z",
+      "detailsVersion": 1615541811435,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615541811435,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:3ef41d043c4b4386a79adb16dfd128f7@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.716Z",
+      "continuationToken": "[{\"token\":\"+RID:~vpsQAJ9uAC0sqyEAAADcDg==#RT:1#TRC:5#RTD:AyAER1ygxSHVHGAn2S99BTI6OzRmZzUyZTE1NGQ1YzU0OTdiODpiZWMyN2VnZTIzOWc4QXVpc2ZiZS91YmR3MzwyNzI2NjU3MjM6NDg5AA==#ISV:2#IEO:65551#QCF:3#FPC:AgiGAAAAcDsAAIYAAABwOwAAhgAAAHA7AAAaALGORYAvgZGXCYDhgLEBIICMgN+ABoDqgCeA\",\"range\":{\"min\":\"05C1EDB3CF2BF6\",\"max\":\"05C1EDB9297B1C\"}}]",
+      "detailsVersion": 1615533847697,
+      "isSyncedToStartOfTime": false,
+      "lastSyncTime": 1617867618870,
+      "maxMessageVersion": 1615547151895,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1615547151895,
+      "replyChainSyncMap": {
+        "19:3ef41d043c4b4386a79adb16dfd128f7@thread.tacv2;messageid=1615546129378": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:3ef41d043c4b4386a79adb16dfd128f7@thread.tacv2;messageid=1615546129378"
+        },
+        "19:3ef41d043c4b4386a79adb16dfd128f7@thread.tacv2;messageid=1615546607449": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:3ef41d043c4b4386a79adb16dfd128f7@thread.tacv2;messageid=1615546607449"
+        },
+        "19:3ef41d043c4b4386a79adb16dfd128f7@thread.tacv2;messageid=1615546617853": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:3ef41d043c4b4386a79adb16dfd128f7@thread.tacv2;messageid=1615546617853"
+        },
+        "19:3ef41d043c4b4386a79adb16dfd128f7@thread.tacv2;messageid=1615546954499": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:3ef41d043c4b4386a79adb16dfd128f7@thread.tacv2;messageid=1615546954499"
+        },
+        "19:3ef41d043c4b4386a79adb16dfd128f7@thread.tacv2;messageid=1615547012556": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:3ef41d043c4b4386a79adb16dfd128f7@thread.tacv2;messageid=1615547012556"
+        }
+      },
+      "syncState": null,
+      "threadVersion": 1615533847697,
+      "type": "Topic",
+      "version": 1615547152480,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615533846205",
+      "isdeleted": false
+    },
+    {
+      "id": "19:3fe63a568efe43c081797badf0d5aa52@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.709Z",
+      "detailsVersion": 1615552928361,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615552928361,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:4028122470c14c73a4506c08dfdd701b@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.717Z",
+      "detailsVersion": 1616676062568,
+      "isSyncedToStartOfTime": true,
+      "lastSyncTime": 1617867599787,
+      "maxMessageVersion": 1615527075215,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1615527075215,
+      "replyChainSyncMap": {
+        "19:4028122470c14c73a4506c08dfdd701b@thread.tacv2;messageid=1615276736268": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:4028122470c14c73a4506c08dfdd701b@thread.tacv2;messageid=1615276736268"
+        },
+        "19:4028122470c14c73a4506c08dfdd701b@thread.tacv2;messageid=1615276761660": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:4028122470c14c73a4506c08dfdd701b@thread.tacv2;messageid=1615276761660"
+        },
+        "19:4028122470c14c73a4506c08dfdd701b@thread.tacv2;messageid=1615276792338": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:4028122470c14c73a4506c08dfdd701b@thread.tacv2;messageid=1615276792338"
+        },
+        "19:4028122470c14c73a4506c08dfdd701b@thread.tacv2;messageid=1615527075215": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:4028122470c14c73a4506c08dfdd701b@thread.tacv2;messageid=1615527075215"
+        }
+      },
+      "rosterVersion": 1616676062568,
+      "syncState": null,
+      "threadVersion": 1616676062568,
+      "type": "Space",
+      "version": 1617345077501,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615276646569",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_00964d0e-9908-40d1-847c-178ffe45c0b4@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.678Z",
+      "detailsVersion": 1615554439307,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615554439307,
+      "type": "Chat",
+      "version": 1615554846469,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615554452314",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_11cd7f33-594f-4d45-aa2b-c801c2422ee5@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.680Z",
+      "detailsVersion": 1615529344714,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615529344714,
+      "type": "Chat",
+      "version": 1615550857169,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615547540453",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_23962431-1240-420c-8472-a8111e98ca6f@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.671Z",
+      "clientUpdateTime": "2021-04-08T10:25:49.729Z",
+      "detailsVersion": 1615533998997,
+      "isSyncedToStartOfTime": true,
+      "lastSyncTime": 1617877551142,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1,
+      "replyChainSyncMap": {},
+      "rosterVersion": 1615533998997,
+      "syncState": "3e5b00000031393a34363534613062382d396439322d346562612d396333362d3938363330656166366165635f32333936323433312d313234302d343230632d383437322d61383131316539386361366640756e712e67626c2e737061636573010100000000000000d784fab078010000",
+      "threadVersion": 1615533998997,
+      "type": "Chat",
+      "version": 1617876911422,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617876850885",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_30bb610c-6321-40fe-a047-056e7d0dac96@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.676Z",
+      "detailsVersion": 1615531205560,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615531205560,
+      "type": "Chat",
+      "version": 1615561070024,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615556818138",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_358f0194-6b0e-4dd3-af35-c24fe8a9ec87@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.681Z",
+      "detailsVersion": 1615531878225,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615531878225,
+      "type": "Chat",
+      "version": 1615532408004,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615531878560",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_7a79fac7-2b8a-4bef-9595-a7c886e7821b@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.676Z",
+      "detailsVersion": 1615532860333,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615532860333,
+      "type": "Chat",
+      "version": 1615562912680,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615532860658",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_80f3c320-e55f-434f-98e8-d798dfcbe182@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.679Z",
+      "detailsVersion": 1615534967385,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615534967385,
+      "type": "Chat",
+      "version": 1615553979486,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615535698937",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_817c2506-de4a-4795-971e-371ea75a03ed@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.669Z",
+      "detailsVersion": 1615532190330,
+      "isSyncedToStartOfTime": true,
+      "lastSyncTime": 1617867628549,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1,
+      "replyChainSyncMap": {},
+      "syncState": "3e5b00000031393a34363534613062382d396439322d346562612d396333362d3938363330656166366165635f38313763323530362d646534612d343739352d393731652d33373165613735613033656440756e712e67626c2e737061636573010100000000000000ae770eac78010000",
+      "threadVersion": 1615532190330,
+      "type": "Chat",
+      "version": 1617796068626,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617794332137",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_8216e453-3db5-48ee-a3d6-5122f505c8a3@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.682Z",
+      "detailsVersion": 1615532176304,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615532176304,
+      "type": "Chat",
+      "version": 1615532398607,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615532177115",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_82d034f9-0cfd-495d-8d64-ebaadaeb3976@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.677Z",
+      "detailsVersion": 1615555498698,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615555498698,
+      "type": "Chat",
+      "version": 1615555890909,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615555499048",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_88546d4f-9973-4716-98e4-cd181c04bc2d@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.674Z",
+      "detailsVersion": 1615552225844,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615552225844,
+      "type": "Chat",
+      "version": 1615606204527,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615606203070",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_97bfce07-3288-4c21-b27d-727a8e79223f@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.677Z",
+      "detailsVersion": 1615553299100,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615553299100,
+      "type": "Chat",
+      "version": 1615557058922,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615553299210",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_9944f501-65a1-4c2e-8b01-eba72f40b69f@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.678Z",
+      "detailsVersion": 1615533413581,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615533413581,
+      "type": "Chat",
+      "version": 1615555270911,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615533414081",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_a887d3e9-d9ef-4c46-851e-f7753ef29452@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.665Z",
+      "clientUpdateTime": "2021-04-08T10:25:49.747Z",
+      "detailsVersion": 1615533175416,
+      "isSyncedToStartOfTime": false,
+      "lastSyncTime": 1617877552561,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1616062381703,
+      "replyChainSyncMap": {},
+      "rosterVersion": 1615533175416,
+      "syncState": "3e5b00000031393a34363534613062382d396439322d346562612d396333362d3938363330656166366165635f61383837643365392d643965662d346334362d383531652d66373735336566323934353240756e712e67626c2e7370616365730187fed24478010000337ef9b078010000",
+      "threadVersion": 1615533175416,
+      "type": "Chat",
+      "version": 1617876844178,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617876842414",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_c68947ae-a07f-44ce-9a13-7b559251731d@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.682Z",
+      "detailsVersion": 1615531326611,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615531326611,
+      "type": "Chat",
+      "version": 1615531742943,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615531741465",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_c738b607-88dd-4f16-aefe-6a824c65d25d@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.679Z",
+      "detailsVersion": 1615554400931,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615554400931,
+      "type": "Chat",
+      "version": 1615554618733,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615554401141",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_ca9e26b7-dce5-44a0-b2b7-a70a3d65ce25@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.680Z",
+      "detailsVersion": 1615548094665,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615548094665,
+      "type": "Chat",
+      "version": 1615548503780,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615548182553",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_d312ff80-0c2b-42ad-887b-c6392bcf6353@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.679Z",
+      "detailsVersion": 1615543194664,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615543194664,
+      "type": "Chat",
+      "version": 1615554037167,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615551986321",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4654a0b8-9d92-4eba-9c36-98630eaf6aec_ed0e4383-223d-49fa-b30e-46b3b7d2d80b@unq.gbl.spaces",
+      "clientArrivalTime": "2021-04-08T07:39:57.674Z",
+      "detailsVersion": 1615532692536,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615532692536,
+      "type": "Chat",
+      "version": 1615569003151,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615532694680",
+      "isdeleted": false
+    },
+    {
+      "id": "19:4686c25d78ef45fc8a3066037603e2eb@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.704Z",
+      "detailsVersion": 1617778332051,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1617778332051,
+      "type": "Topic",
+      "version": 1617778332267,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617778330000",
+      "isdeleted": false
+    },
+    {
+      "id": "19:524ea6a9158a4957b0fd5767dc4831a8@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.705Z",
+      "detailsVersion": 1617778355273,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1617778355273,
+      "type": "Topic",
+      "version": 1617778355387,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617778354136",
+      "isdeleted": false
+    },
+    {
+      "id": "19:54b98ead15354dd4bedf4732953e1b0c@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.706Z",
+      "detailsVersion": 1617796166628,
+      "isSyncedToStartOfTime": true,
+      "lastSyncTime": 1617867608011,
+      "maxMessageVersion": 1617796166940,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1617796166940,
+      "replyChainSyncMap": {
+        "19:54b98ead15354dd4bedf4732953e1b0c@thread.tacv2;messageid=1617793168001": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:54b98ead15354dd4bedf4732953e1b0c@thread.tacv2;messageid=1617793168001"
+        },
+        "19:54b98ead15354dd4bedf4732953e1b0c@thread.tacv2;messageid=1617796166940": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:54b98ead15354dd4bedf4732953e1b0c@thread.tacv2;messageid=1617796166940"
+        }
+      },
+      "rosterVersion": 1617796165973,
+      "syncState": null,
+      "threadVersion": 1617796166628,
+      "type": "Space",
+      "version": 1617796167024,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617777871294",
+      "isdeleted": false
+    },
+    {
+      "id": "19:635d6653225848acab3592ed29e49d63@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.704Z",
+      "detailsVersion": 1617792886166,
+      "isSyncedToStartOfTime": true,
+      "lastSyncTime": 1617867620861,
+      "maxMessageVersion": 1,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1,
+      "mruEvictedTime": 1617877199076,
+      "replyChainSyncMap": {},
+      "syncState": null,
+      "threadVersion": 1617792886166,
+      "type": "Topic",
+      "version": 1617778285716,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617778283961",
+      "isdeleted": false
+    },
+    {
+      "id": "19:950bc4c1be8c4b619f4f56f69328e55d@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.703Z",
+      "clientUpdateTime": "2021-04-08T10:17:10.298Z",
+      "detailsVersion": 1617778271618,
+      "isSyncedToStartOfTime": true,
+      "lastSyncTime": 1617877551119,
+      "maxMessageVersion": 1617796190955,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1617796190955,
+      "replyChainSyncMap": {
+        "19:950bc4c1be8c4b619f4f56f69328e55d@thread.tacv2;messageid=1617796184477": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:950bc4c1be8c4b619f4f56f69328e55d@thread.tacv2;messageid=1617796184477"
+        }
+      },
+      "rosterVersion": 1617796165973,
+      "syncState": "3e3000000031393a3935306263346331626538633462363139663466353666363933323865353564407468726561642e746163763201ebd22aac78010000804ffcb078010000",
+      "threadVersion": 1617778271618,
+      "type": "Topic",
+      "version": 1617877029516,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617778270267",
+      "isdeleted": false
+    },
+    {
+      "id": "19:95d3ca40a0e543be946dc9000eeaa08d@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.705Z",
+      "detailsVersion": 1617778650134,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1617778650134,
+      "type": "Topic",
+      "version": 1617778650351,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617778648643",
+      "isdeleted": false
+    },
+    {
+      "id": "19:9e64bd843eac4416b5445ef9b2e4dc80@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.706Z",
+      "detailsVersion": 1617795772219,
+      "isSyncedToStartOfTime": true,
+      "lastSyncTime": 1617867614226,
+      "maxMessageVersion": 1617795813328,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1617795813328,
+      "replyChainSyncMap": {
+        "19:9e64bd843eac4416b5445ef9b2e4dc80@thread.tacv2;messageid=1617795803695": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:9e64bd843eac4416b5445ef9b2e4dc80@thread.tacv2;messageid=1617795803695"
+        },
+        "19:9e64bd843eac4416b5445ef9b2e4dc80@thread.tacv2;messageid=1617795813328": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:9e64bd843eac4416b5445ef9b2e4dc80@thread.tacv2;messageid=1617795813328"
+        }
+      },
+      "syncState": null,
+      "threadVersion": 1617795772219,
+      "type": "Topic",
+      "version": 1617795814451,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617795770096",
+      "isdeleted": false
+    },
+    {
+      "id": "19:a20c3a66b2c64bc6a99e8ecea5699b96@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.705Z",
+      "detailsVersion": 1617778624929,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1617778624929,
+      "type": "Topic",
+      "version": 1617778625071,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617778623515",
+      "isdeleted": false
+    },
+    {
+      "id": "19:a8a7d8f9e8694492a28943da0ee871d1@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.703Z",
+      "detailsVersion": 1617778259705,
+      "isSyncedToStartOfTime": true,
+      "lastSyncTime": 1617867615233,
+      "maxMessageVersion": 1617793877407,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1617793877407,
+      "replyChainSyncMap": {
+        "19:a8a7d8f9e8694492a28943da0ee871d1@thread.tacv2;messageid=1617793261136": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:a8a7d8f9e8694492a28943da0ee871d1@thread.tacv2;messageid=1617793261136"
+        },
+        "19:a8a7d8f9e8694492a28943da0ee871d1@thread.tacv2;messageid=1617793528175": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:a8a7d8f9e8694492a28943da0ee871d1@thread.tacv2;messageid=1617793528175"
+        },
+        "19:a8a7d8f9e8694492a28943da0ee871d1@thread.tacv2;messageid=1617793853773": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:a8a7d8f9e8694492a28943da0ee871d1@thread.tacv2;messageid=1617793853773"
+        },
+        "19:a8a7d8f9e8694492a28943da0ee871d1@thread.tacv2;messageid=1617793877407": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:a8a7d8f9e8694492a28943da0ee871d1@thread.tacv2;messageid=1617793877407"
+        }
+      },
+      "syncState": null,
+      "threadVersion": 1617778259705,
+      "type": "Topic",
+      "version": 1617793878496,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617778258272",
+      "isdeleted": false
+    },
+    {
+      "id": "19:b50bceca5cf446dda588ada5d18dd582@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.704Z",
+      "detailsVersion": 1617778339798,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1617778339798,
+      "type": "Topic",
+      "version": 1617778340127,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617778338482",
+      "isdeleted": false
+    },
+    {
+      "id": "19:ce9c48b746284f91bfd7546bfd03e17d@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.705Z",
+      "detailsVersion": 1617778610251,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1617778610251,
+      "type": "Topic",
+      "version": 1617778610441,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617778609008",
+      "isdeleted": false
+    },
+    {
+      "id": "19:d1dc36ea49354529b7674c5d51c0c641@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.704Z",
+      "clientUpdateTime": "2021-04-08T10:33:41.991Z",
+      "detailsVersion": 1617778317111,
+      "isSyncedToStartOfTime": true,
+      "lastSyncTime": 1617878280829,
+      "maxMessageVersion": 1,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1,
+      "replyChainSyncMap": {},
+      "rosterVersion": 1617796165973,
+      "syncState": "3e3000000031393a6431646333366561343933353435323962373637346335643531633063363431407468726561642e7461637632010100000000000000d26f0bb178010000",
+      "threadVersion": 1617778317111,
+      "type": "Topic",
+      "version": 1617878021248,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617778315966",
+      "isdeleted": false
+    },
+    {
+      "id": "19:deb24ddd241e4404b01be1b5e308d9e6@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.706Z",
+      "detailsVersion": 1617778665935,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1617778665935,
+      "type": "Topic",
+      "version": 1617778666133,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617778663641",
+      "isdeleted": false
+    },
+    {
+      "id": "19:e21253b171d545c1971a7e84d8ad9921@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.703Z",
+      "continuationToken": "[{\"token\":\"+RID:~vpsQAJ9uAC0M-RIAAACSDw==#RT:1#TRC:5#RTD:AyAER1ygxSHVHGAn2S99BTI6O2YzMjM2NGMyODJlNjU2ZDI6ODJiOGY5NWU5YmU6OjMyQXVpc2ZiZS91YmR3MzwyNzI4ODk0MjY6NzM1AA==#ISV:2#IEO:65551#QCF:3#FPC:AghLAAAASD4AAEwAAABIPgAASwAAAEg+AAAUAKWtAQYwAJKB9IABwIAFnIZfgAGATAAAAEg+AAAEAFEBJAA=\",\"range\":{\"min\":\"05C1E955D9771408323A3B6537323238346432633A62653566363562346531363A62353532316766663762417569736662652F746C7A716600\",\"max\":\"05C1E95BA739DA\"}}]",
+      "detailsVersion": 1617783288920,
+      "isSyncedToStartOfTime": false,
+      "lastSyncTime": 1617867615474,
+      "maxMessageVersion": 1617784808881,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1617784808881,
+      "replyChainSyncMap": {
+        "19:e21253b171d545c1971a7e84d8ad9921@thread.tacv2;messageid=1617783159624": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:e21253b171d545c1971a7e84d8ad9921@thread.tacv2;messageid=1617783159624"
+        },
+        "19:e21253b171d545c1971a7e84d8ad9921@thread.tacv2;messageid=1617783290315": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:e21253b171d545c1971a7e84d8ad9921@thread.tacv2;messageid=1617783290315"
+        },
+        "19:e21253b171d545c1971a7e84d8ad9921@thread.tacv2;messageid=1617783291706": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:e21253b171d545c1971a7e84d8ad9921@thread.tacv2;messageid=1617783291706"
+        },
+        "19:e21253b171d545c1971a7e84d8ad9921@thread.tacv2;messageid=1617784807363": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:e21253b171d545c1971a7e84d8ad9921@thread.tacv2;messageid=1617784807363"
+        },
+        "19:e21253b171d545c1971a7e84d8ad9921@thread.tacv2;messageid=1617784807548": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:e21253b171d545c1971a7e84d8ad9921@thread.tacv2;messageid=1617784807548"
+        }
+      },
+      "syncState": null,
+      "threadVersion": 1617783288920,
+      "type": "Topic",
+      "version": 1617784809010,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617778248240",
+      "isdeleted": false
+    },
+    {
+      "id": "19:68b1647b55754ba6a48f6b2bb64ee8eb@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.708Z",
+      "detailsVersion": 1615532458643,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615532458643,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:6ca2f9fe3b264eb6a3547e0445b97735@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.714Z",
+      "detailsVersion": 1615391235095,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615391235095,
+      "type": "Topic",
+      "version": 1615526222829,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615391240413",
+      "isdeleted": false
+    },
+    {
+      "id": "19:6e2db1f6fb6448d1aff2a746a5bf3900@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.714Z",
+      "clientUpdateTime": "2021-04-08T09:58:02.218Z",
+      "continuationToken": "[{\"token\":\"+RID:~vpsQAJ9uAC3xTwMAAABSAQ==#RT:1#TRC:5#RTD:AyAER1ygxSHVHGAn2S99BTI6OzdmM2VjMmc3Z2M3NTU5ZTJiZ2czYjg1N2I2Y2c0OjExQXVpc2ZiZS91YmR3MzwyNzI2NjYzMjk6ODU6AA==#ISV:2#IEO:65551#QCF:3#FPC:AggHAAAASAUAAA0AAABIBQAABwAAAEgFAAACADCkCwAAAEgFAAACAGGeDAAAAEgFAAAMAJ+RZosTgu+CXZRQhA0AAABIBQAAEgCZgH+JjoLcgmGAjYcVgXSFvoY=\",\"range\":{\"min\":\"05C1E3D7CB531E\",\"max\":\"05C1E3DD5BFDDE\"}}]",
+      "detailsVersion": 1617872662806,
+      "isSyncedToStartOfTime": false,
+      "lastSyncTime": 1617875887976,
+      "maxMessageVersion": 1615560248189,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1615560248189,
+      "replyChainSyncMap": {
+        "19:6e2db1f6fb6448d1aff2a746a5bf3900@thread.tacv2;messageid=1615552189749": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:6e2db1f6fb6448d1aff2a746a5bf3900@thread.tacv2;messageid=1615552189749"
+        },
+        "19:6e2db1f6fb6448d1aff2a746a5bf3900@thread.tacv2;messageid=1615555194456": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:6e2db1f6fb6448d1aff2a746a5bf3900@thread.tacv2;messageid=1615555194456"
+        },
+        "19:6e2db1f6fb6448d1aff2a746a5bf3900@thread.tacv2;messageid=1615555636648": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:6e2db1f6fb6448d1aff2a746a5bf3900@thread.tacv2;messageid=1615555636648"
+        },
+        "19:6e2db1f6fb6448d1aff2a746a5bf3900@thread.tacv2;messageid=1615557703740": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:6e2db1f6fb6448d1aff2a746a5bf3900@thread.tacv2;messageid=1615557703740"
+        },
+        "19:6e2db1f6fb6448d1aff2a746a5bf3900@thread.tacv2;messageid=1615560248189": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:6e2db1f6fb6448d1aff2a746a5bf3900@thread.tacv2;messageid=1615560248189"
+        }
+      },
+      "rosterVersion": 1615559612897,
+      "syncState": "3e3000000031393a3665326462316636666236343438643161666632613734366135626633393030407468726561642e7461637632017d0be52678010000fcb6b9b078010000",
+      "threadVersion": 1617872662806,
+      "type": "Space",
+      "version": 1617872664480,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615389616756",
+      "isdeleted": false
+    },
+    {
+      "id": "19:72ebfe3ba44f4bce90b11cf19e570f08@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.708Z",
+      "detailsVersion": 1615547733768,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615547733768,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:83ba9c1ef6824eaaa197e5362a4cc6d8@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.707Z",
+      "detailsVersion": 1617783035717,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1617783035717,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:87a6ea9fd3884de5a35120d623e11c83@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.710Z",
+      "detailsVersion": 1615532554749,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615532554749,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:913d94cd5be54c2983e0d0919784544b@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.710Z",
+      "detailsVersion": 1615557239523,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615557239523,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:92c1bb95016f44458f3a59d3a6f3165b@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.714Z",
+      "detailsVersion": 1617792403707,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1617792403707,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:94c052469a9e4d70b29edc0c4853e8ac@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.711Z",
+      "detailsVersion": 1615553094845,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615553094845,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:9cd641e0468246c4afcbabc5c15d5081@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.710Z",
+      "detailsVersion": 1615534378815,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615534378815,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:a30b3a52aa7a4581b25dfd5b53ba5a97@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.710Z",
+      "detailsVersion": 1617793657490,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1617793657490,
+      "type": "Topic",
+      "version": 1617775623854,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615546807782",
+      "lastleaveat": "1616756407000",
+      "isdeleted": false
+    },
+    {
+      "id": "19:a7f71fa01c28402baa0d5e16fed1034c@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.712Z",
+      "detailsVersion": 1615558014469,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615558014469,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:b06f6a9be8f6472dba48066600af505a@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.711Z",
+      "detailsVersion": 1615550750917,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615550750917,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:b88af62a89804182b552200901a4c961@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.707Z",
+      "continuationToken": "[{\"token\":\"+RID:~vpsQAJ9uAC24vhEAAACCAw==#RT:1#TRC:5#RTD:AyAER1ygxSHVHGAn2S99BTI6O2M5OWJnNzNiOTo5MTUyOTNjNjYzMzExOjEyYjVkOjcyQXVpc2ZiZS91YmR3MzwyNzI2NjM6MzU0MzIzAA==#ISV:2#IEO:65551#QCF:3#FPC:AghGAAAACA4AAHoAAAAIDgAARgAAAAgOAAAIAI28KIICgBSAegAAAAgOAAAEAGi5C4A=\",\"range\":{\"min\":\"05C1DD2921C3D8\",\"max\":\"05C1DD337917D8\"}}]",
+      "detailsVersion": 1615527571845,
+      "isSyncedToStartOfTime": false,
+      "lastSyncTime": 1617867801432,
+      "maxMessageVersion": 1617788187155,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1617788187155,
+      "replyChainSyncMap": {
+        "19:b88af62a89804182b552200901a4c961@thread.tacv2;messageid=1615529234612": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:b88af62a89804182b552200901a4c961@thread.tacv2;messageid=1615529234612"
+        },
+        "19:b88af62a89804182b552200901a4c961@thread.tacv2;messageid=1615529255527": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:b88af62a89804182b552200901a4c961@thread.tacv2;messageid=1615529255527"
+        },
+        "19:b88af62a89804182b552200901a4c961@thread.tacv2;messageid=1615529349341": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:b88af62a89804182b552200901a4c961@thread.tacv2;messageid=1615529349341"
+        },
+        "19:b88af62a89804182b552200901a4c961@thread.tacv2;messageid=1617788150152": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:b88af62a89804182b552200901a4c961@thread.tacv2;messageid=1617788150152"
+        },
+        "19:b88af62a89804182b552200901a4c961@thread.tacv2;messageid=1617788187155": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:b88af62a89804182b552200901a4c961@thread.tacv2;messageid=1617788187155"
+        }
+      },
+      "syncState": null,
+      "threadVersion": 1615527571845,
+      "type": "Topic",
+      "version": 1617788187260,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615527569309",
+      "isdeleted": false
+    },
+    {
+      "id": "19:b9685518c8784725acda137925d72bf0@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.708Z",
+      "detailsVersion": 1617775986398,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1617775986398,
+      "type": "Topic",
+      "version": 1617793241460,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617775986468",
+      "lastleaveat": "1616743665000",
+      "isdeleted": false
+    },
+    {
+      "id": "19:d45b496acf8b43ac9de8c67f49f3cb01@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.710Z",
+      "detailsVersion": 1615542245780,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615542245780,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:e79ebb3de89846edb3eb52f5f2f61120@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.710Z",
+      "detailsVersion": 1615532568609,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615532568609,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:eb7a0faff83e4009938292209f6c54d6@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.711Z",
+      "detailsVersion": 1615547370234,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615547370234,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:ed4efa5f1f8a48ec9c5b9a6efb0a4bfd@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.708Z",
+      "detailsVersion": 1615531933538,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615531933538,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:ef355975a1c14ab5b86a3f40f8d3e030@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.712Z",
+      "detailsVersion": 1615558677735,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615558677735,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:f0b807b31fc4446684c53d20335ce1e8@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.709Z",
+      "detailsVersion": 1615535736776,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615535736776,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:f58a8643be654616a75e42038c0c227a@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.711Z",
+      "detailsVersion": 1615554803438,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615554803438,
+      "type": "Topic",
+      "version": -1,
+      "retentionHorizon": 0,
+      "isdeleted": false
+    },
+    {
+      "id": "19:ffe36bfe5dfd49b58b4700ad8435d4bd@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.707Z",
+      "detailsVersion": 1615529909410,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615529909410,
+      "type": "Topic",
+      "version": 1617775624060,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615529909476",
+      "lastleaveat": "1616739509000",
+      "isdeleted": false
+    },
+    {
+      "id": "19:7e521844e0d7467bb47f53942e4dd62c@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.716Z",
+      "continuationToken": "[{\"token\":\"+RID:~vpsQAJ9uAC2r-wIAAABSDg==#RT:1#TRC:5#RTD:AyAER1ygxSHVHGAn2S99BTI6OzhmNjMyOTU1ZjFlODU3OGNjNThnNjQ6NTNmNWVlNzNkQXVpc2ZiZS91YmR3MzwyNzI2NjU3OjU4NjEzAA==#ISV:2#IEO:65551#QCF:3#FPC:AggLAAAASDkAAAwAAABIOQAACwAAAEg5AAAEACyQe68MAAAASDkAAAgAJYBSgJ+A94A=\",\"range\":{\"min\":\"05C1E5954FEB92\",\"max\":\"05C1E599AB2DEC\"}}]",
+      "detailsVersion": 1615547118134,
+      "isSyncedToStartOfTime": false,
+      "lastSyncTime": 1617867611337,
+      "maxMessageVersion": 1615547834190,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1615547834190,
+      "replyChainSyncMap": {
+        "19:7e521844e0d7467bb47f53942e4dd62c@thread.tacv2;messageid=1615546947502": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:7e521844e0d7467bb47f53942e4dd62c@thread.tacv2;messageid=1615546947502"
+        },
+        "19:7e521844e0d7467bb47f53942e4dd62c@thread.tacv2;messageid=1615547118414": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:7e521844e0d7467bb47f53942e4dd62c@thread.tacv2;messageid=1615547118414"
+        },
+        "19:7e521844e0d7467bb47f53942e4dd62c@thread.tacv2;messageid=1615547205900": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:7e521844e0d7467bb47f53942e4dd62c@thread.tacv2;messageid=1615547205900"
+        },
+        "19:7e521844e0d7467bb47f53942e4dd62c@thread.tacv2;messageid=1615547535992": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:7e521844e0d7467bb47f53942e4dd62c@thread.tacv2;messageid=1615547535992"
+        },
+        "19:7e521844e0d7467bb47f53942e4dd62c@thread.tacv2;messageid=1615547834190": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:7e521844e0d7467bb47f53942e4dd62c@thread.tacv2;messageid=1615547834190"
+        }
+      },
+      "syncState": null,
+      "threadVersion": 1615547118134,
+      "type": "Topic",
+      "version": 1615547834405,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615532751353",
+      "isdeleted": false
+    },
+    {
+      "id": "19:8627cc9f8ffe4b1faa4f955be0da3072@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.717Z",
+      "continuationToken": "[{\"token\":\"+RID:~vpsQAJ9uAC24NIQBAADkCQ==#RT:1#TRC:5#RTD:AyAER1ygxSHVHGAn2S99BTI6Ozk3MzhkZDpnOWdnZjVjMmdiYjVnOjY2Y2YxZWI0MTgzQXVpc2ZiZS91YmR3MzwyNzI2NjY1OToyNzQ5AA==#ISV:2#IEO:65551#QCF:3#FPC:AggQBgAAkCcAABAGAACQJwAAEAYAAJAnAAAqAJijpICGgaEAIQAygAHAAkDLisKAI4AJgDSAPYASgEaBAcAAISEAADAjgA==\",\"range\":{\"min\":\"05C1B7075FE3C0\",\"max\":\"05C1B74D198790\"}}]",
+      "detailsVersion": 1615551089614,
+      "isSyncedToStartOfTime": false,
+      "lastSyncTime": 1617867618742,
+      "maxMessageVersion": 1615554992551,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1615554992551,
+      "replyChainSyncMap": {
+        "19:8627cc9f8ffe4b1faa4f955be0da3072@thread.tacv2;messageid=1615554891638": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:8627cc9f8ffe4b1faa4f955be0da3072@thread.tacv2;messageid=1615554891638"
+        },
+        "19:8627cc9f8ffe4b1faa4f955be0da3072@thread.tacv2;messageid=1615554894779": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:8627cc9f8ffe4b1faa4f955be0da3072@thread.tacv2;messageid=1615554894779"
+        },
+        "19:8627cc9f8ffe4b1faa4f955be0da3072@thread.tacv2;messageid=1615554942834": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:8627cc9f8ffe4b1faa4f955be0da3072@thread.tacv2;messageid=1615554942834"
+        },
+        "19:8627cc9f8ffe4b1faa4f955be0da3072@thread.tacv2;messageid=1615554942851": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:8627cc9f8ffe4b1faa4f955be0da3072@thread.tacv2;messageid=1615554942851"
+        },
+        "19:8627cc9f8ffe4b1faa4f955be0da3072@thread.tacv2;messageid=1615554992551": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:8627cc9f8ffe4b1faa4f955be0da3072@thread.tacv2;messageid=1615554992551"
+        }
+      },
+      "syncState": null,
+      "threadVersion": 1615551089614,
+      "type": "Topic",
+      "version": 1615555855838,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615550469434",
+      "isdeleted": false
+    },
+    {
+      "id": "19:a0451344b3054dccacbd3019349eff66@thread.v2",
+      "clientArrivalTime": "2021-04-08T07:39:57.668Z",
+      "clientUpdateTime": "2021-04-08T10:25:49.744Z",
+      "detailsVersion": 1617876161475,
+      "isSyncedToStartOfTime": true,
+      "lastSyncTime": 1617877552240,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1,
+      "replyChainSyncMap": {},
+      "rosterVersion": 1617876161173,
+      "syncState": "3e2d00000031393a6130343531333434623330353464636361636264333031393334396566663636407468726561642e76320101000000000000008083fab078010000",
+      "threadVersion": 1617876161475,
+      "type": "Chat",
+      "version": 1617876911170,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617778015921",
+      "isdeleted": false
+    },
+    {
+      "id": "19:a9954f07738a4f00889c441201bacdb4@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.718Z",
+      "detailsVersion": 1616676059452,
+      "isSyncedToStartOfTime": true,
+      "lastSyncTime": 1617867612562,
+      "maxMessageVersion": 1615530867315,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1615530867315,
+      "replyChainSyncMap": {
+        "19:a9954f07738a4f00889c441201bacdb4@thread.tacv2;messageid=1607675764384": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:a9954f07738a4f00889c441201bacdb4@thread.tacv2;messageid=1607675764384"
+        },
+        "19:a9954f07738a4f00889c441201bacdb4@thread.tacv2;messageid=1615250327445": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:a9954f07738a4f00889c441201bacdb4@thread.tacv2;messageid=1615250327445"
+        },
+        "19:a9954f07738a4f00889c441201bacdb4@thread.tacv2;messageid=1615529714974": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:a9954f07738a4f00889c441201bacdb4@thread.tacv2;messageid=1615529714974"
+        },
+        "19:a9954f07738a4f00889c441201bacdb4@thread.tacv2;messageid=1615530867315": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:a9954f07738a4f00889c441201bacdb4@thread.tacv2;messageid=1615530867315"
+        }
+      },
+      "rosterVersion": 1616676059452,
+      "syncState": null,
+      "threadVersion": 1616676059452,
+      "type": "Space",
+      "version": 1615530867437,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615356595641",
+      "isdeleted": false
+    },
+    {
+      "id": "19:ab1f89a26c6e4163a306d1e54b4c4e3f@thread.v2",
+      "clientArrivalTime": "2021-04-08T07:39:57.672Z",
+      "detailsVersion": 1615561038802,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615561038802,
+      "type": "Chat",
+      "version": 1616160748150,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615528217714",
+      "isdeleted": false
+    },
+    {
+      "id": "19:b234d727144f441f93edfca330ac0068@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.718Z",
+      "detailsVersion": 1616676060630,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "rosterVersion": 1616676060630,
+      "syncState": "",
+      "threadVersion": 1616676060630,
+      "type": "Space",
+      "version": 1615527615815,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615356601329",
+      "isdeleted": false
+    },
+    {
+      "id": "19:bb13a88ec45241fe899dfd1c3f9724a2@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.717Z",
+      "continuationToken": "[{\"token\":\"+RID:~vpsQAJ9uAC2GlQIAAADSCA==#RT:1#TRC:5#RTD:AyAER1ygxSHVHGAn2S99BTI6O2NjMjRiOTlmZDU2MzUyZ2Y5OjplZ2UyZDRnOjgzNWIzQXVpc2ZiZS91YmR3MzwyNzI2NjY6ODY2NjUyAA==#ISV:2#IEO:65551#QCF:3#FPC:AgiTBgAAYAEAADAAAABIIwAAkwYAAGABAAAIACy0EIARAAICpQYAAGABAAACAEibCQAAAEgjAAAcAIWDlYeFgPiC/YGDgLWCcIJOgHmMXIDygq+F14wKAAAASCMAABYAfIIBwAgEVooOhoOA6ICwgEaAboD/gjAAAABIIwAAAgBavg==\",\"range\":{\"min\":\"05C1C1B9BFBB80\",\"max\":\"05C1C1CFA73BD8\"}}]",
+      "detailsVersion": 1615560950621,
+      "isSyncedToStartOfTime": false,
+      "lastSyncTime": 1617867611183,
+      "maxMessageVersion": 1617036341605,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1617036341605,
+      "replyChainSyncMap": {
+        "19:bb13a88ec45241fe899dfd1c3f9724a2@thread.tacv2;messageid=1615552532470": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:bb13a88ec45241fe899dfd1c3f9724a2@thread.tacv2;messageid=1615552532470"
+        },
+        "19:bb13a88ec45241fe899dfd1c3f9724a2@thread.tacv2;messageid=1615559755541": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:bb13a88ec45241fe899dfd1c3f9724a2@thread.tacv2;messageid=1615559755541"
+        },
+        "19:bb13a88ec45241fe899dfd1c3f9724a2@thread.tacv2;messageid=1615560010061": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:bb13a88ec45241fe899dfd1c3f9724a2@thread.tacv2;messageid=1615560010061"
+        },
+        "19:bb13a88ec45241fe899dfd1c3f9724a2@thread.tacv2;messageid=1615560951306": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:bb13a88ec45241fe899dfd1c3f9724a2@thread.tacv2;messageid=1615560951306"
+        },
+        "19:bb13a88ec45241fe899dfd1c3f9724a2@thread.tacv2;messageid=1617036341605": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:bb13a88ec45241fe899dfd1c3f9724a2@thread.tacv2;messageid=1617036341605"
+        }
+      },
+      "rosterVersion": 1615560949968,
+      "syncState": null,
+      "threadVersion": 1615560950621,
+      "type": "Space",
+      "version": 1617775999591,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615391234589",
+      "isdeleted": false
+    },
+    {
+      "id": "19:bc072c22cea34254a0486fd61adfd1ce@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.715Z",
+      "continuationToken": "[{\"token\":\"+RID:~vpsQAJ9uAC1KoZcBAADUAA==#RT:1#TRC:5#RTD:AyAER1ygxSHVHGAn2S99BTI6O2NkMTgzZDMzZGZiNDUzNjViMTU5N2dlNzJiZWdlMmRmQXVpc2ZiZS91YmR3MzwyNzI4Mjk3OTkxODgxAA==#ISV:2#IEO:65551#QCF:3#FPC:AggJBgAAUAMAAHMGAABQAwAACQYAAFADAABIANWnLIEOgEEBOEARAAwAG4DwgNSAx4EGgEyBKIDqgAHAAAcQgQHAkADAgBmABoAUgJmBvoBfgAaAm4AkgxWAAYAxgBiAEYAygAoGAABQAwAAGAA3hBEAMADngMqkJ4EogC2Ke4AegFWAPIELBgAAUAMAACQAL4BhgqSBcosIgxKAYIh2iC6AFIAEineIK4BBgJmAEYEXgBeADAYAAFADAAACAGOWDQYAAFADAAACAB+mDgYAAFADAAACAHCHEgYAAFADAAACAGm+GAYAAFADAAACAMCZHgYAAFADAAACAEiQIwYAAFADAAACADeyKQYAAFADAAACAC6BLQYAAFADAAACALS5MAYAAFADAAACANaNMwYAAFADAAACAMGWOQYAAFADAAACAGGBPgYAAFADAAACAH+lRAYAAFADAAACABKISQYAAFADAAACAJSnTQYAAFADAAACAAmuTwYAAFADAAACACC9UwYAAFADAAACAJGWWQYAAFADAAACAHWSXgYAAFADAAACAEqhYwYAAFADAAACANWqZwYAAFADAAACAO6tbAYAAFADAAACALCccwYAAFADAAACAH25\",\"range\":{\"min\":\"05C1CBC7BF8F40\",\"max\":\"05C1CBEFAF1368\"}}]",
+      "detailsVersion": 1615561257774,
+      "isSyncedToStartOfTime": false,
+      "lastSyncTime": 1617867800983,
+      "maxMessageVersion": 1617708286011,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1617708286011,
+      "replyChainSyncMap": {
+        "19:bc072c22cea34254a0486fd61adfd1ce@thread.tacv2;messageid=1617186880770": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:bc072c22cea34254a0486fd61adfd1ce@thread.tacv2;messageid=1617186880770"
+        },
+        "19:bc072c22cea34254a0486fd61adfd1ce@thread.tacv2;messageid=1617274144251": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:bc072c22cea34254a0486fd61adfd1ce@thread.tacv2;messageid=1617274144251"
+        },
+        "19:bc072c22cea34254a0486fd61adfd1ce@thread.tacv2;messageid=1617360730312": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:bc072c22cea34254a0486fd61adfd1ce@thread.tacv2;messageid=1617360730312"
+        },
+        "19:bc072c22cea34254a0486fd61adfd1ce@thread.tacv2;messageid=1617534355178": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:bc072c22cea34254a0486fd61adfd1ce@thread.tacv2;messageid=1617534355178"
+        },
+        "19:bc072c22cea34254a0486fd61adfd1ce@thread.tacv2;messageid=1617708286011": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:bc072c22cea34254a0486fd61adfd1ce@thread.tacv2;messageid=1617708286011"
+        }
+      },
+      "syncState": null,
+      "threadVersion": 1615561257774,
+      "type": "Topic",
+      "version": 1617794900358,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615527533116",
+      "isdeleted": false
+    },
+    {
+      "id": "19:cc43fb136f08492a8df9f878b4ba3ae0@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.715Z",
+      "clientUpdateTime": "2021-04-08T10:25:49.773Z",
+      "continuationToken": "[{\"token\":\"+RID:~vpsQAJ9uAC2kCF8BAADkDQ==#RT:1#TRC:5#RTD:AyAER1ygxSHVHGAn2S99BTI6O2RkNTRnYzI0N2cxOTU6M2I5ZWc6Zzk4OWM1Y2I0YmYxQXVpc2ZiZS91YmR3MzwyNzI4OTI3MTc2MjU0AA==#ISV:2#IEO:65551#QCF:3#FPC:AgghBQAAkDcAAH4FAACQNwAAIQUAAJA3AAAGAK20EoB8gSkFAACQNwAABAAogTKAKgUAAJA3AAAIAIu4kQAAKEyALQUAAJA3AAAEAFufO4AvBQAAkDcAAAgAP5NxAMAANoAyBQAAkDcAAAQAUoYigDMFAACQNwAACADevIEASABDgDYFAACQNwAABADCsCiAOAUAAJA3AAAIAOeqkQAGADSAOwUAAJA3AAAEAJSTLIA8BQAAkDcAAAgAbbpRAAAwKYBCBQAAkDcAAAQAc44ngEQFAACQNwAACABGh2EAAEhHgEYFAACQNwAABAAptTaASAUAAJA3AAAIAMKrcQAAYEOASwUAAJA3AAAEAAKSJ4BNBQAAkDcAAAgAYYZugACAM4BPBQAAkDcAAAQAq6wlgFEFAACQNwAACAAboW6AAYAwgFMFAACQNwAABABLtx+AVQUAAJA3AAAIANOYUQAABiWAWgUAAJA3AAAEAMKGHYBbBQAAkDcAAAgAALJRAABQWYBeBQAAkDcAAAIAv7ZfBQAAkDcAAAIAJLRgBQAAkDcAAAIARJxiBQAAkDcAAAIAmJVjBQAAkDcAAAQAe4RHu2QFAACQNwAAAgAtgGcFAACQNwAAAgDcjGgFAACQNwAACABfgwCAMqRugGoFAACQNwAADAAghBaAFrVCABgAAIBuBQAAkDcAAAIAl7hvBQAAkDcAAAoAQ49uq1EABQAggHMFAACQNwAABACliiKAdQUAAJA3AAAEAA+5PIB3BQAAkDcAAAIArIF6BQAAkDcAAAIArpZ7BQAAkDcAAAIAEIV8BQAAkDcAAAgApIiRgEKAfap+BQAAkDcAAAQALrYqgA==\",\"range\":{\"min\":\"05C1E753BD1F0E\",\"max\":\"05C1E75D153D76\"}}]",
+      "detailsVersion": 1615533194387,
+      "isSyncedToStartOfTime": false,
+      "lastSyncTime": 1617877552506,
+      "maxMessageVersion": 1617866043771,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1617866043771,
+      "replyChainSyncMap": {
+        "19:cc43fb136f08492a8df9f878b4ba3ae0@thread.tacv2;messageid=1617805262586": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:cc43fb136f08492a8df9f878b4ba3ae0@thread.tacv2;messageid=1617805262586"
+        },
+        "19:cc43fb136f08492a8df9f878b4ba3ae0@thread.tacv2;messageid=1617805382657": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:cc43fb136f08492a8df9f878b4ba3ae0@thread.tacv2;messageid=1617805382657"
+        },
+        "19:cc43fb136f08492a8df9f878b4ba3ae0@thread.tacv2;messageid=1617805441674": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:cc43fb136f08492a8df9f878b4ba3ae0@thread.tacv2;messageid=1617805441674"
+        },
+        "19:cc43fb136f08492a8df9f878b4ba3ae0@thread.tacv2;messageid=1617865982057": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:cc43fb136f08492a8df9f878b4ba3ae0@thread.tacv2;messageid=1617865982057"
+        },
+        "19:cc43fb136f08492a8df9f878b4ba3ae0@thread.tacv2;messageid=1617866041995": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:cc43fb136f08492a8df9f878b4ba3ae0@thread.tacv2;messageid=1617866041995"
+        }
+      },
+      "syncState": "3e3000000031393a6363343366623133366630383439326138646639663837386234626133616530407468726561642e7461637632017bb154b078010000f27df9b078010000",
+      "threadVersion": 1615533194387,
+      "type": "Topic",
+      "version": 1617876844166,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615532722048",
+      "isdeleted": false
+    },
+    {
+      "id": "19:d06826ef0a3f4004b665ed7c1491f574@thread.tacv2",
+      "clientArrivalTime": "2021-04-08T07:39:57.718Z",
+      "detailsVersion": 1616676061600,
+      "isSyncedToStartOfTime": true,
+      "lastSyncTime": 1617867620283,
+      "maxMessageVersion": 1615526292208,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1615526292208,
+      "replyChainSyncMap": {
+        "19:d06826ef0a3f4004b665ed7c1491f574@thread.tacv2;messageid=1614905745105": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:d06826ef0a3f4004b665ed7c1491f574@thread.tacv2;messageid=1614905745105"
+        },
+        "19:d06826ef0a3f4004b665ed7c1491f574@thread.tacv2;messageid=1614905770709": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:d06826ef0a3f4004b665ed7c1491f574@thread.tacv2;messageid=1614905770709"
+        },
+        "19:d06826ef0a3f4004b665ed7c1491f574@thread.tacv2;messageid=1614905799708": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:d06826ef0a3f4004b665ed7c1491f574@thread.tacv2;messageid=1614905799708"
+        },
+        "19:d06826ef0a3f4004b665ed7c1491f574@thread.tacv2;messageid=1615526292208": {
+          "messagesStale": false,
+          "syncState": "",
+          "syncStartTime": 1,
+          "replyChainId": "19:d06826ef0a3f4004b665ed7c1491f574@thread.tacv2;messageid=1615526292208"
+        }
+      },
+      "rosterVersion": 1616676061600,
+      "syncState": null,
+      "threadVersion": 1616676061600,
+      "type": "Space",
+      "version": 1617344293826,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615356598522",
+      "isdeleted": false
+    },
+    {
+      "id": "19:meeting_MzRjYTgxNDMtNTFlNC00Yzg3LWFlOTAtNDI1Y2MyOGMxMDVk@thread.v2",
+      "clientArrivalTime": "2021-04-08T07:39:57.681Z",
+      "detailsVersion": 1615532720610,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615532720610,
+      "type": "Meeting",
+      "version": 1615533810669,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615531561129",
+      "isdeleted": false
+    },
+    {
+      "id": "19:meeting_Mzc1MjNlOWYtZThjZi00ZWExLTgwOWEtNDk5MGEzNGFhNWRk@thread.v2",
+      "clientArrivalTime": "2021-04-08T07:39:57.673Z",
+      "detailsVersion": 1615533038178,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615533038178,
+      "type": "Meeting",
+      "version": 1616137939434,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615532923696",
+      "isdeleted": false
+    },
+    {
+      "id": "19:meeting_NDE2ZmJlMTktMzEwNi00YTA4LWFhMjMtNWU3NzE2OTZjOWQ2@thread.v2",
+      "clientArrivalTime": "2021-04-08T07:39:57.670Z",
+      "detailsVersion": 1617794595730,
+      "isSyncedToStartOfTime": true,
+      "lastSyncTime": 1617867628419,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1,
+      "replyChainSyncMap": {},
+      "syncState": "3e4500000031393a6d656574696e675f4e4445325a6d4a6c4d546b744d7a45774e693030595441344c5746684d6a4d744e5755334e7a45324f545a6a4f575132407468726561642e76320101000000000000009e8120ac78010000",
+      "threadVersion": 1617794595730,
+      "type": "Meeting",
+      "version": 1617796064237,
+      "retentionHorizon": 0,
+      "lastjoinat": "1617783602628",
+      "isdeleted": false
+    },
+    {
+      "id": "19:meeting_NWJjZDdhNWYtMGYwMy00ODRhLTljMTAtYzJkMDUyNTE5YTQ2@thread.v2",
+      "clientArrivalTime": "2021-04-08T07:39:57.675Z",
+      "detailsVersion": 1615562968344,
+      "isSyncedToStartOfTime": false,
+      "messagesStale": true,
+      "replyChainSyncMap": {},
+      "syncState": "",
+      "threadVersion": 1615562968344,
+      "type": "Meeting",
+      "version": 1615562968419,
+      "retentionHorizon": 0,
+      "lastjoinat": "1615531832568",
+      "isdeleted": false
+    },
+    {
+      "id": "48:notifications",
+      "clientArrivalTime": "2021-04-08T07:39:57.737Z",
+      "clientUpdateTime": "2021-04-08T08:38:46.523Z",
+      "isSyncedToStartOfTime": false,
+      "lastSyncTime": 1617871127328,
+      "messagesStale": false,
+      "messageHistoryStartTime": 1615279126541,
+      "replyChainSyncMap": {
+        "48:notifications;messageid=1615276648514": {
+          "messagesStale": false,
+          "syncState": null,
+          "syncStartTime": 1,
+          "replyChainId": "48:notifications;messageid=1615276648514"
+        }
+      },
+      "syncState": "3e1000000034383a6e6f74696669636174696f6e7301b29fed157801000062fc9eb078010000",
+      "type": "Conversation",
+      "version": 1617870912764,
+      "retentionHorizon": 0
+    }
+  ],
+  "deletedTeamAndPCs": [],
+  "isCSAReplyChainSupported": {},
+  "syncState": {
+    "clientArrivalTime": "2021-04-08T07:39:57.704Z",
+    "clientUpdateTime": "2021-04-08T10:33:41.991Z",
+    "detailsVersion": 1617778317111,
+    "isSyncedToStartOfTime": true,
+    "lastSyncTime": 1617878280829,
+    "maxMessageVersion": 1,
+    "messagesStale": false,
+    "messageHistoryStartTime": 1,
+    "replyChainSyncMap": {},
+    "rosterVersion": 1617796165973,
+    "syncState": "3e3000000031393a6431646333366561343933353435323962373637346335643531633063363431407468726561642e7461637632010100000000000000d26f0bb178010000",
+    "threadVersion": 1617778317111,
+    "type": "Topic",
+    "version": 1617878021248,
+    "retentionHorizon": 0,
+    "conversationId": "19:d1dc36ea49354529b7674c5d51c0c641@thread.tacv2",
+    "viaService": {
+      "id": "19:d1dc36ea49354529b7674c5d51c0c641@thread.tacv2",
+      "syncState": "3e3000000031393a6431646333366561343933353435323962373637346335643531633063363431407468726561642e7461637632010100000000000000d26f0bb178010000",
+      "isSyncedToStartOfTime": true,
+      "isPersisted": true,
+      "messageHistoryStartTime": 1,
+      "messagesStale": false,
+      "maxMessageVersion": 1,
+      "lastSyncTime": 1617878280829,
+      "startOfSyncWindow": 1,
+      "conversationVersion": 1617878021248,
+      "errorCode": null,
+      "isFailed": false
+    },
+    "lastMessage": {
+      "clientArrivalTime": "2021-04-08T10:38:00.822Z",
+      "clientmessageid": "5242656441949416000",
+      "creator": "8:orgid:4654a0b8-9d92-4eba-9c36-98630eaf6aec",
+      "id": "1617878020050",
+      "messageStorageState": 0,
+      "messagetype": "RichText/Html",
+      "originalarrivaltime": "2021-04-08T10:33:40.0500000Z",
+      "parentMessageId": "1617878020050",
+      "source": 1,
+      "version": "1617878020050"
+    },
+    "syncTargets": [],
+    "conversationState": {
+      "isFavorite": true,
+      "isPersisted": true
+    }
+  },
+  "persistedSyncState": {
+    "id": "SyncState:19:d1dc36ea49354529b7674c5d51c0c641@thread.tacv2",
+    "value": {
+      "id": "19:d1dc36ea49354529b7674c5d51c0c641@thread.tacv2",
+      "syncState": "3e3000000031393a6431646333366561343933353435323962373637346335643531633063363431407468726561642e7461637632010100000000000000d26f0bb178010000",
+      "isSyncedToStartOfTime": true,
+      "isPersisted": true,
+      "messageHistoryStartTime": 1,
+      "messagesStale": false,
+      "maxMessageVersion": 1,
+      "lastSyncTime": 1617878280829,
+      "startOfSyncWindow": 1,
+      "conversationVersion": 1617878021248,
+      "errorCode": null
+    }
+  },
+  "activeConversation": "19:d1dc36ea49354529b7674c5d51c0c641@thread.tacv2",
+  "conversation": {
+    "consumptionHorizon": "1617878020050;1617878280823;5242656441949416000",
+    "retentionHorizon": 0,
+    "lastJoinAt": "1617778315966",
+    "isDeleted": false
+  },
+  "isMru": true,
+  "dbCursor": -1,
+  "replyChainView": {},
+  "lastDeltaSyncInfo": "{\"conversationListSyncTime\":1617878325832,\"totalConversations\":26,\"conversations\":\"\",\"conversationMessagesSyncTime\":1617878325835}"
+}

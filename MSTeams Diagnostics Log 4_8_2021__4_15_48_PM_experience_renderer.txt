@@ -1,0 +1,1065 @@
+2021-04-08T10:45:49.809Z Inf	CoreSettings/Service(g): Creating subject for 'webinarRegistration' category, settings: {"requiredPredefinedQuestions":[{"questionName":"FirstName","i18nKey":"webinar_user_first_name","type":"SingleLineText"},{"questionName":"LastName","i18nKey":"webinar_user_last_name","type":"SingleLineText"},{"questionName":"Email","i18nKey":"webinar_user_email","type":"SingleLineText"}],"optionalPredefinedQuestions":[{"questionName":"Address","i18nKey":"webinar_user_address","type":"SingleLineText"},{"questionName":"Cit...
+2021-04-08T10:45:49.807Z Inf	CoreSettings/Service(g): Creating subject for 'trouterService' category, settings: {"trouterEndpointOverride":"https://canary.trouter-df.teams.microsoft.com/v4/a","trouterDefaultEndpoint":"https://go.trouter.teams.microsoft.com/v4/a","registrarEndpointOverride":"","registrarDefaultEndpoint":"https://teams.microsoft.com/registrar/prod/v3/registrations"}
+2021-04-08T10:45:49.806Z Inf	CoreSettings/Service(g): Creating subject for 'tenant' category, settings: {}
+2021-04-08T10:45:49.800Z Inf	CoreSettings/Service(g): Creating subject for 'teamsAndChannels' category, settings: {"enablePrivateChannels":true,"disableTeamChannelMentionForLargeTeamSize":false,"teamSizeToDisableMention":10000,"allowPrivateChannelCreation":true,"allowPrivateTeamDiscovery":true,"allowOrgWideTeamCreation":true}
+2021-04-08T10:45:49.798Z Inf	CoreSettings/Service(g): Creating subject for 'sync' category, settings: {}
+2021-04-08T10:45:49.798Z Inf	CoreSettings/Service(g): Creating subject for 'shortcuts' category, settings: {"enableDevShortcuts":false,"enableLandmarksNavigation":true,"enablePassUnhandledShortcutsToShellComms":false,"applyDesktopKeymappingStrategy":true,"shortcutsForIframe":true}
+2021-04-08T10:45:49.796Z Inf	CoreSettings/Service(g): Creating subject for 'serp' category, settings: {"enable3SFeedback":false,"enableSharedChannelFileSearch":false,"enableSharedChannelMessageSearch":false,"enableInterTenantSharedChannelMessageSearch":false,"enableAllTab":true,"enableAnswers":true,"enableAfdProxyForAnswers":true,"enableAfdProxyForSubstrate":false,"substrateTokenUrl":"https://outlook.office.com/","afdBaseUrl":"https://teams.microsoft.com","substrateBaseUrl":"https://substrate.office.com","enableSubstrateMessageSearch":...
+2021-04-08T10:45:49.793Z Inf	CoreSettings/Service(g): Creating subject for 'search' category, settings: {"enableChannelsInUnifiedSearch":false,"enablePeopleSearchV2":false,"enableZeroStateSuggestions":true,"enableChannelIndexedDBCache":true,"enableChatSearchByPartialMembers":false,"enableRemoveChatDisabledUsers":false,"enableLoadingSpinnerAtTop":false,"enableEagerSeedSuggestions":false,"showTopEagerSeedSuggestions":false,"use3SSuggestions":true,"use3SProxy":false,"scenarioName3S":"","enableSearchLabels":true}
+2021-04-08T10:45:49.793Z Inf	CoreSettings/Service(g): Creating subject for 'sdk' category, settings: {"sdkHostType":"Desktop","osLocaleInfoPlatformType":"windows","enableOsLocaleInfoInContext":false}
+2021-04-08T10:45:49.792Z Inf	CoreSettings/Service(g): Creating subject for 'presence' category, settings: {}
+2021-04-08T10:45:49.785Z Inf	CoreSettings/Service(g): Creating subject for 'platform' category, settings: {"localeCode":"en-us","staticsPath":"https://statics.teams.cdn.office.net","clientVersion":"27/21021100610","sessionId":"bdec9a1f-1d34-ecf7-027a-67f985bbc6d5","useEdgeSpecificImages":false,"isHtmlInputSelectApiSupported":true,"useMacKeyboardLayout":false,"isScreenRecordingPermissionRequired":false,"enableSlotBorderRadius":false,"vdi":{"provider":"None","mode":"0","isAvRemoted":false,"configFilter":null}}
+2021-04-08T10:45:49.783Z Inf	CoreSettings/Service(g): Creating subject for 'peopleTargeting' category, settings: {"enableTeamMemberTags":false,"targetingServiceUrl":"https://chatsvcagg.teams.microsoft.com","teamIdsLimitPerGetTagCardsByTeamIdsCall":1000,"enableScheduledTags":false,"retryPolicyConstants":{"maxRetryTimeMs":4000,"maxRetryCount":1,"maxRetryDelayTimeMs":4000,"minRetryDelayTimeMs":4000},"enableTargetedChat":false}
+2021-04-08T10:45:49.779Z Inf	CoreSettings/Service(g): Creating subject for 'outlook' category, settings: {"enableShareFromOutlook":true,"useWindowedStyling":true,"enableDesktopUpsell":false,"useV2Preview":true,"enableEmailFetchFromGraph":true,"enableSTTOutlookAtMention":true,"maxSuggestedEmailRecipients":249,"enableShareFormCloseButton":true,"enableExtendCloudFileAccess":true,"enableAccountMismatchCheck":true,"isShareToTeamsMultiWindow":true,"shareToTeamsRecentRecipientsWeightConfig":{"shareMultiplier":1,"recencyWeight":20,"recencyDayF...
+2021-04-08T10:45:49.778Z Inf	CoreSettings/Service(g): Creating subject for 'organization' category, settings: {}
+2021-04-08T10:45:49.770Z Inf	CoreSettings/Service(g): Creating subject for 'meetup' category, settings: {}
+2021-04-08T10:45:49.770Z Inf	CoreSettings/Service(g): Creating subject for 'meetingOptions' category, settings: {"middleTierEndpoint":"beta/meetings/v1/options","middleTierEndpointV2":"beta/meetings/v2/options","enableSpecificPresenterSelectionInChannelMeetings":true}
+2021-04-08T10:45:49.769Z Inf	CoreSettings/Service(g): Creating subject for 'meetingArtifacts' category, settings: {"meetingArtifactsServiceEndpoint":"https://api.cortana.ai/MeetingArtifacts/api"}
+2021-04-08T10:45:49.765Z Inf	CoreSettings/Service(g): Creating subject for 'localization' category, settings: {"enableLocalizedKeyboardShortcuts":false}
+2021-04-08T10:45:49.764Z Inf	CoreSettings/Service(g): Creating subject for 'lmsIntegration' category, settings: {}
+2021-04-08T10:45:49.763Z Inf	CoreSettings/Service(g): Creating subject for 'liveStateService' category, settings: {"liveStateServiceBaseSettings":{"batchedRequestsEnabled":false,"maxRoundtripRaw":300,"pingTimeoutInMs":15000,"pongTimeoutInMs":15000,"retryIntervalsInMs":[1000,2000,4000],"verbose":false,"websocketAliveTimeAfterLoseFocusInMS":30000,"autoRoutingEnabled":true},"liveStateServiceEndpoint":{"baseUrl":"https://pptservicescast.officeapps.live.com/","handler":"TeamsHandler.ashx","getEndpointAction":"endpoint"},"liveStateServiceEnd...
+2021-04-08T10:45:49.755Z Inf	CoreSettings/Service(g): Creating subject for 'growth' category, settings: {"atLessMentionsMinimumThreshold":4,"atLessMentionsPartialThreshold":5,"atLessMentionsExcludedCharacters":",.!?`","enableAtLessMentions":false}
+2021-04-08T10:45:49.755Z Inf	CoreSettings/Service(g): Creating subject for 'giphy' category, settings: {}
+2021-04-08T10:45:49.753Z Inf	CoreSettings/Service(g): Creating subject for 'files' category, settings: {"enableFilePickerInMultiWindow":true,"enableFilesODPickerInMultiWindow":false,"enableFilesChicletActionInMultiWindow":true,"enableFilesChicletCopyLinkInMultiWindow":false,"enableFileViewerForChiclets":true,"enableDownloadActionForChiclets":true,"enableOpenInDesktopAppActionForChiclets":true,"enableFileOpenExperimentInMultiWindow":false,"enableWebAsDefaultFileOpenPreferenceInMultiWindow":false,"enableDesktopFileOpenPreferenceInMultiWi...
+2021-04-08T10:45:49.752Z Inf	CoreSettings/Service(g): Creating subject for 'feedback' category, settings: {"instantAnswersEnabled":false,"instantAnswersAppId":"TeamsFeedback","instantAnswersTimeout":1200,"instantAnswersServiceUrl":"https://support.microsoft.com/home/","instantAnswersGetSolutionsUrl":"GetAlchemySolutionsForFeedback","instantAnswersSendTelemetryUrl":"AlchemySolutionsLog","petrolServiceUrl":"https://petrol.office.microsoft.com/v1/feedback","surveyConfigs":[]}
+2021-04-08T10:45:49.751Z Inf	CoreSettings/Service(g): Creating subject for 'federated' category, settings: {"enableFederatedChat":true}
+2021-04-08T10:45:49.743Z Inf	CoreSettings/Service(g): Creating subject for 'embedClient' category, settings: {}
+2021-04-08T10:45:49.742Z Inf	CoreSettings/Service(g): Creating subject for 'distributionLists' category, settings: {"isDistributionListEnabledInNewChatWindow":false,"maxDistributionListSizeInAddToChat":250}
+2021-04-08T10:45:49.741Z Inf	CoreSettings/Service(g): Creating subject for 'default' category, settings: {}
+2021-04-08T10:45:49.739Z Inf	CoreSettings/Service(g): Creating subject for 'csaService' category, settings: {"filterSystemMessagesGetReplyChains":true,"httpTimeoutMillisGetReplyChains":120000,"httpTimeoutMillisGetCsaStartup":120000,"startupDataMaxRetryTimeMs":320000,"startupRetryMaximumRetries":5,"startupRetryMaximumExponentialRetries":6,"startupRetryIntervalAfterExponentialRetries":300000,"startupRetryMinimumInterval":10000,"replyChainRetryMaxNotAuthorizedRetries":0,"enableSkypeTokenForCSAReplyChainAPI":true,"enableSkypeTokenForCSASta...
+2021-04-08T10:45:49.738Z Inf	CoreSettings/Service(g): Creating subject for 'cortana' category, settings: {"isCortanaEnabled":false}
+2021-04-08T10:45:49.731Z Inf	CoreSettings/Service(g): Creating subject for 'chatList' category, settings: {}
+2021-04-08T10:45:49.730Z Inf	CoreSettings/Service(g): Creating subject for 'channels' category, settings: {"showCloseButtonInChannelsRepliesPane":true}
+2021-04-08T10:45:49.729Z Inf	CoreSettings/Service(g): Creating subject for 'cdlWorker' category, settings: {"enableSyncEngine":false,"workerSupportedResolvers":{"query":[],"mutation":[],"subscription":[]}}
+2021-04-08T10:45:49.689Z Inf	CoreSettings/Service(g): Creating subject for 'calling' category, settings: {"enableCallTransfer":true,"enableVolumeSlider":true,"enableAudioMicMeter":true,"showDtmfKeypad":true,"enableMsTeamsCallingIntegration":false,"isCallingScreenInteractive":true,"isCallingAlertDismissEnabled":true,"buttonsOrderDocked":[{"configName":"default","barItems":[{"name":"ViewModeButton","isIndicator":true},{"name":"IndicatorDivider","isIndicator":true,"isCustom":true},{"name":"ClosedCaptionsIndicator","isIndicator":true,"isCu...
+2021-04-08T10:45:49.654Z Inf	CoreSettings/Service(g): Creating subject for 'broadcast' category, settings: {"enableAuditoriumModeSetting":true,"enableSourcePickerContextMenuForBroadcastProducers":false,"enableMacFlickeringMitigation":false,"enableRestartEventForBroadcastProducers":false,"composerBotMris":["28:4be36d18-a394-4f94-ad18-fb20df412d7a","28:4c072661-d231-483f-b32c-2d305791d32d","28:e8f1f4bd-f39c-479f-8885-a69ded583534","28:ae05be75-6c5a-47c0-97b8-8c84fd83880d","28:0a18c351-466c-4293-87eb-7b08a096b0a1","28:f4693563-c70b-4e4d-b...
+2021-04-08T10:45:49.642Z Inf	CoreSettings/Service(g): Creating subject for 'breakoutRoom' category, settings: {"maxBreakoutRoomCount":50,"participantsRetentionSyncIntervalInSecs":20,"openBreakoutRoomsPanelTimeoutSecs":30,"enableStartBreakoutRoom":true,"enableMoveBreakoutRoomParticipants":true,"enableBreakoutRoomMeetingLinkButtons":true,"enableBreakoutRoomMeetingLinkButtonsV2":true,"enableBreakoutRoomParticipantView":true,"enableBreakoutRoomUseRemainingDurationMs":true,"enableAutoJoinAfterBreakoutRoomTimerExpire":false,"enableBreakoutRo...
+2021-04-08T10:45:49.641Z Inf	CoreSettings/Service(g): Creating subject for 'biometricEnrollment' category, settings: {"isFaceEnrollmentEnabled":false}
+2021-04-08T10:45:49.624Z Inf	CoreSettings/DebugService(g): Created.
+2021-04-08T10:44:49.993Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T10:44:18.405Z Inf	InterProcessStore: Middleware:: State After: 
+{
+  "storeInitialized": true,
+  "ipcProfiler": {},
+  "renderers": {
+    "main-renderer": {
+      "rendererId": "main-renderer",
+      "nestedRenderers": [
+        "exp-5"
+      ],
+      "renderedWebContents": [
+        "1"
+      ],
+      "lifecycle": {
+        "createdTime": 1252.2920999997295
+      }
+    },
+    "exp-5": {
+      "rendererId": "exp-5",
+      "nestedRenderers": [],
+      "renderedWebContents": [
+        "5"
+      ],
+      "lifecycle": {
+        "c...
+2021-04-08T10:44:18.404Z Inf	InterProcessStore: Middleware:: Action: 
+{
+  "type": "PRUNE_RENDERERS",
+  "meta": {
+    "scope": "local"
+  }
+}
+2021-04-08T10:44:18.391Z Inf	InterProcessStore: Middleware:: State After: 
+{
+  "storeInitialized": true,
+  "ipcProfiler": {},
+  "renderers": {
+    "main-renderer": {
+      "rendererId": "main-renderer",
+      "nestedRenderers": [
+        "exp-5"
+      ],
+      "renderedWebContents": [
+        "1"
+      ],
+      "lifecycle": {
+        "createdTime": 1252.2920999997295
+      }
+    },
+    "exp-5": {
+      "rendererId": "exp-5",
+      "nestedRenderers": [],
+      "renderedWebContents": [
+        "5"
+      ],
+      "lifecycle": {
+        "c...
+2021-04-08T10:44:18.390Z Inf	InterProcessStore: Middleware:: Action: 
+{
+  "type": "PRUNE_WINDOWS",
+  "meta": {
+    "scope": "local"
+  }
+}
+2021-04-08T10:43:48.735Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] Live Persona Card: Window unloaded, freeing LPC bootstrapper memory...
+2021-04-08T10:43:48.735Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] Live Persona Card: Window unloaded, freeing LPC bootstrapper memory...
+2021-04-08T10:43:48.730Z Err	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ExtensionCommandingService: Unable to destroy, error ocurred in persisting delete of extension entity.
+2021-04-08T10:43:48.722Z Inf	CDL: {"requestId":"s-26","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","requestType":"GQL_STOP","operationName":"presenceUpdateEvent","message":"Notifying server of unsubscription"}
+2021-04-08T10:43:48.722Z Inf	CDL: {"requestId":"s-24","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","requestType":"GQL_STOP","operationName":"presenceUpdateEvent","message":"Notifying server of unsubscription"}
+2021-04-08T10:43:48.722Z Inf	CDL: {"requestId":"s-3","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","requestType":"GQL_STOP","operationName":"chatServiceEvent","message":"Notifying server of unsubscription"}
+2021-04-08T10:43:48.721Z Inf	CDL: {"requestId":"s-10","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","requestType":"GQL_STOP","operationName":"presenceUpdateEvent","message":"Notifying server of unsubscription"}
+2021-04-08T10:43:48.720Z Inf	CDL: {"requestId":"s-13","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","requestType":"GQL_STOP","operationName":"presenceUpdateEvent","message":"Notifying server of unsubscription"}
+2021-04-08T10:43:48.718Z Inf	CDL: {"requestId":"s-5","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","requestType":"GQL_STOP","operationName":"taskModuleUpdateEventV2","message":"Notifying server of unsubscription"}
+2021-04-08T10:43:48.717Z Inf	CDL: {"requestId":"s-6","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","requestType":"GQL_STOP","operationName":"installedAppsUpdateEventV2","message":"Notifying server of unsubscription"}
+2021-04-08T10:43:48.715Z Inf	CDL: {"requestId":"s-32","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","requestType":"GQL_STOP","operationName":"userPreferencesChangedEvent","message":"Notifying server of unsubscription"}
+2021-04-08T10:43:48.713Z Inf	CDL: {"requestId":"s-29","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","requestType":"GQL_STOP","operationName":"videoAvailableForConversationChanged","message":"Notifying server of unsubscription"}
+2021-04-08T10:43:48.713Z Inf	CDL: {"requestId":"s-28","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","requestType":"GQL_STOP","operationName":"videoAvailableForConversationChanged","message":"Notifying server of unsubscription"}
+2021-04-08T10:43:48.712Z Inf	CDL: {"requestId":"s-4","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","requestType":"GQL_STOP","operationName":"hasOngoingCallsChangedEvent","message":"Notifying server of unsubscription"}
+2021-04-08T10:43:48.689Z War	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] services-keyboard-shortcuts: Can't unassign the handler from the command ShowPerformanceDashboard. Command is not registered in the keymapping strategy.
+2021-04-08T10:43:48.689Z War	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] services-keyboard-shortcuts: Can't unassign the handler from the command ShowDiagnosticWindow. Command is not registered in the keymapping strategy.
+2021-04-08T10:43:48.651Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] InstalledAppsSubscriptionContainerInner: InstalledAppsSubscriptionContainerInner unmounted
+2021-04-08T10:43:48.644Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useCallingAllowed: Umounted & removing sub [subscription=true][subscriptionClosed=false]
+2021-04-08T10:43:48.644Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useCallingAllowed: Umounted & removing sub [subscription=true][subscriptionClosed=false]
+2021-04-08T10:43:48.630Z Inf	CoreSettings/Service(g/v-popout-chats): Cleaning up.
+2021-04-08T10:43:48.630Z Inf	CoreSettings/Context(g/v-popout-chats): Cleaning up.
+2021-04-08T10:43:48.629Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] WindowStateManager: Window.close() called for window 6bf7d764-de5b-4f44-81d7-159d7d42dcec
+2021-04-08T10:43:48.629Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] WindowStateManager: Destroy called on window 6bf7d764-de5b-4f44-81d7-159d7d42dcec
+2021-04-08T10:43:48.627Z Inf	CommandReportingService: Command event reported Close for correlation id 37da9415-42aa-4bde-be60-ec6bd3a27588
+2021-04-08T10:43:48.622Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] WindowStateManager: CdlRegistration: windowId: '6bf7d764-de5b-4f44-81d7-159d7d42dcec', eventType: unregister
+2021-04-08T10:43:48.621Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] WindowStateManager: blur/unload listeners removed for windowId: 6bf7d764-de5b-4f44-81d7-159d7d42dcec
+2021-04-08T10:43:48.621Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] WindowStateManager: Removing window 6bf7d764-de5b-4f44-81d7-159d7d42dcec from apollo cache
+2021-04-08T10:43:48.621Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] WindowStateManager: pagehide called for window 6bf7d764-de5b-4f44-81d7-159d7d42dcec
+2021-04-08T10:43:48.609Z Inf	InterProcessStore: Middleware:: State After: 
+{
+  "storeInitialized": true,
+  "ipcProfiler": {},
+  "renderers": {
+    "main-renderer": {
+      "rendererId": "main-renderer",
+      "nestedRenderers": [
+        "exp-5"
+      ],
+      "renderedWebContents": [
+        "1"
+      ],
+      "lifecycle": {
+        "createdTime": 1252.2920999997295
+      }
+    },
+    "exp-5": {
+      "rendererId": "exp-5",
+      "nestedRenderers": [],
+      "renderedWebContents": [
+        "5"
+      ],
+      "lifecycle": {
+        "c...
+2021-04-08T10:43:48.608Z Inf	InterProcessStore: Middleware:: Action: 
+{
+  "type": "WEBCONTENTS_DESTROYED",
+  "webContentsId": "7",
+  "time": 312426.8611010001,
+  "meta": {
+    "scope": "local"
+  }
+}
+2021-04-08T10:43:48.608Z Inf	InterProcessStore: Middleware:: State After: 
+{
+  "storeInitialized": true,
+  "ipcProfiler": {},
+  "renderers": {
+    "main-renderer": {
+      "rendererId": "main-renderer",
+      "nestedRenderers": [
+        "exp-5"
+      ],
+      "renderedWebContents": [
+        "1"
+      ],
+      "lifecycle": {
+        "createdTime": 1252.2920999997295
+      }
+    },
+    "exp-5": {
+      "rendererId": "exp-5",
+      "nestedRenderers": [],
+      "renderedWebContents": [
+        "5",
+        "7"
+      ],
+      "lifecycle":...
+2021-04-08T10:43:48.608Z Inf	InterProcessStore: Middleware:: Action: 
+{
+  "type": "WINDOW_CLOSED",
+  "windowId": "6bf7d764-de5b-4f44-81d7-159d7d42dcec",
+  "rendererId": "exp-5",
+  "closedTime": 312414.2564010001,
+  "meta": {
+    "scope": "local"
+  }
+}
+2021-04-08T10:43:48.607Z Inf	InterProcessStore: Middleware:: State After: 
+{
+  "storeInitialized": true,
+  "ipcProfiler": {},
+  "renderers": {
+    "main-renderer": {
+      "rendererId": "main-renderer",
+      "nestedRenderers": [
+        "exp-5"
+      ],
+      "renderedWebContents": [
+        "1"
+      ],
+      "lifecycle": {
+        "createdTime": 1252.2920999997295
+      }
+    },
+    "exp-5": {
+      "rendererId": "exp-5",
+      "nestedRenderers": [],
+      "renderedWebContents": [
+        "5",
+        "7"
+      ],
+      "lifecycle":...
+2021-04-08T10:43:48.606Z Inf	InterProcessStore: Middleware:: Action: 
+{
+  "type": "WINDOW_CLOSED",
+  "windowId": "6bf7d764-de5b-4f44-81d7-159d7d42dcec",
+  "rendererId": "exp-5",
+  "closedTime": 312414.7543009999,
+  "meta": {
+    "scope": "local"
+  }
+}
+2021-04-08T10:43:44.992Z Inf	CoreSettings/Service(g): Creating subject for 'chatService' category, settings: {"activeTimeoutCNSDefaultValue":135,"exponentialDelayFactor":2,"maxEndpointFallbackCount":3,"botsAllowedForMedia":["28:a0d491ca-3b80-4855-bdf5-4559a348ad21","28:002dcaa7-9268-4848-b506-72ca54991cfc","28:5e66a287-cc3b-44a4-bd27-9b634ce06996","28:bdd75849-e0a6-4cce-8fc1-d7c0d4da43e5","28:4be36d18-a394-4f94-ad18-fb20df412d7a","28:4c072661-d231-483f-b32c-2d305791d32d","28:e8f1f4bd-f39c-479f-8885-a69ded583534","28:ae05be75-6c5a-47c0-...
+2021-04-08T10:43:44.989Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T10:43:43.902Z Inf	ARI: [ComposeMessageTyping] duration: 1596ms measurement: 10/15
+2021-04-08T10:43:43.307Z Inf	CDL: {"requestId":"q-35","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinitions","message":"Received response data for request"}
+2021-04-08T10:43:43.043Z Inf	CDL: {"requestId":"q-35","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"appDefinitions","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:43.043Z Inf	CDL: {"requestId":"q-35","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinitions","message":"Created new request"}
+2021-04-08T10:43:40.593Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] AppsFlyoutWrapperContainer: installedApps: 21 scope: GroupChat conversationId: 19:a0451344b3054dccacbd3019349eff66@thread.v2
+2021-04-08T10:43:40.508Z Inf	CDL: {"requestId":"q-34","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"installedAppsV2","message":"Received response data for request"}
+2021-04-08T10:43:40.345Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] AppsFlyoutWrapperContainer: installedApps: 59 scope: Personal
+2021-04-08T10:43:40.342Z Inf	CDL: {"requestId":"q-34","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"installedAppsV2","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:40.342Z Inf	CDL: {"requestId":"q-34","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"installedAppsV2","message":"Created new request"}
+2021-04-08T10:43:40.340Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] AppsFlyoutWrapperContainer: getFetchPolicy for installedApps {"Personal":false,"GroupChat":true}
+2021-04-08T10:43:40.334Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] AppsFlyoutQueryContainer: messageExtensionsAppsRefetchQuery state false, false
+2021-04-08T10:43:40.315Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] AppsFlyoutQueryContainer: messageExtensionsAppsRefetchQuery state false, true
+2021-04-08T10:43:39.812Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: currentPhase: 2, State machine done.
+2021-04-08T10:43:39.539Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useConsumptionHorizon: isConsumptionHorizonPassed false, convId 19:a0451344b3054dccacbd3019349eff66@thread.v2, itemId 16165121271809531760, lastUpdateId 
+2021-04-08T10:43:39.539Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useConsumptionHorizon: isConsumptionHorizonPassed false, convId 19:a0451344b3054dccacbd3019349eff66@thread.v2, itemId 16165121271809531760, lastUpdateId 
+2021-04-08T10:43:39.539Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useConsumptionHorizon: isConsumptionHorizonPassed false, convId 19:a0451344b3054dccacbd3019349eff66@thread.v2, itemId 16165121271809531760, lastUpdateId 
+2021-04-08T10:43:39.538Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useConsumptionHorizon: isConsumptionHorizonPassed false, convId 19:a0451344b3054dccacbd3019349eff66@thread.v2, itemId 16165121271809531760, lastUpdateId 
+2021-04-08T10:43:39.405Z Inf	ClientStateSender: Sending state to main window: 3 (ClientState=Active)
+2021-04-08T10:43:39.401Z Inf	CDL: {"requestId":"q-33","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"membersConsumptionHorizon","message":"Received response data for request"}
+2021-04-08T10:43:39.353Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: currentPhase: 2, Phase ended: complete
+2021-04-08T10:43:38.841Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatPane: Messages: [1617876851149,1617876850219,1617876841484,1617876841103,1617876798396,1617876797756,1617876784636,1617876189376,1617876188926,1617876162033,1617876161539,1617796103844,1617795991501,1617795547224,1617794146149,1617794101607,1617794101293,1617794028897,1617794028662,1617794026489,1617794019066,1617784771598,1617784771394,1617783181669,1617783181550,1617782391190,1617782391058,1617782390421,1617782343806,1617782343512,1617782326057,1617782325872,1...
+2021-04-08T10:43:38.840Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatPane: Rendering with 40 messages
+2021-04-08T10:43:38.840Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatPane: Consumption Horizon: CMID - 16165121271809531760 OAT - 2021-04-08T10:14:11.149Z
+2021-04-08T10:43:38.838Z Inf	CDL: {"requestId":"q-31","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"userPreferences","message":"Received response data for request"}
+2021-04-08T10:43:38.805Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] Live Persona Card: LivePersonaCard loaded: Version=1.20210315.3.2
+2021-04-08T10:43:38.805Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] Live Persona Card: LivePersonaCard loaded: Version=1.20210315.3.2
+2021-04-08T10:43:38.802Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] Live Persona Card: Initialization of LPC service successful.
+2021-04-08T10:43:38.802Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] Live Persona Card: Initialization of LPC service successful.
+2021-04-08T10:43:38.765Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: currentPhase: 2, clearTimeout: 19
+2021-04-08T10:43:38.765Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: currentPhase: 2, Phase ended: post_critical, Phase started: complete
+2021-04-08T10:43:38.738Z Inf	CDL: {"requestId":"q-33","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"membersConsumptionHorizon","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:38.738Z Inf	CDL: {"requestId":"q-33","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"membersConsumptionHorizon","message":"Created new request"}
+2021-04-08T10:43:38.736Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatPane: Messages: [1617876851149,1617876850219,1617876841484,1617876841103,1617876798396,1617876797756,1617876784636,1617876189376,1617876188926,1617876162033,1617876161539,1617796103844,1617795991501,1617795547224,1617794146149,1617794101607,1617794101293,1617794028897,1617794028662,1617794026489,1617794019066,1617784771598,1617784771394,1617783181669,1617783181550,1617782391190,1617782391058,1617782390421,1617782343806,1617782343512,1617782326057,1617782325872,1...
+2021-04-08T10:43:38.736Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatPane: Rendering with 40 messages
+2021-04-08T10:43:38.736Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatPane: Consumption Horizon: CMID - 16165121271809531760 OAT - 2021-04-08T10:14:11.149Z
+2021-04-08T10:43:38.733Z Inf	CDL: {"requestId":"s-32","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"subscription","operationName":"userPreferencesChangedEvent","message":"executing graphql request to data layer"}
+2021-04-08T10:43:38.733Z Inf	CDL: {"requestId":"s-32","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","operationType":"subscription","operationName":"userPreferencesChangedEvent","message":"Created new request"}
+2021-04-08T10:43:38.731Z Inf	CDL: {"requestId":"q-31","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"userPreferences","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:38.730Z Inf	CDL: {"requestId":"q-31","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"userPreferences","message":"Created new request"}
+2021-04-08T10:43:38.727Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatPane: Messages: [1617876851149,1617876850219,1617876841484,1617876841103,1617876798396,1617876797756,1617876784636,1617876189376,1617876188926,1617876162033,1617876161539,1617796103844,1617795991501,1617795547224,1617794146149,1617794101607,1617794101293,1617794028897,1617794028662,1617794026489,1617794019066,1617784771598,1617784771394,1617783181669,1617783181550,1617782391190,1617782391058,1617782390421,1617782343806,1617782343512,1617782326057,1617782325872,1...
+2021-04-08T10:43:38.727Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatPane: Rendering with 40 messages
+2021-04-08T10:43:38.727Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatPane: Consumption Horizon: CMID - 16165121271809531760 OAT - 2021-04-08T10:14:11.149Z
+2021-04-08T10:43:38.721Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] LayoutWithSlots: ResponsiveTemplate Matched: minWidthBreakpoint:720, availableSlots: header,main,modal,notifications,title-bar
+2021-04-08T10:43:38.692Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: currentPhase: 1, onPhaseWillCompleteReason: phase-timeout-fired, Fired 1 onWillComplete callback.
+2021-04-08T10:43:38.548Z Inf	CDL: {"requestId":"q-30","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"userCallingSettings","message":"Received response data for request"}
+2021-04-08T10:43:38.537Z Inf	CDL: {"requestId":"s-28","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","operationType":"subscription","operationName":"videoAvailableForConversationChanged","message":"Received response data for request"}
+2021-04-08T10:43:38.486Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useCallingAllowed: [subscribeCallback] no updates to calling allowed [handleApolloResult]
+2021-04-08T10:43:38.486Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useCallingAllowed: [subscribeCallback] got new subscription results
+2021-04-08T10:43:38.486Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useCallingAllowed: [subscribeCallback] no updates to calling allowed [handleApolloResult]
+2021-04-08T10:43:38.486Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useCallingAllowed: [subscribeCallback] got new subscription results
+2021-04-08T10:43:38.453Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useCallingAllowed: [fetchUserCallingSetttings] Querying for user calling settings
+2021-04-08T10:43:38.453Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useCallingAllowed: Fetching isCallingAllowed
+2021-04-08T10:43:38.451Z Inf	CDL: {"requestId":"q-30","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"userCallingSettings","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:38.451Z Inf	CDL: {"requestId":"q-30","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"userCallingSettings","message":"Created new request"}
+2021-04-08T10:43:38.450Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useCallingAllowed: [fetchUserCallingSetttings] Querying for user calling settings
+2021-04-08T10:43:38.450Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useCallingAllowed: Fetching isCallingAllowed
+2021-04-08T10:43:38.356Z Inf	CDL: {"requestId":"s-29","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"subscription","operationName":"videoAvailableForConversationChanged","message":"executing graphql request to data layer"}
+2021-04-08T10:43:38.356Z Inf	CDL: {"requestId":"s-29","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","operationType":"subscription","operationName":"videoAvailableForConversationChanged","message":"Created new request"}
+2021-04-08T10:43:38.334Z Inf	CDL: {"requestId":"s-28","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"subscription","operationName":"videoAvailableForConversationChanged","message":"executing graphql request to data layer"}
+2021-04-08T10:43:38.334Z Inf	CDL: {"requestId":"s-28","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","operationType":"subscription","operationName":"videoAvailableForConversationChanged","message":"Created new request"}
+2021-04-08T10:43:37.871Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, HorizontalBar Slot: currentPhase: 2, Phase ended: complete
+2021-04-08T10:43:37.527Z Inf	i18n: imported ./generated/resources/en-us/funstuff
+2021-04-08T10:43:37.504Z Inf	CDL: {"requestId":"m-27","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"mutation","operationName":"switchSpellCheckLanguage","message":"Received response data for request"}
+2021-04-08T10:43:37.499Z Inf	CDL: {"requestId":"q-25","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"presence","message":"Received response data for request"}
+2021-04-08T10:43:37.492Z Inf	CDL: {"requestId":"q-23","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"presence","message":"Received response data for request"}
+2021-04-08T10:43:37.480Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, HorizontalBar Slot: currentPhase: 2, clearTimeout: 26
+2021-04-08T10:43:37.480Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, HorizontalBar Slot: currentPhase: 2, Phase ended: post_critical, Phase started: complete
+2021-04-08T10:43:37.469Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] LayoutWithSlots: ResponsiveTemplate Matched: minWidthBreakpoint:720, availableSlots: header,main,modal,notifications,title-bar
+2021-04-08T10:43:37.397Z Inf	CDL: {"requestId":"m-27","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"mutation","operationName":"switchSpellCheckLanguage","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:37.397Z Inf	CDL: {"requestId":"m-27","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"mutation","operationName":"switchSpellCheckLanguage","message":"Created new request"}
+2021-04-08T10:43:37.392Z Inf	CDL: {"requestId":"s-26","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"subscription","operationName":"presenceUpdateEvent","message":"executing graphql request to data layer"}
+2021-04-08T10:43:37.392Z Inf	CDL: {"requestId":"s-26","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","operationType":"subscription","operationName":"presenceUpdateEvent","message":"Created new request"}
+2021-04-08T10:43:37.390Z Inf	CDL: {"requestId":"q-25","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"presence","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:37.389Z Inf	CDL: {"requestId":"q-25","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"presence","message":"Created new request"}
+2021-04-08T10:43:37.387Z Inf	CDL: {"requestId":"s-24","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"subscription","operationName":"presenceUpdateEvent","message":"executing graphql request to data layer"}
+2021-04-08T10:43:37.387Z Inf	CDL: {"requestId":"s-24","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","operationType":"subscription","operationName":"presenceUpdateEvent","message":"Created new request"}
+2021-04-08T10:43:37.384Z Inf	CDL: {"requestId":"q-23","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"presence","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:37.383Z Inf	CDL: {"requestId":"q-23","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"presence","message":"Created new request"}
+2021-04-08T10:43:37.309Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'files' category, settings: {"enableFilePickerInMultiWindow":true,"enableFilesODPickerInMultiWindow":false,"enableFilesChicletActionInMultiWindow":true,"enableFilesChicletCopyLinkInMultiWindow":false,"enableFileViewerForChiclets":true,"enableDownloadActionForChiclets":true,"enableOpenInDesktopAppActionForChiclets":true,"enableFileOpenExperimentInMultiWindow":false,"enableWebAsDefaultFileOpenPreferenceInMultiWindow":false,"enableDesktopFileOpenPref...
+2021-04-08T10:43:36.985Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, HorizontalBar Slot: currentPhase: 1, onPhaseWillCompleteReason: all-phase-signals-received, Fired 0 onWillComplete callbacks.
+2021-04-08T10:43:36.985Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, HorizontalBar Slot: currentPhase: 1, toggleSignal: chat-header-buttons-rendered
+2021-04-08T10:43:36.984Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, HorizontalBar Slot: currentPhase: 1, setTimeout: 5000
+2021-04-08T10:43:36.984Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, HorizontalBar Slot: currentPhase: 1, clearTimeout: 3
+2021-04-08T10:43:36.984Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, HorizontalBar Slot: currentPhase: 1, Phase ended: critical, Phase started: post_critical
+2021-04-08T10:43:36.863Z Inf	i18n: importing ./generated/resources/en-us/funstuff
+2021-04-08T10:43:36.659Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'growth' category, settings: {"atLessMentionsMinimumThreshold":4,"atLessMentionsPartialThreshold":5,"atLessMentionsExcludedCharacters":",.!?`","enableAtLessMentions":false}
+2021-04-08T10:43:36.524Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, HorizontalBar Slot: currentPhase: 0, onPhaseWillCompleteReason: phase-timeout-fired, Fired 0 onWillComplete callbacks.
+2021-04-08T10:43:36.499Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: installedApps: 59 scope: Personal
+2021-04-08T10:43:36.499Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: installedApps: 59 scope: Personal
+2021-04-08T10:43:36.499Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: installedApps: 59 scope: Personal
+2021-04-08T10:43:36.499Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: installedApps: 59 scope: Personal
+2021-04-08T10:43:36.499Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: installedApps: 59 scope: Personal
+2021-04-08T10:43:36.499Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: installedApps: 59 scope: Personal
+2021-04-08T10:43:36.499Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: installedApps: 59 scope: Personal
+2021-04-08T10:43:36.499Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: installedApps: 59 scope: Personal
+2021-04-08T10:43:36.499Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: installedApps: 59 scope: Personal
+2021-04-08T10:43:36.499Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: installedApps: 59 scope: Personal
+2021-04-08T10:43:36.499Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: installedApps: 59 scope: Personal
+2021-04-08T10:43:36.499Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: installedApps: 59 scope: Personal
+2021-04-08T10:43:36.316Z Inf	CDL: {"requestId":"q-22","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"installedAppsV2","message":"Received response data for request"}
+2021-04-08T10:43:36.234Z Inf	CDL: {"requestId":"q-21","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinition","message":"Received response data for request"}
+2021-04-08T10:43:36.156Z Inf	CDL: {"requestId":"q-18","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinition","message":"Received response data for request"}
+2021-04-08T10:43:36.123Z Inf	CDL: {"requestId":"q-20","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinitions","message":"Received response data for request"}
+2021-04-08T10:43:36.092Z Inf	CDL: {"requestId":"q-19","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinitions","message":"Received response data for request"}
+2021-04-08T10:43:36.064Z Inf	CDL: {"requestId":"q-17","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinitions","message":"Received response data for request"}
+2021-04-08T10:43:36.018Z Inf	CDL: {"requestId":"q-12","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinitions","message":"Received response data for request"}
+2021-04-08T10:43:35.968Z Inf	CDL: {"requestId":"q-8","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinitions","message":"Received response data for request"}
+2021-04-08T10:43:35.402Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: currentPhase: 1, toggleSignal: virtual-list-render-buffer-filled
+2021-04-08T10:43:35.402Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: currentPhase: 1, toggleSignal: presences-rendered
+2021-04-08T10:43:35.402Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: currentPhase: 1, toggleSignal: message-reactions-rendered
+2021-04-08T10:43:35.401Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: getFetchPolicy for installedApps {"Personal":true}
+2021-04-08T10:43:35.260Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: getFetchPolicy for installedApps {"Personal":true}
+2021-04-08T10:43:35.260Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: getFetchPolicy for installedApps {"Personal":true}
+2021-04-08T10:43:35.260Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: getFetchPolicy for installedApps {"Personal":true}
+2021-04-08T10:43:35.260Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: getFetchPolicy for installedApps {"Personal":true}
+2021-04-08T10:43:35.260Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: getFetchPolicy for installedApps {"Personal":true}
+2021-04-08T10:43:35.260Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: getFetchPolicy for installedApps {"Personal":true}
+2021-04-08T10:43:35.110Z Inf	CDL: {"requestId":"q-16","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinition","message":"Received response data for request"}
+2021-04-08T10:43:35.096Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: getFetchPolicy for installedApps {"Personal":true}
+2021-04-08T10:43:35.096Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: getFetchPolicy for installedApps {"Personal":true}
+2021-04-08T10:43:35.027Z Inf	CDL: {"requestId":"q-15","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinition","message":"Received response data for request"}
+2021-04-08T10:43:34.934Z Inf	CDL: {"requestId":"q-14","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"user","message":"Received response data for request"}
+2021-04-08T10:43:34.913Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: getFetchPolicy for installedApps {"Personal":true}
+2021-04-08T10:43:34.743Z Inf	CDL: {"requestId":"q-22","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"installedAppsV2","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:34.742Z Inf	CDL: {"requestId":"q-22","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"installedAppsV2","message":"Created new request"}
+2021-04-08T10:43:34.737Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: getFetchPolicy for installedApps {"Personal":true}
+2021-04-08T10:43:34.737Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] MessageExtensionCardContainerInner: getFetchPolicy for installedApps {"Personal":true}
+2021-04-08T10:43:34.648Z Inf	CDL: {"requestId":"q-11","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinition","message":"Received response data for request"}
+2021-04-08T10:43:34.640Z Inf	CDL: {"requestId":"q-9","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"messagesWithUnreadActivities","message":"Received response data for request"}
+2021-04-08T10:43:34.433Z Inf	CDL: {"requestId":"q-21","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"appDefinition","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:34.432Z Inf	CDL: {"requestId":"q-21","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinition","message":"Created new request"}
+2021-04-08T10:43:34.428Z Inf	CDL: {"requestId":"q-20","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"appDefinitions","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:34.428Z Inf	CDL: {"requestId":"q-20","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinitions","message":"Created new request"}
+2021-04-08T10:43:34.425Z Inf	CDL: {"requestId":"q-19","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"appDefinitions","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:34.425Z Inf	CDL: {"requestId":"q-19","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinitions","message":"Created new request"}
+2021-04-08T10:43:34.418Z Inf	CDL: {"requestId":"q-18","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"appDefinition","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:34.418Z Inf	CDL: {"requestId":"q-18","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinition","message":"Created new request"}
+2021-04-08T10:43:34.416Z Inf	CDL: {"requestId":"q-17","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"appDefinitions","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:34.416Z Inf	CDL: {"requestId":"q-17","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinitions","message":"Created new request"}
+2021-04-08T10:43:34.160Z Inf	CDL: {"requestId":"q-16","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"appDefinition","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:34.159Z Inf	CDL: {"requestId":"q-16","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinition","message":"Created new request"}
+2021-04-08T10:43:34.156Z Inf	CDL: {"requestId":"q-15","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"appDefinition","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:34.155Z Inf	CDL: {"requestId":"q-15","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinition","message":"Created new request"}
+2021-04-08T10:43:34.137Z Inf	CDL: {"requestId":"q-14","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"user","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:34.136Z Inf	CDL: {"requestId":"q-14","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"user","message":"Created new request"}
+2021-04-08T10:43:33.767Z Inf	CDL: {"requestId":"s-13","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"subscription","operationName":"presenceUpdateEvent","message":"executing graphql request to data layer"}
+2021-04-08T10:43:33.767Z Inf	CDL: {"requestId":"s-13","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","operationType":"subscription","operationName":"presenceUpdateEvent","message":"Created new request"}
+2021-04-08T10:43:33.594Z Inf	CDL: {"requestId":"q-12","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"appDefinitions","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:33.594Z Inf	CDL: {"requestId":"q-12","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinitions","message":"Created new request"}
+2021-04-08T10:43:33.576Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: currentPhase: 1, setTimeout: 5000
+2021-04-08T10:43:33.576Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: currentPhase: 1, clearTimeout: 4
+2021-04-08T10:43:33.576Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: currentPhase: 1, Phase ended: critical, Phase started: post_critical
+2021-04-08T10:43:33.507Z Inf	CDL: {"requestId":"q-11","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"appDefinition","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:33.506Z Inf	CDL: {"requestId":"q-11","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinition","message":"Created new request"}
+2021-04-08T10:43:33.209Z Inf	CDL: {"requestId":"s-10","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"subscription","operationName":"presenceUpdateEvent","message":"executing graphql request to data layer"}
+2021-04-08T10:43:33.209Z Inf	CDL: {"requestId":"s-10","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","operationType":"subscription","operationName":"presenceUpdateEvent","message":"Created new request"}
+2021-04-08T10:43:33.188Z Inf	CDL: {"requestId":"q-9","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"messagesWithUnreadActivities","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:33.187Z Inf	CDL: {"requestId":"q-9","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"messagesWithUnreadActivities","message":"Created new request"}
+2021-04-08T10:43:33.171Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useConsumptionHorizon: isConsumptionHorizonPassed false, convId 19:a0451344b3054dccacbd3019349eff66@thread.v2, itemId 16165121271809531760, lastUpdateId 
+2021-04-08T10:43:33.171Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useConsumptionHorizon: isConsumptionHorizonPassed false, convId 19:a0451344b3054dccacbd3019349eff66@thread.v2, itemId 16165121271809531760, lastUpdateId 
+2021-04-08T10:43:33.131Z Inf	CDL: {"requestId":"q-7","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"user","message":"Received response data for request"}
+2021-04-08T10:43:33.123Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T10:43:32.905Z Inf	CDL: {"requestId":"s-4","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","operationType":"subscription","operationName":"hasOngoingCallsChangedEvent","message":"Received response data for request"}
+2021-04-08T10:43:32.898Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: currentPhase: 0, onPhaseWillCompleteReason: all-phase-signals-received, Fired 1 onWillComplete callback.
+2021-04-08T10:43:32.896Z Inf	CommandReportingService: Command event reported Rendered for correlation id 37da9415-42aa-4bde-be60-ec6bd3a27588
+2021-04-08T10:43:32.896Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] useConsumptionHorizon: isConsumptionHorizonPassed false, convId 19:a0451344b3054dccacbd3019349eff66@thread.v2, itemId 16165121271809531760, lastUpdateId 
+2021-04-08T10:43:32.896Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: currentPhase: 0, toggleSignal: messages-rendered
+2021-04-08T10:43:32.801Z Inf	CDL: {"requestId":"q-8","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"appDefinitions","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:32.800Z Inf	CDL: {"requestId":"q-8","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"appDefinitions","message":"Created new request"}
+2021-04-08T10:43:32.755Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatPane: Messages: [1617876851149,1617876850219,1617876841484,1617876841103,1617876798396,1617876797756,1617876784636,1617876189376,1617876188926,1617876162033,1617876161539,1617796103844,1617795991501,1617795547224,1617794146149,1617794101607,1617794101293,1617794028897,1617794028662,1617794026489,1617794019066,1617784771598,1617784771394,1617783181669,1617783181550,1617782391190,1617782391058,1617782390421,1617782343806,1617782343512,1617782326057,1617782325872,1...
+2021-04-08T10:43:32.755Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatPane: Rendering with 40 messages
+2021-04-08T10:43:32.754Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatPane: Consumption Horizon: CMID - 16165121271809531760 OAT - 2021-04-08T10:14:11.149Z
+2021-04-08T10:43:32.601Z Inf	CDL: {"requestId":"q-7","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"user","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:32.599Z Inf	CDL: {"requestId":"q-7","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"user","message":"Created new request"}
+2021-04-08T10:43:32.579Z Inf	CDL: {"requestId":"s-6","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"subscription","operationName":"installedAppsUpdateEventV2","message":"executing graphql request to data layer"}
+2021-04-08T10:43:32.579Z Inf	CDL: {"requestId":"s-6","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","operationType":"subscription","operationName":"installedAppsUpdateEventV2","message":"Created new request"}
+2021-04-08T10:43:32.558Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] InstalledAppsSubscriptionContainerInner: set up installedApps subscription
+2021-04-08T10:43:32.555Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] [ChatPaneLayoutActiveCallWrapper]: Not a meeting, not subscribing for active call notifications
+2021-04-08T10:43:32.281Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'sdk' category, settings: {"sdkHostType":"Desktop","osLocaleInfoPlatformType":"windows","enableOsLocaleInfoInContext":false}
+2021-04-08T10:43:32.092Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'userResources' category, settings: {"isSfbCloud":true,"isSipEnabled":true,"isSfbCloudInBVD":true,"isSipEnabledInBVD":true,"licenseSettings":{"isSharePointEnabled":true,"isExchangeEnabled":true,"isPowerBIEnabled":true,"isProjectWorkManagementEnabled":true,"isOfficeEnabled":true,"isYammerEnabled":true,"isOneDriveForBusinessEnabled":true}}
+2021-04-08T10:43:32.089Z Inf	CDL: {"requestId":"s-5","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"subscription","operationName":"taskModuleUpdateEventV2","message":"executing graphql request to data layer"}
+2021-04-08T10:43:32.089Z Inf	CDL: {"requestId":"s-5","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","operationType":"subscription","operationName":"taskModuleUpdateEventV2","message":"Created new request"}
+2021-04-08T10:43:32.076Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'extensibility' category, settings: {"enableActionExecuteFromBotCard":true,"botsWhitelistForActionExecute":[],"enableRefreshInBotAdaptiveCard":true,"enableUserIdsListFilteringForRefresh":true,"botIdsAllowedToInvokeAutomaticRefresh":["28:d0dde8dd-00c3-4816-8009-65024c0bf5a6","28:f90f3c44-80a5-44eb-b133-5a9e9adec739","28:6a10599e-6735-487a-8689-5df0c68769b9","28:b2dd8a00-02e7-43fe-aaa4-8dc27897856b","28:bb5ea967-b47e-4e60-9f92-83f7071f72a0","28:a6ca...
+2021-04-08T10:43:32.064Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatPane: Messages: [1617876851149,1617876850219,1617876841484,1617876841103,1617876798396,1617876797756,1617876784636,1617876189376,1617876188926,1617876162033,1617876161539,1617796103844,1617795991501,1617795547224,1617794146149,1617794101607,1617794101293,1617794028897,1617794028662,1617794026489,1617794019066,1617784771598,1617784771394,1617783181669,1617783181550,1617782391190,1617782391058,1617782390421,1617782343806,1617782343512,1617782326057,1617782325872,1...
+2021-04-08T10:43:32.064Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatPane: Rendering with 40 messages
+2021-04-08T10:43:32.064Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatPane: Consumption Horizon: CMID - 16165121271809531760 OAT - 2021-04-08T10:14:11.149Z
+2021-04-08T10:43:31.853Z Inf	CDL: {"requestId":"q-2","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"messageList","message":"Received response data for request"}
+2021-04-08T10:43:31.420Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ThemeProvider: The call to useTheme() returned { theme: default, rtl: false }
+2021-04-08T10:43:31.420Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ThemeProvider: The call to useTheme() returned { theme: default, rtl: false }
+2021-04-08T10:43:31.414Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ThemeProvider: The call to useTheme() returned { theme: default, rtl: false }
+2021-04-08T10:43:31.414Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ThemeProvider: The call to useTheme() returned { theme: default, rtl: false }
+2021-04-08T10:43:31.407Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ThemeProvider: The call to useTheme() returned { theme: default, rtl: false }
+2021-04-08T10:43:31.407Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ThemeProvider: The call to useTheme() returned { theme: default, rtl: false }
+2021-04-08T10:43:31.352Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'chat' category, settings: {"enableSTTChat":true,"enableChatPreload":false,"enableRoleBasedChatPermissions":false}
+2021-04-08T10:43:31.336Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'telemetry' category, settings: {"appResponsivenessConstants":{"trailingTimespan":1000,"blinkInterval":100},"enableSendTelemetryToDiagnostics":false,"enableDesktopMemoryAnalyzer":true,"isScenarioMemorySnapshotEnabled":false,"showAllConsoleLogs":false,"enableUserIdSamplingV2":true,"samplingRules":{"scenarions":{"ecs_provider_fetch":0.1,"*":1,"cal_create_webinar_event|failure":100,"cal_delete_webinar_event|failure":100,"webinar_core|failure":100,"we...
+2021-04-08T10:43:31.290Z Inf	CDL: {"requestId":"s-4","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"subscription","operationName":"hasOngoingCallsChangedEvent","message":"executing graphql request to data layer"}
+2021-04-08T10:43:31.290Z Inf	CDL: {"requestId":"s-4","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","operationType":"subscription","operationName":"hasOngoingCallsChangedEvent","message":"Created new request"}
+2021-04-08T10:43:31.247Z Inf	CDL: {"requestId":"q-1","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"chat","message":"Received response data for request"}
+2021-04-08T10:43:31.154Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] LayoutWithSlots: ResponsiveTemplate Matched: minWidthBreakpoint:720, availableSlots: header,main,modal,notifications,title-bar
+2021-04-08T10:43:31.150Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] LayoutWithSlots: ResponsiveTemplate Matched: minWidthBreakpoint:720, availableSlots: header,main,modal,notifications,title-bar
+2021-04-08T10:43:31.140Z Inf	CDL: {"requestId":"s-3","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"subscription","operationName":"chatServiceEvent","message":"executing graphql request to data layer"}
+2021-04-08T10:43:31.140Z Inf	CDL: {"requestId":"s-3","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","operationType":"subscription","operationName":"chatServiceEvent","message":"Created new request"}
+2021-04-08T10:43:31.080Z Inf	ClientStateProvider: Handling idleness change to Active.
+2021-04-08T10:43:31.080Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ClientStateProvider: Handling idleness change to Active.
+2021-04-08T10:43:31.064Z Inf	CDL: {"requestId":"q-2","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"messageList","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:31.062Z Inf	CDL: {"requestId":"q-2","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"messageList","message":"Created new request"}
+2021-04-08T10:43:31.050Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] Chats View: conversationId = 19:a0451344b3054dccacbd3019349eff66@thread.v2, replyChainId = null
+2021-04-08T10:43:31.050Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] Chats View: convId received: 19:a0451344b3054dccacbd3019349eff66@thread.v2
+2021-04-08T10:43:31.044Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ThemeProvider: The call to useTheme() returned { theme: default, rtl: false }
+2021-04-08T10:43:31.044Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ThemeProvider: The call to useTheme() returned { theme: default, rtl: false }
+2021-04-08T10:43:31.040Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'people' category, settings: {"isLPCEnabled":true,"showPersonCardForXTapUser":true,"showPersonCardForSMSUser":false,"enableDirectSubstrateSearchAndAADCallFromClient":false,"enableNonTeamsUserShortCacheExpiry":false,"updateSelectedUserFrequencyEnabled":true,"enableMSABlockUnblockUsers":false,"enableBlockedContactSubscription":false,"enableMSAProfilePicture":false,"minLengthForRemoteSearch":1,"debounceForRemoteSearchInMilliSeconds":750,"instantSCDPh...
+2021-04-08T10:43:31.039Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] HeaderWithChatData: Chat object doesn't exists, return
+2021-04-08T10:43:31.036Z Inf	CDL: {"requestId":"q-1","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","operationType":"query","operationName":"chat","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","message":"executing graphql request to data layer"}
+2021-04-08T10:43:31.034Z Inf	CDL: {"requestId":"q-1","hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"RequestHandler","requestWindowId":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","operationType":"query","operationName":"chat","message":"Created new request"}
+2021-04-08T10:43:31.025Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatHeaderEntry: conversationId = 19:a0451344b3054dccacbd3019349eff66@thread.v2
+2021-04-08T10:43:31.025Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ChatHeaderEntry: entity=19:a0451344b3054dccacbd3019349eff66@thread.v2 for the header slot
+2021-04-08T10:43:31.022Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ThemeProvider: The call to useTheme() returned { theme: default, rtl: false }
+2021-04-08T10:43:31.022Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ThemeProvider: The call to useTheme() returned { theme: default, rtl: false }
+2021-04-08T10:43:30.777Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] LayoutWithSlots: ResponsiveTemplate Matched: minWidthBreakpoint:480, availableSlots: header,main,modal,notifications,title-bar
+2021-04-08T10:43:30.774Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] LayoutWithSlots: useMatchedTemplate: zoom.current, 1, new currentZoom: 0.83, updating minWidthBreakpoint to 720 via getResponsiveBreakpoints with host.self.innerHeight 602 and host.self.innerWidth 725
+2021-04-08T10:43:30.745Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] WindowUtilities: WindowHook[onFullscreen] update to: false
+2021-04-08T10:43:30.611Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] SlotTransition (main slot): Sending new RenderStarted event due to new update in transition, 37da9415-42aa-4bde-be60-ec6bd3a27588
+2021-04-08T10:43:30.611Z Inf	CommandReportingService: Command event reported ChunkLoadSucceeded for correlation id 37da9415-42aa-4bde-be60-ec6bd3a27588
+2021-04-08T10:43:30.607Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] SlotTransition (main slot): Entered, chats/view
+2021-04-08T10:43:30.602Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] SlotTransition (main slot): endListener: Bypassing transition because this isn't a hybrid slot
+2021-04-08T10:43:30.601Z Inf	CommandReportingService: Command event reported RenderStarted for correlation id 37da9415-42aa-4bde-be60-ec6bd3a27588
+2021-04-08T10:43:30.601Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] SlotTransition (main slot): Sending RenderStarted event immediately.
+2021-04-08T10:43:30.590Z Inf	CommandReportingService: Command event reported ChunkLoadStarted for correlation id 37da9415-42aa-4bde-be60-ec6bd3a27588
+2021-04-08T10:43:30.578Z War	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] services-keyboard-shortcuts: Can't assign the handler to the command ShowPerformanceDashboard. Command is not registered in the keymapping strategy.
+2021-04-08T10:43:30.578Z War	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] services-keyboard-shortcuts: Can't assign the handler to the command ShowDiagnosticWindow. Command is not registered in the keymapping strategy.
+2021-04-08T10:43:30.573Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Modal Slot: currentPhase: 2, Phase ended: post_critical, Phase started: complete
+2021-04-08T10:43:30.572Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Modal Slot: Initializing a new PhaseStateMachine instance, action: undefined, id: undefined, type: undefined
+2021-04-08T10:43:30.556Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] LayoutWithSlots: ResponsiveTemplate Matched: minWidthBreakpoint:480, availableSlots: header,main,modal,notifications,title-bar
+2021-04-08T10:43:30.555Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, TitleBar Slot: currentPhase: 2, Phase ended: post_critical, Phase started: complete
+2021-04-08T10:43:30.555Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, TitleBar Slot: Initializing a new PhaseStateMachine instance, action: view, id: 19:a0451344b3054dccacbd3019349eff66@thread.v2, type: chats
+2021-04-08T10:43:30.555Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Rail Slot: currentPhase: 2, Phase ended: post_critical, Phase started: complete
+2021-04-08T10:43:30.554Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Rail Slot: Initializing a new PhaseStateMachine instance, action: view, id: 19:a0451344b3054dccacbd3019349eff66@thread.v2, type: chats
+2021-04-08T10:43:30.554Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Rail Slot: currentPhase: 2, Phase ended: post_critical, Phase started: complete
+2021-04-08T10:43:30.554Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Rail Slot: Initializing a new PhaseStateMachine instance, action: undefined, id: undefined, type: undefined
+2021-04-08T10:43:30.554Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, ThinHorizontalBar Slot: currentPhase: 2, Phase ended: post_critical, Phase started: complete
+2021-04-08T10:43:30.554Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, ThinHorizontalBar Slot: Initializing a new PhaseStateMachine instance, action: view, id: 19:a0451344b3054dccacbd3019349eff66@thread.v2, type: chats
+2021-04-08T10:43:30.553Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, VerticalBar Slot: currentPhase: 2, Phase ended: post_critical, Phase started: complete
+2021-04-08T10:43:30.553Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, VerticalBar Slot: Initializing a new PhaseStateMachine instance, action: view, id: 19:a0451344b3054dccacbd3019349eff66@thread.v2, type: chats
+2021-04-08T10:43:30.553Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Thumbnail Slot: currentPhase: 2, Phase ended: post_critical, Phase started: complete
+2021-04-08T10:43:30.553Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Thumbnail Slot: Initializing a new PhaseStateMachine instance, action: view, id: 19:a0451344b3054dccacbd3019349eff66@thread.v2, type: chats
+2021-04-08T10:43:30.552Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: currentPhase: 0, setTimeout: 5000
+2021-04-08T10:43:30.552Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: currentPhase: 0, Phase started: critical
+2021-04-08T10:43:30.552Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Main Slot: Initializing a new PhaseStateMachine instance, action: view, id: 19:a0451344b3054dccacbd3019349eff66@thread.v2, type: chats
+2021-04-08T10:43:30.551Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, HorizontalBar Slot: currentPhase: 0, setTimeout: 5000
+2021-04-08T10:43:30.551Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, HorizontalBar Slot: currentPhase: 0, Phase started: critical
+2021-04-08T10:43:30.550Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, HorizontalBar Slot: Initializing a new PhaseStateMachine instance, action: view, id: 19:a0451344b3054dccacbd3019349eff66@thread.v2, type: chats
+2021-04-08T10:43:30.550Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Rail Slot: currentPhase: 2, Phase ended: post_critical, Phase started: complete
+2021-04-08T10:43:30.549Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] PhaseStateMachine, Rail Slot: Initializing a new PhaseStateMachine instance, action: undefined, id: undefined, type: undefined
+2021-04-08T10:43:30.543Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ThemeProvider: The call to useTheme() returned { theme: default, rtl: false }
+2021-04-08T10:43:30.543Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'platform' category, settings: {"localeCode":"en-us","staticsPath":"https://statics.teams.cdn.office.net","clientVersion":"27/21021100610","sessionId":"bdec9a1f-1d34-ecf7-027a-67f985bbc6d5","useEdgeSpecificImages":false,"isHtmlInputSelectApiSupported":true,"useMacKeyboardLayout":false,"isScreenRecordingPermissionRequired":false,"enableSlotBorderRadius":false,"vdi":{"provider":"None","mode":"0","isAvRemoted":false,"configFilter":null}}
+2021-04-08T10:43:30.542Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ThemeProvider: The call to useTheme() returned { theme: default, rtl: false }
+2021-04-08T10:43:30.542Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'calling' category, settings: {"enableCallTransfer":true,"enableVolumeSlider":true,"enableAudioMicMeter":true,"showDtmfKeypad":true,"enableMsTeamsCallingIntegration":false,"isCallingScreenInteractive":true,"isCallingAlertDismissEnabled":true,"buttonsOrderDocked":[{"configName":"default","barItems":[{"name":"ViewModeButton","isIndicator":true},{"name":"IndicatorDivider","isIndicator":true,"isCustom":true},{"name":"ClosedCaptionsIndicator","isIndica...
+2021-04-08T10:43:30.533Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] UseSlotsConfig: ResponsiveTemplates FOUND correlationId: 37da9415-42aa-4bde-be60-ec6bd3a27588, hyER: false, slotsConfigKeys: title-bar,notifications,header,main,modal, viewportContext: popout
+2021-04-08T10:43:30.494Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'core' category, settings: {"policyServiceEndpointRoute":"beta/users/useraggregatesettings","policyServiceGtm":"middleTier","policyRefreshIntervalInMs":7200000,"enablePoliciesDefaultValues":false,"ecsNamespaces":["TeamsNorthstar"],"enableEndpointsManager":true,"enableEndpointsManagerOnEcs":true,"enableEndpointsManagerOnPolicyService":false,"enableAmsCookieValidation":true,"ecsRefreshIntervalInMs":3600000,"enableHeaderV2":true,"sanePromise":false,"...
+2021-04-08T10:43:30.485Z Inf	CoreSettings/Service(g): Creating subject for 'people' category, settings: {"isLPCEnabled":true,"showPersonCardForXTapUser":true,"showPersonCardForSMSUser":false,"enableDirectSubstrateSearchAndAADCallFromClient":false,"enableNonTeamsUserShortCacheExpiry":false,"updateSelectedUserFrequencyEnabled":true,"enableMSABlockUnblockUsers":false,"enableBlockedContactSubscription":false,"enableMSAProfilePicture":false,"minLengthForRemoteSearch":1,"debounceForRemoteSearchInMilliSeconds":750,"instantSCDPhoneNumberMinLen...
+2021-04-08T10:43:30.476Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'auth' category, settings: {"redirectUrlPath":"","instanceUrl":"https://login.microsoftonline.com/","audience":"common","clientId":"","expectedErrors":["safari timeout","AADSTS500014: The service principal for resource 'https://api.spaces.skype.com' is disabled.  This indicate that a subscription within the tenant has lapsed, or that the administrator for this tenant has disabled the application, preventing tokens from being issued for it."],"webA...
+2021-04-08T10:43:30.428Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'diagnostics' category, settings: {"diagnosticsEventQueueMaxSize":1000,"enableDiagnosticsBackup":false,"diagnosticsBackupSyncCycleMs":500,"isDiagnosticsPanelEnabled":true,"enableReactDiagnostics":false,"enableReactDiagnosticsConsoleLog":true}
+2021-04-08T10:43:30.427Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'shortcuts' category, settings: {"enableDevShortcuts":false,"enableLandmarksNavigation":true,"enablePassUnhandledShortcutsToShellComms":false,"applyDesktopKeymappingStrategy":true,"shortcutsForPopout":true}
+2021-04-08T10:43:30.426Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'messaging' category, settings: {"msgEnableShowHiddenChatHistory":false,"deepLinkDomains":["https://teams.microsoft.com"],"deepLinkPaths":["/l/","/meet/"],"enableUrlPreviewV2Endpoint":false,"allowUserChat":true,"disableImagePasteWarningBanner":false,"pasteImagePolicyLearnMoreUrl":"","disableGiphyDisplay":false,"msgEnableResponsiveChatPane":true,"enablePassiveDataLossPrevention":true,"enablePassiveDataLossPreventionInMW":true,"msgEnableContextMenuI...
+2021-04-08T10:43:30.425Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'localization' category, settings: {"enableLocalizedKeyboardShortcuts":false}
+2021-04-08T10:43:30.424Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ThemeProvider: The call to useTheme() returned { theme: default, rtl: false }
+2021-04-08T10:43:30.423Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'host' category, settings: {"enableMultiWindowV2":true,"isBlueberryPreJoin":false,"enableHybridExperienceRendererLayout":false,"enableHybridChatHeader":false,"keyboardLayoutLanguage":"en","localeCode":"en-us","theme":"default","performanceMode":0,"appState":4,"createdTime":1617878328080,"enableSyncEngine":false,"hostAppWebVersion":"27/1.0.0.2021030227","cdlWorkerType":"electron","cdlSharedWorkerUrl":"https://teams.microsoft.com/statics/hashed/prec...
+2021-04-08T10:43:30.409Z Inf	CoreSettings/Service(g/v-popout-chats): Creating subject for 'metadata' category, settings: {"ring":{"id":"general","friendlyName":"Public"},"environment":"prod","hostETag":"\"rHrE4xovj5z7IOxI2GChgqIMMChpjb7KEYKkdIPhLKM=\"","eTag":"\"FkxF0bhJ+12ThLqHI+xKdLBX7OSH5FtkOXih7ml55Dk=\"","configIds":{"experiments":["P-E-79180-2-4","P-E-78963-2-4","P-E-78846-2-4","P-E-78816-C1-4","P-E-78802-2-4","P-E-78728-2-4","P-E-78642-2-4","P-E-78510-2-4","P-E-78382-C1-4","P-E-78279-2-4","P-E-77509-2-4","P-E-77358-C1-4","P-E-67...
+2021-04-08T10:43:30.407Z Inf	CoreSettings/Service(g/v-popout-chats): Created.
+2021-04-08T10:43:30.406Z Inf	CoreSettings/Context(g/v-popout-chats): Created.
+2021-04-08T10:43:30.405Z Inf	CoreSettings/Context(g): Acquiring context for viewport params:  {"id":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","viewportContext":"popout","entityType":"chats"}
+2021-04-08T10:43:30.396Z Inf	InterProcessStore: Middleware:: State After: 
+{
+  "storeInitialized": true,
+  "ipcProfiler": {},
+  "renderers": {
+    "main-renderer": {
+      "rendererId": "main-renderer",
+      "nestedRenderers": [
+        "exp-5"
+      ],
+      "renderedWebContents": [
+        "1"
+      ],
+      "lifecycle": {
+        "createdTime": 1252.2920999997295
+      }
+    },
+    "exp-5": {
+      "rendererId": "exp-5",
+      "nestedRenderers": [],
+      "renderedWebContents": [
+        "5",
+        "7"
+      ],
+      "lifecycle":...
+2021-04-08T10:43:30.395Z Inf	InterProcessStore: Middleware:: Action: 
+{
+  "type": "WEBCONTENTS_CREATED",
+  "rendererId": "exp-5",
+  "initState": {
+    "windowId": "6bf7d764-de5b-4f44-81d7-159d7d42dcec",
+    "webContentsId": "7",
+    "lifecycle": {
+      "createdTime": 294170.0359009998
+    }
+  },
+  "meta": {
+    "scope": "local"
+  }
+}
+2021-04-08T10:43:30.394Z Inf	InterProcessStore: Middleware:: State After: 
+{
+  "storeInitialized": true,
+  "ipcProfiler": {},
+  "renderers": {
+    "main-renderer": {
+      "rendererId": "main-renderer",
+      "nestedRenderers": [
+        "exp-5"
+      ],
+      "renderedWebContents": [
+        "1"
+      ],
+      "lifecycle": {
+        "createdTime": 1252.2920999997295
+      }
+    },
+    "exp-5": {
+      "rendererId": "exp-5",
+      "nestedRenderers": [],
+      "renderedWebContents": [
+        "5"
+      ],
+      "lifecycle": {
+        "c...
+2021-04-08T10:43:30.393Z Inf	InterProcessStore: Middleware:: Action: 
+{
+  "type": "WINDOW_OPENED",
+  "initState": {
+    "windowId": "6bf7d764-de5b-4f44-81d7-159d7d42dcec",
+    "browserWindowId": 5,
+    "layout": {
+      "minimized": false,
+      "maximized": false,
+      "fullscreen": false,
+      "bounds": {
+        "x": 20,
+        "y": 20,
+        "width": 604,
+        "height": 502
+      },
+      "minimalSize": {
+        "width": 602,
+        "height": 500
+      }
+    },
+    "lifecycle": {
+      "openedTime": 294169.6780010001
+    ...
+2021-04-08T10:43:30.350Z Inf	CommandReportingService: Command event reported WindowCreated for correlation id 37da9415-42aa-4bde-be60-ec6bd3a27588
+2021-04-08T10:43:30.348Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ClientStateProvider: Initialized
+2021-04-08T10:43:30.347Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ClientStateProvider: Handling idleness change to Inactive.
+2021-04-08T10:43:30.347Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ClientStateProvider: Client state is Active.
+2021-04-08T10:43:30.346Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] ClientStateProvider: Initializing clientState with state=Active
+2021-04-08T10:43:30.346Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] IdleTracker: Initialized
+2021-04-08T10:43:30.324Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] WindowStateManager: windowState: { top: 0, left: 0, width: 602, height: 500, offset: 20, minHeight: 500, minWidth: 602 }
+2021-04-08T10:43:30.068Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] WindowStateManager: windowStateFeatures: top=20,left=20,width=602,height=500,minWidth=602,minHeight=500
+2021-04-08T10:43:30.068Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] WindowStateManager: Screen info: { availHeight: 690, availWidth: 1280, availTop: 0, availLeft: 0, height: 720, width: 1280, orientation: landscape-primary }
+2021-04-08T10:43:30.067Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] WindowStateManager: Number of open windows: 1, mainWindowPosition: [0, 0]
+2021-04-08T10:43:30.066Z Inf	CID[6bf7d764-de5b-4f44-81d7-159d7d42dcec] WindowStateManager: primaryEntityId: 19:a0451344b3054dccacbd3019349eff66@thread.v2, primaryEntityType: chats, primaryEntityAction: view
+2021-04-08T10:43:30.054Z Inf	CommandReportingService: Command event reported WindowUpdated for correlation id 37da9415-42aa-4bde-be60-ec6bd3a27588
+2021-04-08T10:43:30.050Z Inf	executeEntityCommand-mutation: After updating window cache, there are 1 active windows
+2021-04-08T10:43:30.044Z Inf	executeEntityCommand-mutation: Focusing window 6bf7d764-de5b-4f44-81d7-159d7d42dcec for correlation 37da9415-42aa-4bde-be60-ec6bd3a27588
+2021-04-08T10:43:30.043Z Inf	executeEntityCommand-mutation: Handling the requested entity command internally for correlation 37da9415-42aa-4bde-be60-ec6bd3a27588
+2021-04-08T10:43:30.043Z Inf	executeEntityCommand-mutation: Opener should handle chat 19:a0451344b3054dccacbd3019349eff66@thread.v2 false
+2021-04-08T10:43:30.043Z Inf	executeEntityCommand-mutation: Checking if opener should handle chat 19:a0451344b3054dccacbd3019349eff66@thread.v2: isChatHybridArchitectureEnabled
+      false, and isNotNewOnMainContext false
+2021-04-08T10:43:30.042Z Inf	CoreSettings/Service(g): Creating subject for 'calendar' category, settings: {"enableAllowFluidCollaboratePolicyBypass":false,"enableBIMCalendarSurface":true,"enableCalendarV2PreReleaseFeatures":true,"enableMultiWindowCalendarSchedulingForm":false,"enableSFCloseRouteToCalendarSurface":true,"enableMeetingOptionsButton":false,"enableMultiWindowUseProjectStyles":false,"enableSpeedyMeetings":false,"enableMultiWindowCalendarSchedulingFormViewAndEdit":false,"disableCalendarFeaturesInMultiwindow":true,"disableForm...
+2021-04-08T10:43:30.040Z Inf	executeEntityCommand-mutation: Target window: {"id":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","correlation":"{\"id\":\"37da9415-42aa-4bde-be60-ec6bd3a27588\",\"startTimestamp\":1617878610005,\"source\":\"ExternalCommand-chat-header-button\",\"__typename\":\"Correlation\"}","activeEntities":{"primaryEntity":"{\"id\":\"19:a0451344b3054dccacbd3019349eff66@thread.v2\",\"type\":\"chats\",\"action\":\"view\",\"linkedEntity\":\"null\",\"entityState\":\"{\\\"flushableByLinkedEntity\\\":true,\\\"__typename\\\":\\\"Enti...
+2021-04-08T10:43:30.040Z Inf	executeEntityCommand-mutation: Flushing window - {"id":"19:a0451344b3054dccacbd3019349eff66@thread.v2","type":"chats","action":"view","linkedEntity":"null","entityState":"{\"flushableByLinkedEntity\":true,\"__typename\":\"EntityState\"}"} and correlation 37da9415-42aa-4bde-be60-ec6bd3a27588
+2021-04-08T10:43:30.039Z Inf	executeEntityCommand-mutation: Source window: {"id":"6bf7d764-de5b-4f44-81d7-159d7d42dcec","correlation":"{\"id\":\"37da9415-42aa-4bde-be60-ec6bd3a27588\",\"startTimestamp\":1617878610005,\"source\":\"ExternalCommand-chat-header-button\",\"__typename\":\"Correlation\"}"}
+2021-04-08T10:43:30.039Z Inf	executeEntityCommand-mutation: Before updating cache, There are 0 active windows
+2021-04-08T10:43:30.038Z Inf	executeEntityCommand-mutation: Creating new window with id 6bf7d764-de5b-4f44-81d7-159d7d42dcec for correlation 37da9415-42aa-4bde-be60-ec6bd3a27588
+2021-04-08T10:43:30.038Z Inf	executeEntityCommand-mutation: isNewContextSupportEnabled true
+2021-04-08T10:43:30.038Z Inf	executeEntityCommand-mutation: Command with id 37da9415-42aa-4bde-be60-ec6bd3a27588 received on window context main
+2021-04-08T10:43:30.038Z Inf	executeEntityCommand-mutation: Command received :{"visibilityState":"show","stateTransition":"new","correlation":"{\"id\":\"37da9415-42aa-4bde-be60-ec6bd3a27588\",\"startTimestamp\":1617878610005,\"source\":\"ExternalCommand-chat-header-button\"}"}
+2021-04-08T10:43:30.038Z Inf	executeEntityCommand-mutation: Command received for entity {"id":"19:a0451344b3054dccacbd3019349eff66@thread.v2","type":"chats","action":"view","linkedEntity":"null","entityState":"{\"flushableByLinkedEntity\":true,\"__typename\":\"EntityState\"}"}
+2021-04-08T10:43:30.029Z Inf	CommandReportingService: Command event reported CommandReceived for correlation id 37da9415-42aa-4bde-be60-ec6bd3a27588
+2021-04-08T10:43:30.028Z Inf	CommandReportingService: Starting to track command with correlation Id 37da9415-42aa-4bde-be60-ec6bd3a27588
+2021-04-08T10:42:49.997Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T10:41:08.990Z Inf	ClientStateSender: Sending state to main window: 3 (ClientState=Active)
+2021-04-08T10:41:08.990Z Inf	ClientStateSender: Starting recurring sending of client state: Active
+2021-04-08T10:41:08.990Z Inf	ClientStateProvider: Client state is Active.
+2021-04-08T10:41:08.990Z Inf	ClientStateProvider: Updating client state from=Inactive to=Active.
+2021-04-08T10:41:08.989Z Inf	ClientStateProvider: Handling pushed host appState update change to 3.
+2021-04-08T10:40:50.060Z Inf	AuthenticationService: Set TSAUTHCOOKIE with expires=1617953016
+2021-04-08T10:40:49.995Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T10:39:12.238Z Inf	InterProcessStore: Middleware:: State After: 
+{
+  "storeInitialized": true,
+  "ipcProfiler": {},
+  "renderers": {
+    "main-renderer": {
+      "rendererId": "main-renderer",
+      "nestedRenderers": [
+        "exp-5"
+      ],
+      "renderedWebContents": [
+        "1"
+      ],
+      "lifecycle": {
+        "createdTime": 1252.2920999997295
+      }
+    },
+    "exp-5": {
+      "rendererId": "exp-5",
+      "nestedRenderers": [],
+      "renderedWebContents": [
+        "5"
+      ],
+      "lifecycle": {
+        "c...
+2021-04-08T10:39:12.237Z Inf	InterProcessStore: Middleware:: Action: 
+{
+  "type": "PRUNE_RENDERERS",
+  "meta": {
+    "scope": "local"
+  }
+}
+2021-04-08T10:39:11.997Z Inf	InterProcessStore: Middleware:: State After: 
+{
+  "storeInitialized": true,
+  "ipcProfiler": {},
+  "renderers": {
+    "main-renderer": {
+      "rendererId": "main-renderer",
+      "nestedRenderers": [
+        "exp-5"
+      ],
+      "renderedWebContents": [
+        "1"
+      ],
+      "lifecycle": {
+        "createdTime": 1252.2920999997295
+      }
+    },
+    "exp-5": {
+      "rendererId": "exp-5",
+      "nestedRenderers": [],
+      "renderedWebContents": [
+        "5"
+      ],
+      "lifecycle": {
+        "c...
+2021-04-08T10:39:11.996Z Inf	InterProcessStore: Middleware:: Action: 
+{
+  "type": "PRUNE_WINDOWS",
+  "meta": {
+    "scope": "local"
+  }
+}
+2021-04-08T10:38:52.566Z Inf	Main-Window-Event-Listeners: Sending windowid: null and shouldShowChatNotification: true for conv 19:ab1f89a26c6e4163a306d1e54b4c4e3f@thread.v2
+2021-04-08T10:38:52.565Z Inf	Main-Window-Event-Listeners: window hasFocus: undefined with isInactive: true for conv 19:ab1f89a26c6e4163a306d1e54b4c4e3f@thread.v2
+2021-04-08T10:38:52.564Z Inf	Main-Window-Event-Listeners: Received shouldShowNotification request for conv 19:ab1f89a26c6e4163a306d1e54b4c4e3f@thread.v2 with entityType chats
+2021-04-08T10:38:52.564Z Inf	Main-Window-Event-Listeners: null entityType received: undefined
+2021-04-08T10:38:52.564Z Inf	Main-Window-Event-Listeners: Sending windowid: null and shouldShowChatNotification: true for conv 19:a0451344b3054dccacbd3019349eff66@thread.v2
+2021-04-08T10:38:52.563Z Inf	Main-Window-Event-Listeners: window hasFocus: undefined with isInactive: true for conv 19:a0451344b3054dccacbd3019349eff66@thread.v2
+2021-04-08T10:38:52.561Z Inf	Main-Window-Event-Listeners: Received shouldShowNotification request for conv 19:a0451344b3054dccacbd3019349eff66@thread.v2 with entityType chats
+2021-04-08T10:38:52.561Z Inf	Main-Window-Event-Listeners: null entityType received: undefined
+2021-04-08T10:38:52.442Z Inf	InterProcessStore: Middleware:: State After: 
+{
+  "storeInitialized": true,
+  "ipcProfiler": {},
+  "renderers": {
+    "main-renderer": {
+      "rendererId": "main-renderer",
+      "nestedRenderers": [
+        "exp-5"
+      ],
+      "renderedWebContents": [
+        "1"
+      ],
+      "lifecycle": {
+        "createdTime": 1252.2920999997295
+      }
+    },
+    "exp-5": {
+      "rendererId": "exp-5",
+      "nestedRenderers": [],
+      "renderedWebContents": [
+        "5"
+      ],
+      "lifecycle": {
+        "c...
+2021-04-08T10:38:52.438Z Inf	InterProcessStore: Middleware:: Action: 
+{
+  "type": "ACTIVE_CALL_STATE_UPDATED",
+  "context": null,
+  "readyState": "ready",
+  "meta": {
+    "scope": "local"
+  }
+}
+2021-04-08T10:38:51.595Z Inf	CoreSettings/Service(g): Notifying subscribers of: 'messaging', settings changed to:  {"msgEnableShowHiddenChatHistory":false,"deepLinkDomains":["https://teams.microsoft.com"],"deepLinkPaths":["/l/","/meet/"],"enableUrlPreviewV2Endpoint":false,"allowUserChat":true,"disableImagePasteWarningBanner":false,"pasteImagePolicyLearnMoreUrl":"","disableGiphyDisplay":false,"msgEnableResponsiveChatPane":true,"enablePassiveDataLossPrevention":true,"enablePassiveDataLossPreventionInMW":true,"msgEnableContextMenuInMW":tr...
+2021-04-08T10:38:51.595Z Inf	CoreSettings/Service(g): Notifying subscribers of: 'userResources', settings changed to:  {"isSfbCloud":true,"isSipEnabled":true,"isSfbCloudInBVD":true,"isSipEnabledInBVD":true,"licenseSettings":{"isSharePointEnabled":true,"isExchangeEnabled":true,"isPowerBIEnabled":true,"isProjectWorkManagementEnabled":true,"isOfficeEnabled":true,"isYammerEnabled":true,"isOneDriveForBusinessEnabled":true}}
+2021-04-08T10:38:51.594Z Inf	CoreSettings/Service(g): Updated settings: {"core":{"policyServiceEndpointRoute":"beta/users/useraggregatesettings","policyServiceGtm":"middleTier","policyRefreshIntervalInMs":7200000,"enablePoliciesDefaultValues":false,"ecsNamespaces":["TeamsNorthstar"],"enableEndpointsManager":true,"enableEndpointsManagerOnEcs":true,"enableEndpointsManagerOnPolicyService":false,"enableAmsCookieValidation":true,"ecsRefreshIntervalInMs":3600000,"enableHeaderV2":true,"sanePromise":false,"enableApolloCacheStats":true,"enableC...
+2021-04-08T10:38:51.583Z Inf	CoreSettings/Service(g): Settings have changed, checking for differences in these categories: ["core","diagnostics","telemetry","host","metadata","userResources","test","auth","cdl","messaging","extensibility","chat"]
+2021-04-08T10:38:51.583Z Inf	CoreSettings/CachedProvider: Cache 'tmp.policy-cache' updated.
+2021-04-08T10:38:51.551Z Inf	ClientStateProvider: Handling pushed host appState update change to 4.
+2021-04-08T10:38:51.551Z Inf	HostStateProvider: Handling pushed machineLock update change: isMachineLocked = false.
+2021-04-08T10:38:51.514Z Inf	CoreSettings/Service(g): Creating subject for 'chat' category, settings: {"enableSTTChat":true,"enableChatPreload":false,"enableRoleBasedChatPermissions":false}
+2021-04-08T10:38:51.511Z Inf	Discover: skypeid and region received from host: 8:orgid:4654a0b8-9d92-4eba-9c36-98630eaf6aec amer
+2021-04-08T10:38:51.511Z Inf	TaskManagerService: notify::tasks complete - lifeCycleEvent=1, taskCount=4
+2021-04-08T10:38:51.511Z Inf	CoreSettings/PolicyProvider: Loaded policies mapping:  {"calling":{"allowPrivateCallingPolicy":{"name":"callingPolicy.allowPrivateCalling"},"delegationSettingsPolicy":{"name":"voiceAdminSettings.delegationSettings"},"dialPlanPolicy":{"name":"policySettings.dialPlanPolicy"},"myPhoneNumber":{"name":"voiceAdminSettings.phoneNumber"},"safeTransferPolicy":{"name":"callingPolicy.safeTransferEnabled"},"allowCloudRecordingPolicy":{"name":"meetingPolicy.allowCloudRecording"},"allowRecordingStorageOutsideRegion":{"na...
+2021-04-08T10:38:51.510Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T10:38:51.494Z Inf	TaskManagerService: notify::starting - lifeCycleEvent=1, taskCount=4
+2021-04-08T10:38:51.493Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T10:38:51.493Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T10:38:51.477Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T10:38:51.450Z Inf	CoreSettings/Service(g): Notifying subscribers of: 'cdl', settings changed to:  {"stableResolvers":{"version":18,"resolvers":{"query":["appDefinition","appDefinitions","appsUsage","autoMuteChatAlertBannerDismissed","biometricEnrollmentPrivacyLink","botSsoConsentRequest","breakoutRoom","broadcast","broadcastCaptions","buddyGroup","buildChatTitle","callByCallId","call","teamsCallIdByCallId","callAttendeeRestrictedModalities","callHealthCategories","callingAggregateSettings","callingAlerts","callingIntent","ca...
+2021-04-08T10:38:51.449Z Inf	CoreSettings/Service(g): Updated settings: {"core":{"policyServiceEndpointRoute":"beta/users/useraggregatesettings","policyServiceGtm":"middleTier","policyRefreshIntervalInMs":7200000,"enablePoliciesDefaultValues":false,"ecsNamespaces":["TeamsNorthstar"],"enableEndpointsManager":true,"enableEndpointsManagerOnEcs":true,"enableEndpointsManagerOnPolicyService":false,"enableAmsCookieValidation":true,"ecsRefreshIntervalInMs":3600000,"enableHeaderV2":true,"sanePromise":false,"enableApolloCacheStats":true,"enableC...
+2021-04-08T10:38:51.440Z Inf	CoreSettings/Service(g): Settings have changed, checking for differences in these categories: ["core","diagnostics","telemetry","host","metadata","userResources","test","auth","cdl","messaging","extensibility"]
+2021-04-08T10:38:51.440Z Inf	CoreSettings/CachedProvider: Cache 'tmp.ecs-settings-cache' updated.
+2021-04-08T10:38:51.438Z Inf	CoreSettings/EcsProvider: Settings updated to: {"core":{"testExperiment":true,"enableCdlRegistration":true,"enableHeaderV2":true},"calendar":{"enableCalendarExtensibilityTabs":true},"calling":{"voiceRecognitionEnrollmentLink":"","shareInviteDialogFunctionalities":["addParticipants","defaultEmail"],"enableMeetNowShareInviteOnLanding":true,"enableMeetNowShareInvite":true,"buttonsOrderDocked":[{"configName":"default","barItems":[{"name":"ViewModeButton","isIndicator":true},{"name":"IndicatorDivider","isIndicat...
+2021-04-08T10:38:51.436Z Inf	InterProcessStore: Middleware:: State After: 
+{
+  "storeInitialized": true,
+  "renderers": {
+    "main-renderer": {
+      "rendererId": "main-renderer",
+      "nestedRenderers": [
+        "exp-5"
+      ],
+      "renderedWebContents": [
+        "1"
+      ],
+      "lifecycle": {
+        "createdTime": 1252.2920999997295
+      }
+    },
+    "exp-5": {
+      "rendererId": "exp-5",
+      "nestedRenderers": [],
+      "renderedWebContents": [
+        "5"
+      ],
+      "lifecycle": {
+        "createdTime": 12374.16...
+2021-04-08T10:38:51.436Z Inf	InterProcessStore: Middleware:: Action: 
+{
+  "type": "INIT",
+  "initState": {
+    "storeInitialized": true,
+    "ipcProfiler": {},
+    "renderers": {
+      "main-renderer": {
+        "rendererId": "main-renderer",
+        "nestedRenderers": [
+          "exp-5"
+        ],
+        "renderedWebContents": [
+          "1"
+        ],
+        "lifecycle": {
+          "createdTime": 1252.2920999997295
+        }
+      },
+      "exp-5": {
+        "rendererId": "exp-5",
+        "nestedRenderers": [],
+        "rendered...
+2021-04-08T10:38:51.435Z Inf	EPM: Response for getEcsSettings - {"status":200,"headers":{"cache-control":"no-cache,max-age=3600","content-length":"7365","content-type":"application/json","date":"Thu, 08 Apr 2021 10:38:49 GMT","etag":"\"FkxF0bhJ+12ThLqHI+xKdLBX7OSH5FtkOXih7ml55Dk=\"","expires":"Thu, 08 Apr 2021 11:38:49 GMT"},"body":{},"url":"https://config.teams.microsoft.com/config/v1/MicrosoftTeams/27_1.0.0.0?audienceGroup=general&environment=prod&experience=multi-window&id=4654a0b8-9d92-4eba-9c36-98630eaf6aec&aaduserid=4654a0b8-9d92...
+2021-04-08T10:38:51.359Z Inf	TaskManagerService: notify::tasks complete - lifeCycleEvent=0, taskCount=32
+2021-04-08T10:38:51.359Z Inf	InitATPPolicyTask: InitATPPolicyTask - Do nothing, FF is disabled
+2021-04-08T10:38:51.358Z Inf	InterProcessStore: createStore:: Store Wrapped
+2021-04-08T10:38:51.358Z Inf	InterProcessStore: createStore:: Store Created
+2021-04-08T10:38:51.356Z Inf	InterProcessStore: Middleware:: On Renderer
+2021-04-08T10:38:51.355Z Inf	InterProcessStore: createStore:: Setting up middleware
+2021-04-08T10:38:51.348Z Inf	createTerminatingLink: Merged datalayer settings with config: {"query":["messages","message","chat","hasVideoOwnership","membersConsumptionHorizon","searchUsersByConversation","chatWithUser","chatsWithUsers","validateUpgradePolicyOfChatRecipient","messageLanguages","messagesWithUnreadActivities","favoritePhoneNumbers","screenRecordingEnabled","parsedAndFormattedNumber","callingPerformanceScenarioId","isStandardFormatNormalized","streamPermissions","parkedCalls","deviceList","devicePermission","slaCalls","tr...
+2021-04-08T10:38:51.347Z Inf	createTerminatingLink: Supported operations received from Angular: {"query":["messages","message","chat","hasVideoOwnership","membersConsumptionHorizon","searchUsersByConversation","chatWithUser","chatsWithUsers","validateUpgradePolicyOfChatRecipient","messageLanguages","messagesWithUnreadActivities","favoritePhoneNumbers","screenRecordingEnabled","parsedAndFormattedNumber","callingPerformanceScenarioId","isStandardFormatNormalized","streamPermissions","conversationInDifferentTenant","parkedCalls","deviceLi...
+2021-04-08T10:38:51.347Z Inf	createTerminatingLink: Supported additional operations: {"query":[],"mutation":["cardCacheOperation"],"subscription":[]}
+2021-04-08T10:38:51.347Z Inf	CoreSettings/Service(g): Creating subject for 'extensibility' category, settings: {"enableActionExecuteFromBotCard":true,"botsWhitelistForActionExecute":[],"enableRefreshInBotAdaptiveCard":true,"enableUserIdsListFilteringForRefresh":true,"botIdsAllowedToInvokeAutomaticRefresh":["28:d0dde8dd-00c3-4816-8009-65024c0bf5a6","28:f90f3c44-80a5-44eb-b133-5a9e9adec739","28:6a10599e-6735-487a-8689-5df0c68769b9","28:b2dd8a00-02e7-43fe-aaa4-8dc27897856b","28:bb5ea967-b47e-4e60-9f92-83f7071f72a0","28:a6cad722-db53-46c2-...
+2021-04-08T10:38:51.343Z Inf	CoreSettings/Service(g): Creating subject for 'messaging' category, settings: {"msgEnableShowHiddenChatHistory":false,"deepLinkDomains":["https://teams.microsoft.com"],"deepLinkPaths":["/l/","/meet/"],"enableUrlPreviewV2Endpoint":false,"allowUserChat":true,"disableImagePasteWarningBanner":false,"pasteImagePolicyLearnMoreUrl":"","disableGiphyDisplay":false,"msgEnableResponsiveChatPane":true,"enablePassiveDataLossPrevention":true,"enablePassiveDataLossPreventionInMW":true,"msgEnableContextMenuInMW":true,"msgE...
+2021-04-08T10:38:51.340Z Inf	createTerminatingLink: Supported operations from config: {"query":["appDefinition","appDefinitions","appsUsage","autoMuteChatAlertBannerDismissed","biometricEnrollmentPrivacyLink","botSsoConsentRequest","breakoutRoom","broadcast","broadcastCaptions","buddyGroup","buildChatTitle","callByCallId","call","teamsCallIdByCallId","callAttendeeRestrictedModalities","callHealthCategories","callingAggregateSettings","callingAlerts","callingIntent","callingPerformanceScenarioId","callMeetingInfo","callParticipants","ca...
+2021-04-08T10:38:51.339Z Inf	CoreSettings/Service(g): Creating subject for 'cdl' category, settings: {"stableResolvers":{"version":18,"resolvers":{"query":["appDefinition","appDefinitions","appsUsage","autoMuteChatAlertBannerDismissed","biometricEnrollmentPrivacyLink","botSsoConsentRequest","breakoutRoom","broadcast","broadcastCaptions","buddyGroup","buildChatTitle","callByCallId","call","teamsCallIdByCallId","callAttendeeRestrictedModalities","callHealthCategories","callingAggregateSettings","callingAlerts","callingIntent","callingPer...
+2021-04-08T10:38:50.169Z Inf	CDL: {"hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","message":"logger created for renderer"}
+2021-04-08T10:38:50.165Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T10:38:50.154Z Inf	EPM: getEcsSettings Request URL: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/27_1.0.0.0?audienceGroup=general&environment=prod&experience=multi-window&id=4654a0b8-9d92-4eba-9c36-98630eaf6aec&aaduserid=4654a0b8-9d92-4eba-9c36-98630eaf6aec&tenantId=471fa511-d207-4f8b-8c8e-c2efa73b1793&experienceBuild=21021100610&desktopVersion=1.4.00.9713&agents=TeamsNorthstar
+2021-04-08T10:38:50.153Z Inf	CoreSettings/EcsProvider: Getting ECS settings from: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/27_1.0.0.0?audienceGroup=general&environment=prod&experience=multi-window&id=4654a0b8-9d92-4eba-9c36-98630eaf6aec&aaduserid=4654a0b8-9d92-4eba-9c36-98630eaf6aec&tenantId=471fa511-d207-4f8b-8c8e-c2efa73b1793&experienceBuild=21021100610&desktopVersion=1.4.00.9713&agents=TeamsNorthstar
+2021-04-08T10:38:50.152Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T10:38:50.078Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T10:38:49.977Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T10:38:49.776Z Inf	CreateEndpointsManagerTask: enableEndpointsManager true
+2021-04-08T10:38:49.775Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T10:38:49.409Z Inf	i18n: imported ./generated/resources/en-us/meeting-options
+2021-04-08T10:38:49.408Z Inf	i18n: imported ./generated/resources/en-us/webinar
+2021-04-08T10:38:49.407Z Inf	i18n: imported ./generated/resources/en-us/url-preview
+2021-04-08T10:38:49.407Z Inf	i18n: imported ./generated/resources/en-us/people-picker
+2021-04-08T10:38:49.407Z Inf	i18n: imported ./generated/resources/en-us/messaging
+2021-04-08T10:38:49.406Z Inf	i18n: imported ./generated/resources/en-us/live-persona-card
+2021-04-08T10:38:49.406Z Inf	i18n: imported ./generated/resources/en-us/lightbox
+2021-04-08T10:38:49.406Z Inf	i18n: imported ./generated/resources/en-us/hololens
+2021-04-08T10:38:49.406Z Inf	i18n: imported ./generated/resources/en-us/files
+2021-04-08T10:38:49.405Z Inf	i18n: imported ./generated/resources/en-us/extensibility
+2021-04-08T10:38:49.404Z Inf	i18n: imported ./generated/resources/en-us/compose
+2021-04-08T10:38:49.404Z Inf	i18n: imported ./generated/resources/en-us/calling
+2021-04-08T10:38:49.403Z Inf	i18n: imported ./generated/resources/en-us/broadcast
+2021-04-08T10:38:49.403Z Inf	i18n: imported ./generated/resources/en-us/avatar
+2021-04-08T10:38:49.378Z Inf	CoreSettings/Service(g): Creating subject for 'auth' category, settings: {"redirectUrlPath":"","instanceUrl":"https://login.microsoftonline.com/","audience":"common","clientId":"","expectedErrors":["safari timeout","AADSTS500014: The service principal for resource 'https://api.spaces.skype.com' is disabled.  This indicate that a subscription within the tenant has lapsed, or that the administrator for this tenant has disabled the application, preventing tokens from being issued for it."],"webAuth":"Msa","ena...
+2021-04-08T10:38:49.377Z Inf	ClearHostSettingsTask: ClearHostSettingsTask: Host settings cleared from task init context.
+2021-04-08T10:38:49.377Z Inf	i18n: imported ./generated/resources/en-us/framework
+2021-04-08T10:38:49.376Z Inf	ClientStateProvider: Initialized
+2021-04-08T10:38:49.376Z Inf	ClientStateSender: Initialized
+2021-04-08T10:38:49.376Z Inf	ClientStateSender: Sending state to main window: 4 (ClientState=Inactive)
+2021-04-08T10:38:49.376Z Inf	ClientStateSender: Stopped recurring client state sending
+2021-04-08T10:38:49.375Z Inf	ClientStateProvider: Handling idleness change to Inactive.
+2021-04-08T10:38:49.375Z Inf	ClientStateProvider: Client state is Inactive.
+2021-04-08T10:38:49.375Z Inf	ClientStateProvider: Initializing clientState with state=Inactive
+2021-04-08T10:38:49.375Z Inf	IdleTracker: Initialized
+2021-04-08T10:38:49.372Z Inf	i18n: importing ./generated/resources/en-us/meeting-options
+2021-04-08T10:38:49.371Z Inf	i18n: importing ./generated/resources/en-us/webinar
+2021-04-08T10:38:49.371Z Inf	i18n: importing ./generated/resources/en-us/url-preview
+2021-04-08T10:38:49.370Z Inf	i18n: importing ./generated/resources/en-us/people-picker
+2021-04-08T10:38:49.370Z Inf	i18n: importing ./generated/resources/en-us/messaging
+2021-04-08T10:38:49.370Z Inf	i18n: importing ./generated/resources/en-us/live-persona-card
+2021-04-08T10:38:49.369Z Inf	i18n: importing ./generated/resources/en-us/lightbox
+2021-04-08T10:38:49.369Z Inf	i18n: importing ./generated/resources/en-us/hololens
+2021-04-08T10:38:49.368Z Inf	i18n: importing ./generated/resources/en-us/framework
+2021-04-08T10:38:49.368Z Inf	i18n: importing ./generated/resources/en-us/files
+2021-04-08T10:38:49.368Z Inf	i18n: importing ./generated/resources/en-us/extensibility
+2021-04-08T10:38:49.368Z Inf	i18n: importing ./generated/resources/en-us/compose
+2021-04-08T10:38:49.367Z Inf	i18n: importing ./generated/resources/en-us/calling
+2021-04-08T10:38:49.367Z Inf	i18n: importing ./generated/resources/en-us/broadcast
+2021-04-08T10:38:49.364Z Inf	i18n: importing ./generated/resources/en-us/avatar
+2021-04-08T10:38:49.363Z Inf	CoreSettings/Service(g): Creating subject for 'test' category, settings: {}
+2021-04-08T10:38:49.361Z Inf	CoreSettings/Service(g): Creating subject for 'userResources' category, settings: {"isSfbCloud":true,"isSipEnabled":true,"isSfbCloudInBVD":true,"isSipEnabledInBVD":true,"licenseSettings":{"isSharePointEnabled":true,"isExchangeEnabled":true,"isPowerBIEnabled":true,"isProjectWorkManagementEnabled":true,"isOfficeEnabled":true,"isYammerEnabled":true,"isOneDriveForBusinessEnabled":true}}
+2021-04-08T10:38:49.355Z Inf	CoreSettings/Service(g): Creating subject for 'metadata' category, settings: {"ring":{"id":"general","friendlyName":"Public"},"environment":"prod","hostETag":"\"rHrE4xovj5z7IOxI2GChgqIMMChpjb7KEYKkdIPhLKM=\"","eTag":"\"FkxF0bhJ+12ThLqHI+xKdLBX7OSH5FtkOXih7ml55Dk=\"","configIds":{"experiments":["P-E-79180-2-4","P-E-78963-2-4","P-E-78846-2-4","P-E-78816-C1-4","P-E-78802-2-4","P-E-78728-2-4","P-E-78642-2-4","P-E-78510-2-4","P-E-78382-C1-4","P-E-78279-2-4","P-E-77509-2-4","P-E-77358-C1-4","P-E-67576-C1-4","P-E-...
+2021-04-08T10:38:49.355Z Inf	CoreSettings/Service(g): Creating subject for 'host' category, settings: {"enableMultiWindowV2":true,"isBlueberryPreJoin":false,"enableHybridExperienceRendererLayout":false,"enableHybridChatHeader":false,"keyboardLayoutLanguage":"en","localeCode":"en-us","theme":"default","performanceMode":0,"appState":4,"createdTime":1617878328080,"enableSyncEngine":false,"hostAppWebVersion":"27/1.0.0.2021030227","cdlWorkerType":"electron","cdlSharedWorkerUrl":"https://teams.microsoft.com/statics/hashed/precompiled-shared-...
+2021-04-08T10:38:49.352Z Inf	CoreSettings/Service(g): Creating subject for 'telemetry' category, settings: {"appResponsivenessConstants":{"trailingTimespan":1000,"blinkInterval":100},"enableSendTelemetryToDiagnostics":false,"enableDesktopMemoryAnalyzer":true,"isScenarioMemorySnapshotEnabled":false,"showAllConsoleLogs":false,"enableUserIdSamplingV2":true,"samplingRules":{"scenarions":{"ecs_provider_fetch":0.1,"*":1,"cal_create_webinar_event|failure":100,"cal_delete_webinar_event|failure":100,"webinar_core|failure":100,"webinar_get_meeti...
+2021-04-08T10:38:49.352Z Inf	CoreSettings/Service(g): Creating subject for 'diagnostics' category, settings: {"diagnosticsEventQueueMaxSize":1000,"enableDiagnosticsBackup":false,"diagnosticsBackupSyncCycleMs":500,"isDiagnosticsPanelEnabled":true,"enableReactDiagnostics":false,"enableReactDiagnosticsConsoleLog":true}
+2021-04-08T10:38:49.351Z Inf	CreateLeakDetectorTask: enableObjectLeakDetection false
+2021-04-08T10:38:49.351Z Inf	CoreSettings/Service(g): Creating subject for 'core' category, settings: {"policyServiceEndpointRoute":"beta/users/useraggregatesettings","policyServiceGtm":"middleTier","policyRefreshIntervalInMs":7200000,"enablePoliciesDefaultValues":false,"ecsNamespaces":["TeamsNorthstar"],"enableEndpointsManager":true,"enableEndpointsManagerOnEcs":true,"enableEndpointsManagerOnPolicyService":false,"enableAmsCookieValidation":true,"ecsRefreshIntervalInMs":3600000,"enableHeaderV2":true,"sanePromise":false,"enableApolloCac...
+2021-04-08T10:38:49.351Z Inf	CoreSettings/Service(g): Created.
+2021-04-08T10:38:49.346Z Inf	CoreSettings/HostProvider: Host settings updated to: {"host":{"enableHybridExperienceRendererLayout":false,"enableHybridChatHeader":false,"keyboardLayoutLanguage":"en","localeCode":"en-us","theme":"default","performanceMode":0,"appState":4,"createdTime":1617878328080,"enableSyncEngine":false,"hostAppWebVersion":"27/1.0.0.2021030227","cdlWorkerType":"electron","cdlSharedWorkerUrl":"https://teams.microsoft.com/statics/hashed/precompiled-shared-worker-4f49feea4ac02f25.js#{\"ring\":\"general\",\"sessionId\":\"5...
+2021-04-08T10:38:49.346Z Inf	CoreSettings/HostProvider: Host settings found.
+2021-04-08T10:38:49.346Z Inf	CoreSettings/ConfigProviderDynamic: Filtered settings: {"calling":{"enableCallTransfer":true,"enableVolumeSlider":true,"enableAudioMicMeter":true,"showDtmfKeypad":true,"enableMsTeamsCallingIntegration":false,"isCallingScreenInteractive":true,"isCallingAlertDismissEnabled":true,"buttonsOrderDocked":[{"configName":"default","barItems":[{"name":"ViewModeButton","isIndicator":true},{"name":"IndicatorDivider","isIndicator":true,"isCustom":true},{"name":"ClosedCaptionsIndicator","isIndicator":true,"isCustom":true...
+2021-04-08T10:38:49.319Z Inf	CoreSettings/Context(g): Created.
+2021-04-08T10:38:49.319Z Inf	PlatformService: PlatformService: configuring with clientVersion: 27/21021100610
+2021-04-08T10:38:49.313Z Inf	FetchHostSettingsTask: Found window.hostSettings.
+2021-04-08T10:38:49.313Z Inf	FetchHostSettingsTask: Hosted in desktop. Getting host settings from window object.
+2021-04-08T10:38:49.311Z Inf	TaskManagerService: notify::starting - lifeCycleEvent=0, taskCount=32
+
+
+
+Previous Session Logs
+=====================
+
+
+2021-04-08T07:40:31.871Z Inf	TaskManagerService: notify::starting - lifeCycleEvent=0, taskCount=32
+2021-04-08T07:40:31.877Z Inf	FetchHostSettingsTask: Hosted in desktop. Getting host settings from window object.
+2021-04-08T07:40:31.877Z Inf	FetchHostSettingsTask: Found window.hostSettings.
+2021-04-08T07:40:31.894Z Inf	PlatformService: PlatformService: configuring with clientVersion: 27/21021100610
+2021-04-08T07:40:31.897Z Inf	CoreSettings/Context(g): Created.
+2021-04-08T07:40:37.140Z Inf	CoreSettings/ConfigProviderDynamic: Filtered settings: {"calling":{"enableCallTransfer":true,"enableVolumeSlider":true,"enableAudioMicMeter":true,"showDtmfKeypad":true,"enableMsTeamsCallingIntegration":false,"isCallingScreenInteractive":true,"isCallingAlertDismissEnabled":true,"buttonsOrderDocked":[{"configName":"default","barItems":[{"name":"ViewModeButton","isIndicator":true},{"name":"IndicatorDivider","isIndicator":true,"isCustom":true},{"name":"ClosedCaptionsIndicator","isIndicator":true,"isCustom":true...
+2021-04-08T07:40:37.141Z Inf	CoreSettings/HostProvider: Host settings found.
+2021-04-08T07:40:37.143Z Inf	CoreSettings/HostProvider: Host settings updated to: {"host":{"enableHybridExperienceRendererLayout":false,"enableHybridChatHeader":false,"keyboardLayoutLanguage":"en","localeCode":"en-us","theme":"default","performanceMode":0,"appState":3,"createdTime":1617867607083,"enableSyncEngine":false,"hostAppWebVersion":"27/1.0.0.2021030227","cdlWorkerType":"electron","cdlSharedWorkerUrl":"https://teams.microsoft.com/statics/hashed/precompiled-shared-worker-4f49feea4ac02f25.js#{\"ring\":\"general\",\"sessionId\":\"4...
+2021-04-08T07:40:37.151Z Inf	CoreSettings/Service(g): Created.
+2021-04-08T07:40:37.156Z Inf	CoreSettings/Service(g): Creating subject for 'core' category, settings: {"policyServiceEndpointRoute":"beta/users/useraggregatesettings","policyServiceGtm":"middleTier","policyRefreshIntervalInMs":7200000,"enablePoliciesDefaultValues":false,"ecsNamespaces":["TeamsNorthstar"],"enableEndpointsManager":true,"enableEndpointsManagerOnEcs":true,"enableEndpointsManagerOnPolicyService":false,"enableAmsCookieValidation":true,"ecsRefreshIntervalInMs":3600000,"enableHeaderV2":false,"sanePromise":false,"enableApolloCa...
+2021-04-08T07:40:37.157Z Inf	CreateLeakDetectorTask: enableObjectLeakDetection false
+2021-04-08T07:40:37.158Z Inf	CoreSettings/Service(g): Creating subject for 'diagnostics' category, settings: {"diagnosticsEventQueueMaxSize":1000,"enableDiagnosticsBackup":false,"diagnosticsBackupSyncCycleMs":500,"isDiagnosticsPanelEnabled":true,"enableReactDiagnostics":false,"enableReactDiagnosticsConsoleLog":true}
+2021-04-08T07:40:37.159Z Inf	CoreSettings/Service(g): Creating subject for 'telemetry' category, settings: {"appResponsivenessConstants":{"trailingTimespan":1000,"blinkInterval":100},"enableSendTelemetryToDiagnostics":false,"enableDesktopMemoryAnalyzer":true,"isScenarioMemorySnapshotEnabled":false,"showAllConsoleLogs":false,"enableUserIdSamplingV2":true,"samplingRules":{"scenarions":{"ecs_provider_fetch":0.1,"*":1},"loggingns":{"*":1},"httpns":{"*":1}},"enableEnhancedTelemetry":false,"defaultToken":"bc3902d8132f43e3ae086a009979fa88-632...
+2021-04-08T07:40:37.165Z Inf	CoreSettings/Service(g): Creating subject for 'host' category, settings: {"enableMultiWindowV2":true,"isBlueberryPreJoin":false,"enableHybridExperienceRendererLayout":false,"enableHybridChatHeader":false,"keyboardLayoutLanguage":"en","localeCode":"en-us","theme":"default","performanceMode":0,"appState":3,"createdTime":1617867607083,"enableSyncEngine":false,"hostAppWebVersion":"27/1.0.0.2021030227","cdlWorkerType":"electron","cdlSharedWorkerUrl":"https://teams.microsoft.com/statics/hashed/precompiled-shared-...
+2021-04-08T07:40:37.166Z Inf	CoreSettings/Service(g): Creating subject for 'metadata' category, settings: {"ring":{"id":"general","friendlyName":"Public"},"environment":"prod","hostETag":"\"fT/FmWqCx1H0jyAw5xrA3knBsmVJfR+gTUjeYf3QeKE=\""}
+2021-04-08T07:40:37.181Z Inf	CoreSettings/Service(g): Creating subject for 'userResources' category, settings: {}
+2021-04-08T07:40:37.189Z Inf	CoreSettings/Service(g): Creating subject for 'test' category, settings: {}
+2021-04-08T07:40:37.196Z Inf	i18n: importing ./generated/resources/en-us/avatar
+2021-04-08T07:40:37.212Z Inf	i18n: importing ./generated/resources/en-us/broadcast
+2021-04-08T07:40:37.213Z Inf	i18n: importing ./generated/resources/en-us/calling
+2021-04-08T07:40:37.213Z Inf	i18n: importing ./generated/resources/en-us/compose
+2021-04-08T07:40:37.213Z Inf	i18n: importing ./generated/resources/en-us/extensibility
+2021-04-08T07:40:37.213Z Inf	i18n: importing ./generated/resources/en-us/files
+2021-04-08T07:40:37.214Z Inf	i18n: importing ./generated/resources/en-us/framework
+2021-04-08T07:40:37.214Z Inf	i18n: importing ./generated/resources/en-us/hololens
+2021-04-08T07:40:37.215Z Inf	i18n: importing ./generated/resources/en-us/lightbox
+2021-04-08T07:40:37.216Z Inf	i18n: importing ./generated/resources/en-us/live-persona-card
+2021-04-08T07:40:37.216Z Inf	i18n: importing ./generated/resources/en-us/messaging
+2021-04-08T07:40:37.217Z Inf	i18n: importing ./generated/resources/en-us/people-picker
+2021-04-08T07:40:37.217Z Inf	i18n: importing ./generated/resources/en-us/url-preview
+2021-04-08T07:40:37.217Z Inf	i18n: importing ./generated/resources/en-us/webinar
+2021-04-08T07:40:37.218Z Inf	i18n: importing ./generated/resources/en-us/meeting-options
+2021-04-08T07:40:37.222Z Inf	IdleTracker: Initialized
+2021-04-08T07:40:37.222Z Inf	ClientStateProvider: Initializing clientState with state=Active
+2021-04-08T07:40:37.223Z Inf	ClientStateProvider: Client state is Active.
+2021-04-08T07:40:37.223Z Inf	ClientStateProvider: Handling idleness change to Inactive.
+2021-04-08T07:40:37.223Z Inf	ClientStateSender: Starting recurring sending of client state: Active
+2021-04-08T07:40:37.223Z Inf	ClientStateSender: Sending state to main window: 3 (ClientState=Active)
+2021-04-08T07:40:37.223Z Inf	ClientStateSender: Initialized
+2021-04-08T07:40:37.224Z Inf	ClientStateProvider: Initialized
+2021-04-08T07:40:37.224Z Inf	i18n: imported ./generated/resources/en-us/framework
+2021-04-08T07:40:37.225Z Inf	ClearHostSettingsTask: ClearHostSettingsTask: Host settings cleared from task init context.
+2021-04-08T07:40:37.226Z Inf	CoreSettings/Service(g): Creating subject for 'auth' category, settings: {"redirectUrlPath":"","instanceUrl":"https://login.microsoftonline.com/","audience":"common","clientId":"","expectedErrors":["safari timeout","AADSTS500014: The service principal for resource 'https://api.spaces.skype.com' is disabled.  This indicate that a subscription within the tenant has lapsed, or that the administrator for this tenant has disabled the application, preventing tokens from being issued for it."],"webAuth":"Msa","ena...
+2021-04-08T07:40:37.364Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T07:40:37.364Z Inf	CreateEndpointsManagerTask: enableEndpointsManager true
+2021-04-08T07:40:37.378Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T07:40:37.392Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T07:40:37.404Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T07:40:37.407Z Inf	CoreSettings/Context(g): ECS cache is invalid, waiting to fetch ECS flags.
+2021-04-08T07:40:37.407Z Inf	CoreSettings/EcsProvider: Getting ECS settings from: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/27_1.0.0.0?audienceGroup=general&environment=prod&experience=multi-window&id=4654a0b8-9d92-4eba-9c36-98630eaf6aec&aaduserid=4654a0b8-9d92-4eba-9c36-98630eaf6aec&tenantId=471fa511-d207-4f8b-8c8e-c2efa73b1793&experienceBuild=21021100610&desktopVersion=1.4.00.9713&agents=TeamsNorthstar
+2021-04-08T07:40:37.408Z Inf	EPM: getEcsSettings Request URL: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/27_1.0.0.0?audienceGroup=general&environment=prod&experience=multi-window&id=4654a0b8-9d92-4eba-9c36-98630eaf6aec&aaduserid=4654a0b8-9d92-4eba-9c36-98630eaf6aec&tenantId=471fa511-d207-4f8b-8c8e-c2efa73b1793&experienceBuild=21021100610&desktopVersion=1.4.00.9713&agents=TeamsNorthstar
+2021-04-08T07:40:37.655Z Inf	i18n: imported ./generated/resources/en-us/avatar
+2021-04-08T07:40:37.655Z Inf	i18n: imported ./generated/resources/en-us/broadcast
+2021-04-08T07:40:37.656Z Inf	i18n: imported ./generated/resources/en-us/calling
+2021-04-08T07:40:37.657Z Inf	i18n: imported ./generated/resources/en-us/compose
+2021-04-08T07:40:37.657Z Inf	i18n: imported ./generated/resources/en-us/extensibility
+2021-04-08T07:40:37.658Z Inf	i18n: imported ./generated/resources/en-us/files
+2021-04-08T07:40:37.658Z Inf	i18n: imported ./generated/resources/en-us/hololens
+2021-04-08T07:40:37.658Z Inf	i18n: imported ./generated/resources/en-us/lightbox
+2021-04-08T07:40:37.658Z Inf	i18n: imported ./generated/resources/en-us/live-persona-card
+2021-04-08T07:40:37.659Z Inf	i18n: imported ./generated/resources/en-us/messaging
+2021-04-08T07:40:37.659Z Inf	i18n: imported ./generated/resources/en-us/people-picker
+2021-04-08T07:40:37.659Z Inf	i18n: imported ./generated/resources/en-us/url-preview
+2021-04-08T07:40:37.661Z Inf	EPM: Response for getEcsSettings - {"status":200,"headers":{"cache-control":"no-cache,max-age=3600","content-length":"7365","content-type":"application/json","date":"Thu, 08 Apr 2021 07:40:37 GMT","etag":"\"FkxF0bhJ+12ThLqHI+xKdLBX7OSH5FtkOXih7ml55Dk=\"","expires":"Thu, 08 Apr 2021 08:40:37 GMT"},"body":{},"url":"https://config.teams.microsoft.com/config/v1/MicrosoftTeams/27_1.0.0.0?audienceGroup=general&environment=prod&experience=multi-window&id=4654a0b8-9d92-4eba-9c36-98630eaf6aec&aaduserid=4654a0b8-9d92...
+2021-04-08T07:40:37.665Z Inf	CoreSettings/EcsProvider: Settings updated to: {"core":{"testExperiment":true,"enableCdlRegistration":true,"enableHeaderV2":true},"calendar":{"enableCalendarExtensibilityTabs":true},"calling":{"voiceRecognitionEnrollmentLink":"","shareInviteDialogFunctionalities":["addParticipants","defaultEmail"],"enableMeetNowShareInviteOnLanding":true,"enableMeetNowShareInvite":true,"buttonsOrderDocked":[{"configName":"default","barItems":[{"name":"ViewModeButton","isIndicator":true},{"name":"IndicatorDivider","isIndicat...
+2021-04-08T07:40:37.667Z Inf	CoreSettings/CachedProvider: Cache 'tmp.ecs-settings-cache' updated.
+2021-04-08T07:40:37.667Z Inf	CoreSettings/Service(g): Settings have changed, checking for differences in these categories: ["core","diagnostics","telemetry","host","metadata","userResources","test","auth"]
+2021-04-08T07:40:37.671Z Inf	CoreSettings/Service(g): Updated settings: {"core":{"policyServiceEndpointRoute":"beta/users/useraggregatesettings","policyServiceGtm":"middleTier","policyRefreshIntervalInMs":7200000,"enablePoliciesDefaultValues":false,"ecsNamespaces":["TeamsNorthstar"],"enableEndpointsManager":true,"enableEndpointsManagerOnEcs":true,"enableEndpointsManagerOnPolicyService":false,"enableAmsCookieValidation":true,"ecsRefreshIntervalInMs":3600000,"enableHeaderV2":true,"sanePromise":false,"enableApolloCacheStats":true,"enableC...
+2021-04-08T07:40:37.671Z Inf	CoreSettings/Service(g): Notifying subscribers of: 'core', settings changed to:  {"policyServiceEndpointRoute":"beta/users/useraggregatesettings","policyServiceGtm":"middleTier","policyRefreshIntervalInMs":7200000,"enablePoliciesDefaultValues":false,"ecsNamespaces":["TeamsNorthstar"],"enableEndpointsManager":true,"enableEndpointsManagerOnEcs":true,"enableEndpointsManagerOnPolicyService":false,"enableAmsCookieValidation":true,"ecsRefreshIntervalInMs":3600000,"enableHeaderV2":true,"sanePromise":false,"enableA...
+2021-04-08T07:40:37.671Z Inf	CoreSettings/Service(g): Notifying subscribers of: 'telemetry', settings changed to:  {"appResponsivenessConstants":{"trailingTimespan":1000,"blinkInterval":100},"enableSendTelemetryToDiagnostics":false,"enableDesktopMemoryAnalyzer":true,"isScenarioMemorySnapshotEnabled":false,"showAllConsoleLogs":false,"enableUserIdSamplingV2":true,"samplingRules":{"scenarions":{"ecs_provider_fetch":0.1,"*":1,"cal_create_webinar_event|failure":100,"cal_delete_webinar_event|failure":100,"webinar_core|failure":100,"webinar_g...
+2021-04-08T07:40:37.672Z Inf	CoreSettings/Service(g): Notifying subscribers of: 'metadata', settings changed to:  {"ring":{"id":"general","friendlyName":"Public"},"environment":"prod","hostETag":"\"fT/FmWqCx1H0jyAw5xrA3knBsmVJfR+gTUjeYf3QeKE=\"","eTag":"\"FkxF0bhJ+12ThLqHI+xKdLBX7OSH5FtkOXih7ml55Dk=\"","configIds":{"experiments":["P-E-79180-2-4","P-E-78963-2-4","P-E-78846-2-4","P-E-78816-C1-4","P-E-78802-2-4","P-E-78728-2-4","P-E-78642-2-4","P-E-78510-2-4","P-E-78382-C1-4","P-E-78279-2-4","P-E-77509-2-4","P-E-77358-C1-4","P-E-67576-C1-...
+2021-04-08T07:40:37.676Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T07:40:37.682Z Inf	CDL: {"hostRendererId":"5e3ce6c0-2b1f-4285-8d4b-75ee78787346","component":"DataLayerClient","message":"logger created for renderer"}
+2021-04-08T07:40:38.486Z Inf	CoreSettings/Service(g): Creating subject for 'cdl' category, settings: {"stableResolvers":{"version":18,"resolvers":{"query":["appDefinition","appDefinitions","appsUsage","autoMuteChatAlertBannerDismissed","biometricEnrollmentPrivacyLink","botSsoConsentRequest","breakoutRoom","broadcast","broadcastCaptions","buddyGroup","buildChatTitle","callByCallId","call","teamsCallIdByCallId","callAttendeeRestrictedModalities","callHealthCategories","callingAggregateSettings","callingAlerts","callingIntent","callingPer...
+2021-04-08T07:40:38.487Z Inf	createTerminatingLink: Supported operations from config: {"query":["appDefinition","appDefinitions","appsUsage","autoMuteChatAlertBannerDismissed","biometricEnrollmentPrivacyLink","botSsoConsentRequest","breakoutRoom","broadcast","broadcastCaptions","buddyGroup","buildChatTitle","callByCallId","call","teamsCallIdByCallId","callAttendeeRestrictedModalities","callHealthCategories","callingAggregateSettings","callingAlerts","callingIntent","callingPerformanceScenarioId","callMeetingInfo","callParticipants","ca...
+2021-04-08T07:40:38.489Z Inf	CoreSettings/Service(g): Creating subject for 'messaging' category, settings: {"msgEnableShowHiddenChatHistory":false,"deepLinkDomains":["https://teams.microsoft.com"],"deepLinkPaths":["/l/","/meet/"],"enableUrlPreviewV2Endpoint":false,"allowUserChat":true,"disableImagePasteWarningBanner":false,"pasteImagePolicyLearnMoreUrl":"","disableGiphyDisplay":false,"msgEnableResponsiveChatPane":true,"enablePassiveDataLossPrevention":true,"enablePassiveDataLossPreventionInMW":true,"msgEnableContextMenuInMW":true,"msgE...
+2021-04-08T07:40:38.492Z Inf	CoreSettings/Service(g): Creating subject for 'extensibility' category, settings: {"enableActionExecuteFromBotCard":true,"botsWhitelistForActionExecute":[],"enableRefreshInBotAdaptiveCard":true,"enableUserIdsListFilteringForRefresh":true,"botIdsAllowedToInvokeAutomaticRefresh":["28:d0dde8dd-00c3-4816-8009-65024c0bf5a6","28:f90f3c44-80a5-44eb-b133-5a9e9adec739","28:6a10599e-6735-487a-8689-5df0c68769b9","28:b2dd8a00-02e7-43fe-aaa4-8dc27897856b","28:bb5ea967-b47e-4e60-9f92-83f7071f72a0","28:a6cad722-db53-46c2-...
+2021-04-08T07:40:38.492Z Inf	createTerminatingLink: Supported additional operations: {"query":[],"mutation":["cardCacheOperation"],"subscription":[]}
+2021-04-08T07:40:38.493Z Inf	createTerminatingLink: Supported operations received from Angular: {"query":["messages","message","chat","hasVideoOwnership","membersConsumptionHorizon","searchUsersByConversation","chatWithUser","chatsWithUsers","validateUpgradePolicyOfChatRecipient","messageLanguages","messagesWithUnreadActivities","favoritePhoneNumbers","screenRecordingEnabled","parsedAndFormattedNumber","callingPerformanceScenarioId","isStandardFormatNormalized","streamPermissions","conversationInDifferentTenant","parkedCalls","deviceLi...
+2021-04-08T07:40:38.493Z Inf	createTerminatingLink: Merged datalayer settings with config: {"query":["messages","message","chat","hasVideoOwnership","membersConsumptionHorizon","searchUsersByConversation","chatWithUser","chatsWithUsers","validateUpgradePolicyOfChatRecipient","messageLanguages","messagesWithUnreadActivities","favoritePhoneNumbers","screenRecordingEnabled","parsedAndFormattedNumber","callingPerformanceScenarioId","isStandardFormatNormalized","streamPermissions","parkedCalls","deviceList","devicePermission","slaCalls","tr...
+2021-04-08T07:40:38.510Z Inf	InterProcessStore: createStore:: Setting up middleware
+2021-04-08T07:40:38.510Z Inf	InterProcessStore: Middleware:: On Renderer
+2021-04-08T07:40:38.511Z Inf	InterProcessStore: createStore:: Store Created
+2021-04-08T07:40:38.511Z Inf	InterProcessStore: createStore:: Store Wrapped
+2021-04-08T07:40:38.513Z Inf	InitATPPolicyTask: InitATPPolicyTask - Do nothing, FF is disabled
+2021-04-08T07:40:38.513Z Inf	TaskManagerService: notify::tasks complete - lifeCycleEvent=0, taskCount=32
+2021-04-08T07:40:38.588Z Inf	InterProcessStore: Middleware:: Action: 
+{
+  "type": "INIT",
+  "initState": {
+    "storeInitialized": true,
+    "ipcProfiler": {},
+    "renderers": {
+      "main-renderer": {
+        "rendererId": "main-renderer",
+        "nestedRenderers": [
+          "exp-6"
+        ],
+        "renderedWebContents": [
+          "1"
+        ],
+        "lifecycle": {
+          "createdTime": 1820.7624000012875
+        }
+      },
+      "exp-6": {
+        "rendererId": "exp-6",
+        "nestedRenderers": [],
+        "rendered...
+2021-04-08T07:40:38.588Z Inf	InterProcessStore: Middleware:: State After: 
+{
+  "storeInitialized": true,
+  "renderers": {
+    "main-renderer": {
+      "rendererId": "main-renderer",
+      "nestedRenderers": [
+        "exp-6"
+      ],
+      "renderedWebContents": [
+        "1"
+      ],
+      "lifecycle": {
+        "createdTime": 1820.7624000012875
+      }
+    },
+    "exp-6": {
+      "rendererId": "exp-6",
+      "nestedRenderers": [],
+      "renderedWebContents": [
+        "6"
+      ],
+      "lifecycle": {
+        "createdTime": 115659.8...
+2021-04-08T07:40:38.588Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T07:40:38.603Z Inf	i18n: imported ./generated/resources/en-us/meeting-options
+2021-04-08T07:40:38.610Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T07:40:38.611Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T07:40:38.611Z Inf	TaskManagerService: notify::starting - lifeCycleEvent=1, taskCount=4
+2021-04-08T07:40:38.622Z Inf	AuthenticationService: User role = [Member], type = [Aad]
+2021-04-08T07:40:38.624Z Inf	CoreSettings/PolicyProvider: Loaded policies mapping:  {"calling":{"allowPrivateCallingPolicy":{"name":"callingPolicy.allowPrivateCalling"},"delegationSettingsPolicy":{"name":"voiceAdminSettings.delegationSettings"},"dialPlanPolicy":{"name":"policySettings.dialPlanPolicy"},"myPhoneNumber":{"name":"voiceAdminSettings.phoneNumber"},"safeTransferPolicy":{"name":"callingPolicy.safeTransferEnabled"},"allowCloudRecordingPolicy":{"name":"meetingPolicy.allowCloudRecording"},"allowRecordingStorageOutsideRegion":{"na...
+2021-04-08T07:40:38.626Z Inf	CoreSettings/Context(g): Policy cache is invalid, waiting to fetch policies.
+2021-04-08T07:40:38.643Z Inf	CoreSettings/CachedProvider: Cache 'tmp.policy-cache' updated.
+2021-04-08T07:40:38.643Z Inf	CoreSettings/Service(g): Settings have changed, checking for differences in these categories: ["core","diagnostics","telemetry","host","metadata","userResources","test","auth","cdl","messaging","extensibility"]
+2021-04-08T07:40:38.653Z Inf	CoreSettings/Service(g): Updated settings: {"core":{"policyServiceEndpointRoute":"beta/users/useraggregatesettings","policyServiceGtm":"middleTier","policyRefreshIntervalInMs":7200000,"enablePoliciesDefaultValues":false,"ecsNamespaces":["TeamsNorthstar"],"enableEndpointsManager":true,"enableEndpointsManagerOnEcs":true,"enableEndpointsManagerOnPolicyService":false,"enableAmsCookieValidation":true,"ecsRefreshIntervalInMs":3600000,"enableHeaderV2":true,"sanePromise":false,"enableApolloCacheStats":true,"enableC...
+2021-04-08T07:40:38.653Z Inf	CoreSettings/Service(g): Notifying subscribers of: 'userResources', settings changed to:  {"isSfbCloud":true,"isSipEnabled":true,"isSfbCloudInBVD":true,"isSipEnabledInBVD":true,"licenseSettings":{"isSharePointEnabled":true,"isExchangeEnabled":true,"isPowerBIEnabled":true,"isProjectWorkManagementEnabled":true,"isOfficeEnabled":true,"isYammerEnabled":true,"isOneDriveForBusinessEnabled":true}}
+2021-04-08T07:40:38.654Z Inf	CoreSettings/Service(g): Notifying subscribers of: 'cdl', settings changed to:  {"stableResolvers":{"version":18,"resolvers":{"query":["appDefinition","appDefinitions","appsUsage","autoMuteChatAlertBannerDismissed","biometricEnrollmentPrivacyLink","botSsoConsentRequest","breakoutRoom","broadcast","broadcastCaptions","buddyGroup","buildChatTitle","callByCallId","call","teamsCallIdByCallId","callAttendeeRestrictedModalities","callHealthCategories","callingAggregateSettings","callingAlerts","callingIntent","ca...
+2021-04-08T07:40:38.654Z Inf	CoreSettings/Service(g): Notifying subscribers of: 'messaging', settings changed to:  {"msgEnableShowHiddenChatHistory":false,"deepLinkDomains":["https://teams.microsoft.com"],"deepLinkPaths":["/l/","/meet/"],"enableUrlPreviewV2Endpoint":false,"allowUserChat":true,"disableImagePasteWarningBanner":false,"pasteImagePolicyLearnMoreUrl":"","disableGiphyDisplay":false,"msgEnableResponsiveChatPane":true,"enablePassiveDataLossPrevention":true,"enablePassiveDataLossPreventionInMW":true,"msgEnableContextMenuInMW":tr...
+2021-04-08T07:40:38.654Z Inf	CoreSettings/Service(g): Notifying subscribers of: 'extensibility', settings changed to:  {"enableActionExecuteFromBotCard":true,"botsWhitelistForActionExecute":[],"enableRefreshInBotAdaptiveCard":true,"enableUserIdsListFilteringForRefresh":true,"botIdsAllowedToInvokeAutomaticRefresh":["28:d0dde8dd-00c3-4816-8009-65024c0bf5a6","28:f90f3c44-80a5-44eb-b133-5a9e9adec739","28:6a10599e-6735-487a-8689-5df0c68769b9","28:b2dd8a00-02e7-43fe-aaa4-8dc27897856b","28:bb5ea967-b47e-4e60-9f92-83f7071f72a0","28:a6cad722-db...
+2021-04-08T07:40:38.655Z Inf	TaskManagerService: notify::tasks complete - lifeCycleEvent=1, taskCount=4
+2021-04-08T07:40:38.655Z Inf	Discover: skypeid and region received from host: 8:orgid:4654a0b8-9d92-4eba-9c36-98630eaf6aec amer
+2021-04-08T07:40:38.660Z Inf	CoreSettings/Service(g): Creating subject for 'chat' category, settings: {"enableSTTChat":true,"enableChatPreload":false,"enableRoleBasedChatPermissions":false}
+2021-04-08T07:40:38.665Z Inf	ClientStateProvider: Handling pushed host appState update change to 3.
+2021-04-08T07:40:38.669Z Inf	Main-Window-Event-Listeners: null entityType received: undefined
+2021-04-08T07:40:38.669Z Inf	Main-Window-Event-Listeners: Received shouldShowNotification request for conv 19:a0451344b3054dccacbd3019349eff66@thread.v2 with entityType chats
+2021-04-08T07:40:38.674Z Inf	Main-Window-Event-Listeners: window hasFocus: undefined with isInactive: false for conv 19:a0451344b3054dccacbd3019349eff66@thread.v2
+2021-04-08T07:40:38.675Z Inf	Main-Window-Event-Listeners: Sending windowid: null and shouldShowChatNotification: true for conv 19:a0451344b3054dccacbd3019349eff66@thread.v2
+2021-04-08T07:40:38.675Z Inf	Main-Window-Event-Listeners: null entityType received: undefined
+2021-04-08T07:40:38.676Z Inf	Main-Window-Event-Listeners: Received shouldShowNotification request for conv 19:ab1f89a26c6e4163a306d1e54b4c4e3f@thread.v2 with entityType chats
+2021-04-08T07:40:38.677Z Inf	Main-Window-Event-Listeners: window hasFocus: undefined with isInactive: false for conv 19:ab1f89a26c6e4163a306d1e54b4c4e3f@thread.v2
+2021-04-08T07:40:38.677Z Inf	Main-Window-Event-Listeners: Sending windowid: null and shouldShowChatNotification: true for conv 19:ab1f89a26c6e4163a306d1e54b4c4e3f@thread.v2
+2021-04-08T07:40:38.678Z Inf	CoreSettings/PolicyService: handleSetAggregatedSettings() called.
+2021-04-08T07:40:38.681Z Inf	CoreSettings/PolicyService: handleSetAggregatedSettings() called.
+2021-04-08T07:40:38.684Z Inf	CoreSettings/PolicyService: handleSetAggregatedSettings() called.
+2021-04-08T07:40:38.687Z Inf	CoreSettings/PolicyService: handleSetAggregatedSettings() called.
+2021-04-08T07:40:38.691Z Inf	CoreSettings/PolicyService: handleSetAggregatedSettings() called.
+2021-04-08T07:40:38.694Z Inf	CoreSettings/PolicyService: handleSetAggregatedSettings() called.
+2021-04-08T07:40:38.697Z Inf	CoreSettings/PolicyService: handleSetAggregatedSettings() called.
+2021-04-08T07:40:38.700Z Inf	CoreSettings/PolicyService: handleSetAggregatedSettings() called.
+2021-04-08T07:40:41.916Z Inf	i18n: imported ./generated/resources/en-us/webinar
